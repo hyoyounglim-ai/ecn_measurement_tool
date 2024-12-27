@@ -1,4 +1,4 @@
-echo "Starting ECN web-server measurement using input file : filelist_server.txt";
+echo "Starting ECN web-server measurement using input file : filelist_server_test.txt";
 mkdir ecnserver
 # fx=`cat filelist_server_test.txt`
 # for filename in $fx

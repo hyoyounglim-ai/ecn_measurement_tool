@@ -43,7 +43,7 @@ def main():
             for tos in range(1, 2):
                 bleaching = 0
                 for j in range(0, 30):
-                    res,unans = sr(IP(dst=destip, ttl=(j), tos=tos)/UDP(sport=53001, dport=80), timeout=0.5, filter=filter, verbose=0)
+                    res,unans = sr(IP(dst=destip, ttl=(j), tos=tos)/UDP(sport=53001, dport=80), timeout=0.3, filter=filter, verbose=0)
                     hops = j
                     if len(res) > 0:
                         try:

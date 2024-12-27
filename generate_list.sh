@@ -20,6 +20,8 @@ cat traceroute_ip_list.txt | sed -n '200001, 300000p' >  websitelist/web_300000.
 cat traceroute_ip_list.txt | sed -n '300001, 400000p' >  websitelist/web_400000.txt
 cat traceroute_ip_list.txt | sed -n '400001, 500000p' >  websitelist/web_500000.txt
 cat traceroute_ip_list.txt | sed -n '500001, 600000p' >  websitelist/web_600000.txt
+# for testing
+cat traceroute_ip_list.txt | sed -n '1, 5p' >  websitelist/web_5.txt
 
 ls websitelist
 echo "Finishing the generation, thank you.";
