@@ -53,7 +53,7 @@ web_12000.txt   web_14000.txt   web_16000.txt   web_18000.txt   web_20000.txt
 web_5.txt
 
 # test file generation
-$ ./run_traceroute.sh websitelist/web_5.txt
+$ ./run_traceroute.sh filelist_traceroute_2.txt
 
 # check the results files
 $ cat traceroute/<filename for each website>
@@ -96,6 +96,19 @@ $ sudo ./run.sh
 # compress all data and send it to Hyoyoung 
 $ tar -cvf traceroute.tar.gz traceroute/*
 $ tar -cvf ecnserver.tar.gz ecnserver/*
+```
+
+
+## ECN
+
+```bash
+# Setup environment
+$ ./setup_env.sh
+
+# Run program
+$ sudo ./ecn.py google.com
+     
+
 ```
 
 

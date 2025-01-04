@@ -11,6 +11,7 @@ from random import *
 import ctypes 
 from datetime import date
 
+
 MyIP = get('https://api.ipify.org').text
 today = date.today() 
 x="%.0f"%time.time()
@@ -21,10 +22,20 @@ result_file_name = 'ecnserver/result_'+str(MyIP)+'.txt'
 revise_file_name = 'ecnserver/revise_'+str(MyIP)+'.txt'
 
 class Sniffer(threading.Thread):
-    def  __init__(self, interface="eno33"):
+    def  __init__(self, interface=None):
         global destip
         super().__init__()
-        self.interface = interface
+
+        if interface is None:
+            available_ifaces = get_if_list()
+            default_iface = conf.iface
+            print(f"[*] available interfaces: {available_ifaces}")
+            print(f"[*] default interface: {default_iface}")
+            
+            self.interface = default_iface
+        else:
+            self.interface = interface
+
         self.seq = 0
         self.ack = 0
         self.lock = 0
