@@ -18,5 +18,5 @@ __pycache__/tcppacket.cpython-310.pyc
 id_rsa
 web_300000.ndjson
 ecn_env/
-
+*.pcap
 

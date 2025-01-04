@@ -39,6 +39,14 @@ $ ./install.sh
 # please don't forget to block RST packets
 $ sudo iptables -A OUTPUT -p tcp --tcp-flags RST RST -j DROP
 
+
+# 재전송 시도 횟수를 0으로 설정
+sudo sysctl -w net.ipv4.tcp_retries1=0
+sudo sysctl -w net.ipv4.tcp_retries2=0
+
+# 재전송 타임아웃 값을 매우 크게 설정
+sudo sysctl -w net.ipv4.tcp_retrans_collapse=0
+
 # Check the ecn enable on the client side 
 $ sysctl net.ipv4.tcp_ecn
 
@@ -121,6 +129,9 @@ $ scp ~/.ssh/id_rsa <username>@<server_ip>:~/.ssh/id_rsa
 
 # for example, if the server is jevousai@amd102.utah.cloudlab.us
 $ scp ~/.ssh/id_rsa jevousai@amd102.utah.cloudlab.us:~/.ssh/id_rsa
+
+# for download file from the server
+$ scp jevousai@amd102.utah.cloudlab.us:~/ecn_measurement_tool/traceroute/traceroute_ip_list.txt .
 
 # connect the server using ssh
 $ ssh jevousai@amd102.utah.cloudlab.us
