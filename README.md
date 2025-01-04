@@ -112,3 +112,44 @@ $ sudo ./ecn.py google.com
 ```
 
 
+## SETUP ENVIRONMENT for cloudlab vm
+
+```bash
+
+# before setup the environment, please add ssh key to the server using scp from the host machine 
+$ scp ~/.ssh/id_rsa <username>@<server_ip>:~/.ssh/id_rsa
+
+# for example, if the server is jevousai@amd102.utah.cloudlab.us
+$ scp ~/.ssh/id_rsa jevousai@amd102.utah.cloudlab.us:~/.ssh/id_rsa
+
+# connect the server using ssh
+$ ssh jevousai@amd102.utah.cloudlab.us
+
+# after connect the server using ssh, sudo apt update
+$ sudo apt update
+
+# install git
+$ sudo apt install git -y
+
+# do permission for the ssh key
+$ chmod 600 ~/.ssh/id_rsa
+
+# clone the repository
+$ git clone git@github.com:hyoyounglim-ai/ecn_measurement_tool.git
+
+# install the dependencies
+$ cd ecn_measurement_tool
+$ sudo ./install.sh  
+
+# please don't forget to block RST packets
+$ sudo iptables -A OUTPUT -p tcp --tcp-flags RST RST -j DROP  
+
+# check the ecn enable on the client side 
+$ sysctl net.ipv4.tcp_ecn
+
+#if the output is 1, it means ecn is enabled.     
+
+```
+
+
+

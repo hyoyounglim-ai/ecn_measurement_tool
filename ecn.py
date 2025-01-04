@@ -117,25 +117,45 @@ def run_one_ecn(domain_name):
             os.system("pkill -9 python3")
         elif sniffer.ecnon == 0 and sniffer.flags == 1:
             print(domain_name, " has bleaching path or misconfigure")
-            opened_file = open(revise_file_name, 'a')
+            try:
+                opened_file = open(revise_file_name, 'a')
+            except FileNotFoundError:
+                # Create directory if it doesn't exist
+                os.makedirs(os.path.dirname(revise_file_name), exist_ok=True)
+                opened_file = open(revise_file_name, 'a')
             opened_file.write(str('SAE-notECN')+','+ip_addr+','+domain_name+"\n")
             opened_file.close()
             os.system("pkill -9 python3")
         elif sniffer.ecnon == 0 and sniffer.flags == 0:
             print(domain_name, " is not ECN-capable")
-            opened_file = open(revise_file_name, 'a')
+            try:
+                opened_file = open(revise_file_name, 'a')
+            except FileNotFoundError:
+                # Create directory if it doesn't exist
+                os.makedirs(os.path.dirname(revise_file_name), exist_ok=True)
+                opened_file = open(revise_file_name, 'a')
             opened_file.write(str('notSAE-notECN')+','+ip_addr+','+domain_name+"\n")
             opened_file.close()
             os.system("pkill -9 python3")
         else:
             print(domain_name, " is not ECN-capable")
-            opened_file = open(revise_file_name, 'a')
+            try:
+                opened_file = open(revise_file_name, 'a')
+            except FileNotFoundError:
+                # Create directory if it doesn't exist
+                os.makedirs(os.path.dirname(revise_file_name), exist_ok=True)
+                opened_file = open(revise_file_name, 'a')
             opened_file.write(str('Error')+','+ip_addr+','+domain_name+"\n")
             opened_file.close()
             os.system("pkill -9 python3")
     except:
         print(domain_name, " doesn't exist")
-        opened_file = open(revise_file_name, 'a')
+        try:
+            opened_file = open(revise_file_name, 'a')
+        except FileNotFoundError:
+            # Create directory if it doesn't exist
+            os.makedirs(os.path.dirname(revise_file_name), exist_ok=True)
+            opened_file = open(revise_file_name, 'a')
         opened_file.write(str('Error')+','+ip_addr+','+domain_name+"\n")
         opened_file.close()
         os.system("pkill -9 python3")
