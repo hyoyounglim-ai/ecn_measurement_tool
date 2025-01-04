@@ -52,12 +52,35 @@ class Sniffer(threading.Thread):
     def print_packet(self, packet):
         ip_layer = packet.getlayer(IP)
         if IP in packet and packet[IP].src == destip: #who-has or is-at
+            print("\n=== TCP Packet Details ===")
+            print(f"Source IP: {packet[IP].src}")
+            print(f"Destination IP: {packet[IP].dst}")
+            print(f"IP ToS: {packet[IP].tos:08b} (binary) = {packet[IP].tos}")
+
+            if TCP in packet:
+                print("\nTCP Details:")
+                print(f"Source Port: {packet[TCP].sport}")
+                print(f"Destination Port: {packet[TCP].dport}")
+                print(f"Sequence Number: {packet[TCP].seq}")
+                print(f"Acknowledgment: {packet[TCP].ack}")
+                print(f"TCP Flags: {packet[TCP].flags}")
+                print(f"Window Size: {packet[TCP].window}")
+                
+                # Print TCP options if they exist
+                if packet[TCP].options:
+                    print("TCP Options:", packet[TCP].options)
+
             ecn_bits = packet[IP].tos & 0xf
             tmp_flag = str(packet[TCP].flags)
+            print("\nECN Details:")
+            print(f"ECN Bits: {ecn_bits}")
+            print(f"Current Flags State: {self.flags}")
+            print(f"Current Flag: {tmp_flag}")
+
             # print(tmp_flag)
             if self.flags == 0:
-                    if tmp_flag=='SAE' or tmp_flag=='SAEC' :
-                        self.flags = 1
+                if tmp_flag=='SAE' or tmp_flag=='SAEC' :
+                    self.flags = 1
             try:
                 payload = str(packet[TCP].payload.load).split('\\r\\n')[0]
                 
@@ -71,6 +94,13 @@ class Sniffer(threading.Thread):
             except:
                 payload = 'Hyoyoung'
             pid = os.getpid()
+            print("========================\n")
+            print("\nState Variables:")
+            print(f"Lock: {self.lock}")
+            print(f"ECN On: {self.ecnon}")
+            print(f"Sequence: {self.seq}")
+            print(f"Acknowledgment: {self.ack}")
+            print("========================\n")
             print('[&&&&] flags: ', packet[TCP].flags, ' ecn = ', ecn_bits, ' payload = ', payload, ' seq = ', packet[TCP].seq, ' ack = ', packet[TCP].ack)
             print('[&&&&] sniffer destip: ',destip, ' flags = ', self.flags, 'seq: ', self.seq, ' ack = ', self.ack, ' lock = ', self.lock, ' ecnon = ', self.ecnon)
                 
