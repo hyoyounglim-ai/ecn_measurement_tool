@@ -34,11 +34,10 @@ $ git clone <git_url>
 $ cd ecn_measurement_tool
 
 # Install dependencies
-$ ./install.sh
+$ sudo ./install.sh
 
 # please don't forget to block RST packets
 $ sudo iptables -A OUTPUT -p tcp --tcp-flags RST RST -j DROP
-
 
 # 재전송 시도 횟수를 0으로 설정
 sudo sysctl -w net.ipv4.tcp_retries1=0
@@ -92,6 +91,10 @@ no answer
 # Run traceroute using web site top 20000, will save the result on `traceroute` dir : Using UDP packet
 $ sudo ./run_traceroute.sh filelist_traceroute.txt
 
+# copy crux website list to website dir
+$ cp output.txt websitelist/
+# Run traceroute using crux top list 
+$ sudo ./run_traceroute.sh filelist_traceroute_with_crux.txt
 
 # before running run.sh, please run a code with 5 servers only. 
 $ sudo ./run_test.sh
