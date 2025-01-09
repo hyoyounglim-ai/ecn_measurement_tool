@@ -9,7 +9,7 @@ import threading
 from time import sleep
 from random import *
 import ctypes 
-from datetime import date
+from datetime import date, datetime
 
 
 MyIP = get('https://api.ipify.org').text
@@ -20,6 +20,19 @@ destip = '0.0.0.0'
 
 result_file_name = 'ecnserver/result_'+str(MyIP)+'.txt'
 revise_file_name = 'ecnserver/revise_'+str(MyIP)+'.txt'
+debug_file_name = f'ecnserver/debug_{str(MyIP)}_{datetime.now().strftime("%Y%m%d_%H%M%S")}.txt'
+
+def log_debug(message):
+    """Helper function to log debug messages to file"""
+    try:
+        with open(debug_file_name, 'a') as debug_file:
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            debug_file.write(f"[{timestamp}] {message}\n")
+    except FileNotFoundError:
+        os.makedirs(os.path.dirname(debug_file_name), exist_ok=True)
+        with open(debug_file_name, 'a') as debug_file:
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            debug_file.write(f"[{timestamp}] {message}\n")
 
 class Sniffer(threading.Thread):
     def  __init__(self, interface=None):
@@ -41,7 +54,9 @@ class Sniffer(threading.Thread):
         self.lock = 0
         self.ecnon = 0
         self.flags = 0
-        print('[**] init sniffer destip: ',destip, ' flags = ', self.flags, 'seq: ', self.seq, ' ack = ', self.ack, ' lock = ', self.lock, ' ecnon = ', self.ecnon)
+        init_message = f'[**] init sniffer destip: {destip}, flags = {self.flags}, seq: {self.seq}, ack = {self.ack}, lock = {self.lock}, ecnon = {self.ecnon}'
+        print(init_message)
+        log_debug(init_message)
 
     def run(self):
         try:
@@ -52,10 +67,12 @@ class Sniffer(threading.Thread):
     def print_packet(self, packet):
         ip_layer = packet.getlayer(IP)
         if IP in packet and packet[IP].src == destip: #who-has or is-at
-            print("\n=== TCP Packet Details ===")
-            print(f"Source IP: {packet[IP].src}")
-            print(f"Destination IP: {packet[IP].dst}")
-            print(f"IP ToS: {packet[IP].tos:08b} (binary) = {packet[IP].tos}")
+            log_debug("\n=== TCP Packet Details ===")
+            packet_details = f"Source IP: {packet[IP].src}"
+            print(packet_details)
+            log_debug(packet_details)
+            log_debug(f"Destination IP: {packet[IP].dst}")
+            log_debug(f"IP ToS: {packet[IP].tos:08b} (binary) = {packet[IP].tos}")
 
             if TCP in packet:
                 print("\nTCP Details:")
@@ -113,7 +130,9 @@ def run_one_ecn(domain_name):
         seqnum = randint(1, 4294967295)
 
         sniffer = Sniffer()
-        print("[*] Start sniffing... with ", domain_name)
+        status_message = f"[*] Start sniffing... with {domain_name}"
+        print(status_message)
+        log_debug(status_message)
         sniffer.start()
 
         time.sleep(2)
@@ -140,7 +159,9 @@ def run_one_ecn(domain_name):
             send(LASTACK, verbose=False)
         
         if sniffer.ecnon == 1 and sniffer.flags == 1:
-            print(domain_name, " is ECN-capable")
+            message = f"{domain_name} is ECN-capable"
+            print(message)
+            log_debug(message)
             opened_file = open(result_file_name, 'a')
             opened_file.write(str('SAE-ECN')+','+ip_addr+','+domain_name+"\n") 
             opened_file.close()
@@ -179,7 +200,9 @@ def run_one_ecn(domain_name):
             opened_file.close()
             os.system("pkill -9 python3")
     except:
-        print(domain_name, " doesn't exist")
+        error_message = f"{domain_name} doesn't exist"
+        print(error_message)
+        log_debug(error_message)
         try:
             opened_file = open(revise_file_name, 'a')
         except FileNotFoundError:
