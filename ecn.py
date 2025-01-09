@@ -11,6 +11,7 @@ from random import *
 import ctypes 
 from datetime import date
 
+
 MyIP = get('https://api.ipify.org').text
 today = date.today() 
 x="%.0f"%time.time()
@@ -19,7 +20,6 @@ destip = '0.0.0.0'
 
 result_file_name = 'ecnserver/result_'+str(MyIP)+'.txt'
 revise_file_name = 'ecnserver/revise_'+str(MyIP)+'.txt'
-debug_file_name = 'ecnserver/debug_'+str(MyIP)+'.txt'
 
 class Sniffer(threading.Thread):
     def  __init__(self, interface=None):
@@ -42,11 +42,6 @@ class Sniffer(threading.Thread):
         self.ecnon = 0
         self.flags = 0
         print('[**] init sniffer destip: ',destip, ' flags = ', self.flags, 'seq: ', self.seq, ' ack = ', self.ack, ' lock = ', self.lock, ' ecnon = ', self.ecnon)
-
-        with open(debug_file_name, 'a') as f:
-            f.write(f'[*] available interfaces: {available_ifaces}\n')
-            f.write(f'[*] default interface: {default_iface}\n')
-            f.write(f'[**] init sniffer destip: {destip}, flags = {self.flags}, seq: {self.seq}, ack = {self.ack}, lock = {self.lock}, ecnon = {self.ecnon}\n')
 
     def run(self):
         try:
@@ -109,41 +104,6 @@ class Sniffer(threading.Thread):
             print('[&&&&] flags: ', packet[TCP].flags, ' ecn = ', ecn_bits, ' payload = ', payload, ' seq = ', packet[TCP].seq, ' ack = ', packet[TCP].ack)
             print('[&&&&] sniffer destip: ',destip, ' flags = ', self.flags, 'seq: ', self.seq, ' ack = ', self.ack, ' lock = ', self.lock, ' ecnon = ', self.ecnon)
                 
-        with open(debug_file_name, 'a') as f:
-            f.write("\n=== TCP Packet Details ===\n")
-            f.write(f"Source IP: {packet[IP].src}\n")
-            f.write(f"Destination IP: {packet[IP].dst}\n")
-            f.write(f"IP ToS: {packet[IP].tos:08b} (binary) = {packet[IP].tos}\n")
-            
-            if TCP in packet:
-                f.write("\nTCP Details:\n")
-                f.write(f"Source Port: {packet[TCP].sport}\n")
-                f.write(f"Destination Port: {packet[TCP].dport}\n")
-                f.write(f"Sequence Number: {packet[TCP].seq}\n")
-                f.write(f"Acknowledgment: {packet[TCP].ack}\n")
-                f.write(f"TCP Flags: {packet[TCP].flags}\n")
-                f.write(f"Window Size: {packet[TCP].window}\n")
-                
-                # Print TCP options if they exist
-                if packet[TCP].options:
-                    f.write("TCP Options: " + str(packet[TCP].options) + "\n")
-
-            f.write("\nECN Details:\n")
-            f.write(f"ECN Bits: {ecn_bits}\n")
-            f.write(f"Current Flags State: {self.flags}\n")
-            f.write(f"Current Flag: {tmp_flag}\n")
-
-            f.write("\nState Variables:\n")
-            f.write(f"Lock: {self.lock}\n")
-            f.write(f"ECN On: {self.ecnon}\n")
-            f.write(f"Sequence: {self.seq}\n")
-            f.write(f"Acknowledgment: {self.ack}\n")
-
-            f.write("\n========================\n")
-
-            f.write('[&&&&] flags: ' + str(packet[TCP].flags) + ' ecn = ' + str(ecn_bits) + ' payload = ' + str(payload) + ' seq = ' + str(packet[TCP].seq) + ' ack = ' + str(packet[TCP].ack) + "\n")
-            f.write('[&&&&] sniffer destip: ' + destip + ' flags = ' + str(self.flags) + ' seq: ' + str(self.seq) + ' ack = ' + str(self.ack) + ' lock = ' + str(self.lock) + ' ecnon = ' + str(self.ecnon) + "\n")
-
 def run_one_ecn(domain_name):
     try:
         global destip
@@ -153,8 +113,7 @@ def run_one_ecn(domain_name):
         seqnum = randint(1, 4294967295)
 
         sniffer = Sniffer()
-        with open(debug_file_name, 'a') as f:
-            f.write(f"[*] Start sniffing... with {domain_name}\n")
+        print("[*] Start sniffing... with ", domain_name)
         sniffer.start()
 
         time.sleep(2)
@@ -181,8 +140,7 @@ def run_one_ecn(domain_name):
             send(LASTACK, verbose=False)
         
         if sniffer.ecnon == 1 and sniffer.flags == 1:
-            with open(debug_file_name, 'a') as f:
-                f.write(f"{domain_name} is ECN-capable\n")
+            print(domain_name, " is ECN-capable")
             opened_file = open(result_file_name, 'a')
             opened_file.write(str('SAE-ECN')+','+ip_addr+','+domain_name+"\n") 
             opened_file.close()
