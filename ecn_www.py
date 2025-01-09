@@ -9,7 +9,7 @@ import threading
 from time import sleep
 from random import *
 import ctypes 
-from datetime import date
+from datetime import date, datetime
 
 MyIP = get('https://api.ipify.org').text
 today = date.today() 
@@ -19,6 +19,13 @@ destip = '0.0.0.0'
 
 result_file_name = 'ecnserver/result_'+str(MyIP)+'.txt'
 revise_file_name = 'ecnserver/revise_'+str(MyIP)+'.txt'
+debug_file_name = 'ecnserver/debug_'+str(MyIP)+'_www.txt'
+
+def log_debug(message):
+    """Write a debug message to the debug file with timestamp"""
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+    with open(debug_file_name, 'a') as f:
+        f.write(f'[{timestamp}] {message}\n')
 
 class Sniffer(threading.Thread):
     def  __init__(self, interface=None):
@@ -40,7 +47,9 @@ class Sniffer(threading.Thread):
         self.lock = 0
         self.ecnon = 0
         self.flags = 0
-        print('[**] init sniffer destip: ',destip, ' flags = ', self.flags, 'seq: ', self.seq, ' ack = ', self.ack, ' lock = ', self.lock, ' ecnon = ', self.ecnon)
+        log_debug(f"available interfaces: {available_ifaces}")
+        log_debug(f"default interface: {default_iface}")
+        log_debug(f'init sniffer destip: {destip}, flags = {self.flags}, seq: {self.seq}, ack = {self.ack}, lock = {self.lock}, ecnon = {self.ecnon}')
 
     def run(self):
         try:
@@ -70,8 +79,8 @@ class Sniffer(threading.Thread):
             except:
                 payload = 'Hyoyoung'
             pid = os.getpid()
-            print('[&&&&] flags: ', packet[TCP].flags, ' ecn = ', ecn_bits, ' payload = ', payload, ' seq = ', packet[TCP].seq, ' ack = ', packet[TCP].ack)
-            print('[&&&&] sniffer destip: ',destip, ' flags = ', self.flags, 'seq: ', self.seq, ' ack = ', self.ack, ' lock = ', self.lock, ' ecnon = ', self.ecnon)
+            log_debug(f'flags: {packet[TCP].flags}, ecn = {ecn_bits}, payload = {payload}, seq = {packet[TCP].seq}, ack = {packet[TCP].ack}')
+            log_debug(f'sniffer destip: {destip}, flags = {self.flags}, seq: {self.seq}, ack = {self.ack}, lock = {self.lock}, ecnon = {self.ecnon}')
                 
 def run_one_ecn(domain_name):
     try:
@@ -82,7 +91,7 @@ def run_one_ecn(domain_name):
         seqnum = randint(1, 4294967295)
 
         sniffer = Sniffer()
-        print("[*] Start sniffing... with ", domain_name)
+        log_debug(f"Start sniffing... with {domain_name}")
         sniffer.start()
 
         time.sleep(2)
@@ -109,31 +118,31 @@ def run_one_ecn(domain_name):
             send(LASTACK, verbose=False)
         
         if sniffer.ecnon == 1 and sniffer.flags == 1:
-            print(domain_name, " is ECN-capable")
+            log_debug(f"{domain_name} is ECN-capable")
             opened_file = open(result_file_name, 'a')
             opened_file.write(str('SAE-ECN')+','+ip_addr+','+domain_name+"\n")
             opened_file.close()
             os.system("pkill -9 python3")
         elif sniffer.ecnon == 0 and sniffer.flags == 1:
-            print(domain_name, " has bleaching path or misconfigure")
+            log_debug(f"{domain_name} has bleaching path or misconfigure")
             opened_file = open(revise_file_name, 'a')
             opened_file.write(str('SAE-notECN')+','+ip_addr+','+domain_name+"\n")
             opened_file.close()
             os.system("pkill -9 python3")
         elif sniffer.ecnon == 0 and sniffer.flags == 0:
-            print(domain_name, " is not ECN-capable")
+            log_debug(f"{domain_name} is not ECN-capable")
             opened_file = open(revise_file_name, 'a')
             opened_file.write(str('notSAE-notECN')+','+ip_addr+','+domain_name+"\n")
             opened_file.close()
             os.system("pkill -9 python3")
         else:
-            print(domain_name, " is not ECN-capable")
+            log_debug(f"{domain_name} is not ECN-capable")
             opened_file = open(revise_file_name, 'a')
             opened_file.write(str('Error')+','+ip_addr+','+domain_name+"\n")
             opened_file.close()
             os.system("pkill -9 python3")
     except:
-        print(domain_name, " doesn't exist")
+        log_debug(f"{domain_name} doesn't exist")
         opened_file = open(revise_file_name, 'a')
         opened_file.write(str('Error')+','+ip_addr+','+domain_name+"\n")
         opened_file.close()
