@@ -15,7 +15,6 @@ traceroute_w_IP.py
 filelist_traceroute_test.txt
 __pycache__/config.cpython-310.pyc
 __pycache__/tcppacket.cpython-310.pyc
-id_rsa
 web_300000.ndjson
 ecn_env/
 *.pcap
