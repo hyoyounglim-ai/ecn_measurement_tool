@@ -1,6 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from collections import Counter
+import os
+import glob
+from pathlib import Path
 
 def analyze_traceroute_results(csv_file):
     """
@@ -63,7 +66,27 @@ def analyze_traceroute_results(csv_file):
     source_stats = source_stats.unstack().fillna(0)
     print(source_stats.head().to_string())
 
+def find_latest_csv():
+    """
+    Find the most recent traceroute analysis CSV file in the analysis_results directory
+    """
+    # Get all CSV files in the analysis_results directory
+    csv_pattern = os.path.join('analysis_results', 'traceroute_analysis_*.csv')
+    csv_files = glob.glob(csv_pattern)
+    
+    if not csv_files:
+        raise FileNotFoundError("No traceroute analysis CSV files found in analysis_results directory")
+    
+    # Get the most recent file based on modification time
+    latest_csv = max(csv_files, key=os.path.getmtime)
+    print(f"Using most recent analysis file: {latest_csv}")
+    
+    return latest_csv
+
 if __name__ == "__main__":
-    # Specify your CSV file path
-    csv_file = "analysis_results/traceroute_analysis_latest.csv"
-    analyze_traceroute_results(csv_file) 
+    try:
+        csv_file = find_latest_csv()
+        analyze_traceroute_results(csv_file)
+    except FileNotFoundError as e:
+        print(f"Error: {e}")
+        exit(1) 
