@@ -25,6 +25,7 @@ def prepare_ssh_key():
         raise
 
 def collect_results_from_nodes():
+    print("\nStarting file upload process...")
     # SSH 키 준비
     key_file = prepare_ssh_key()
     
@@ -37,11 +38,16 @@ def collect_results_from_nodes():
         },
     ]
     
-    # 중앙 저장소 경로 설정
-    central_dir = Path('collected_results')  # 현재 디렉토리 아래에 결과 저장
-    central_dir.mkdir(exist_ok=True)
+    print(f"\nUploading files to {len(nodes)} nodes...")
+    
+    # 로컬 소스 디렉토리 설정
+    local_dir = Path('results')  # 업로드할 파일이 있는 로컬 디렉토리
+    if not local_dir.exists():
+        print(f"Error: Local directory {local_dir} does not exist")
+        return
     
     for node in nodes:
+        print(f"\nConnecting to {node['hostname']}...")
         try:
             # SSH 연결 설정
             ssh = paramiko.SSHClient()
@@ -51,30 +57,43 @@ def collect_results_from_nodes():
                 username=node['username'],
                 key_filename=node['key_file']
             )
+            print(f"Successfully connected to {node['hostname']}")
             
             # SFTP 설정
             sftp = ssh.open_sftp()
+            print("SFTP connection established")
             
-            # 노드별 디렉토리 생성
-            node_dir = central_dir / node['hostname']
-            node_dir.mkdir(exist_ok=True)
-            
-            # 파일 전송
+            # 원격 서버에 업로드
             remote_path = '/users/jevousai/data/'
             try:
-                for f in sftp.listdir(remote_path):
-                    if f.endswith('.csv'):
-                        sftp.get(
-                            os.path.join(remote_path, f),
-                            str(node_dir / f)
-                        )
+                # 원격 디렉토리 존재 여부 확인 및 생성
+                try:
+                    sftp.stat(remote_path)
+                except FileNotFoundError:
+                    print(f"Creating remote directory: {remote_path}")
+                    sftp.mkdir(remote_path)
+                
+                # 파일 업로드
+                local_files = list(local_dir.glob('*.csv'))
+                print(f"Found {len(local_files)} CSV files to upload")
+                
+                for file_path in local_files:
+                    print(f"Uploading {file_path.name}...")
+                    sftp.put(
+                        str(file_path),
+                        os.path.join(remote_path, file_path.name)
+                    )
+                print("All files uploaded successfully")
             except Exception as e:
-                print(f"Error collecting from {node['hostname']}: {e}")
+                print(f"Error uploading to {node['hostname']}: {e}")
             
             sftp.close()
             ssh.close()
+            print(f"Connection to {node['hostname']} closed")
         except Exception as e:
             print(f"Error connecting to {node['hostname']}: {e}")
+
+    print("\nUpload process completed!")
 
 if __name__ == "__main__":
     collect_results_from_nodes()
