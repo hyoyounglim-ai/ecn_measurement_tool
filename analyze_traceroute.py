@@ -10,6 +10,8 @@ def analyze_traceroute_file(file_path):
         'domain': '',
         'ecn_changed': False,
         'ecn_change_hop': -1,
+        'ecn_change_ip': '',
+        'previous_hop_ip': '',
         'total_hops': 0
     }
     
@@ -36,19 +38,25 @@ def analyze_traceroute_file(file_path):
     valid_hops = [line for line in lines if not (line.startswith('error') or line.startswith('no answer'))]
     results['total_hops'] = len(valid_hops)
     
+    previous_ip = None
     for line in valid_hops:
         try:
             # Parse line: ip hop ttl sent_tos icmp_tos icmp_ecn iperror_tos iperror_ecn
             parts = line.strip().split('\t')
             if len(parts) >= 8:
+                current_ip = parts[0]
+                hop_num = int(parts[1])
                 sent_tos = int(parts[3])
                 iperror_ecn = int(parts[7])
-                hop_num = int(parts[1])
                 
                 # Check if ECN was changed (sent_tos != iperror_ecn)
                 if (sent_tos & 0x3) != iperror_ecn and not results['ecn_changed']:
                     results['ecn_changed'] = True
                     results['ecn_change_hop'] = hop_num
+                    results['ecn_change_ip'] = current_ip
+                    results['previous_hop_ip'] = previous_ip if previous_ip else 'N/A'
+                
+                previous_ip = current_ip
         except:
             continue
             
@@ -71,7 +79,7 @@ def analyze_all_traceroutes():
     # Write CSV header
     with open(output_file, 'w', encoding='utf-8') as f:
         # Write CSV header
-        f.write('source_ip,dest_ip,domain,date,ecn_changed,ecn_change_hop,total_hops,filename\n')
+        f.write('source_ip,dest_ip,domain,date,ecn_changed,ecn_change_hop,ecn_change_ip,previous_hop_ip,total_hops,filename\n')
         
         for file_path in traceroute_files:
             results = analyze_traceroute_file(file_path)
@@ -84,6 +92,8 @@ def analyze_all_traceroutes():
                 results['date'],
                 'True' if results['ecn_changed'] else 'False',
                 str(results['ecn_change_hop']) if results['ecn_changed'] else 'N/A',
+                results['ecn_change_ip'] if results['ecn_changed'] else 'N/A',
+                results['previous_hop_ip'] if results['ecn_changed'] else 'N/A',
                 str(results['total_hops']),
                 os.path.basename(file_path),
             ]
