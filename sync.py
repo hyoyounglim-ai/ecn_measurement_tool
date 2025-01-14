@@ -6,8 +6,8 @@ import stat
 
 def prepare_ssh_key():
     # SSH 키 파일 경로 설정
-    zip_path = 'ecn_measurement_tool/secret/id_rsa.zip'
-    key_dir = Path('ecn_measurement_tool/secret')
+    zip_path = './secret/id_rsa.zip'
+    key_dir = Path('./secret')
     key_path = key_dir / 'id_rsa'
 
     try:
@@ -60,7 +60,7 @@ def collect_results_from_nodes():
             node_dir.mkdir(exist_ok=True)
             
             # 파일 전송
-            remote_path = '/path/to/analysis_results/'
+            remote_path = '/users/jevousai/data/'
             try:
                 for f in sftp.listdir(remote_path):
                     if f.endswith('.csv'):
