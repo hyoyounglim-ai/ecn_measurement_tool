@@ -1,9 +1,3 @@
-websitelist/web_2000.txt
-websitelist/web_4000.txt
-websitelist/web_6000.txt
-websitelist/web_8000.txt
-websitelist/web_10000.txt
-websitelist/web_20000.txt
 websitelist/web_30000.txt
 websitelist/web_40000.txt
 websitelist/web_50000.txt
@@ -12,7 +6,6 @@ websitelist/web_70000.txt
 websitelist/web_80000.txt
 websitelist/web_90000.txt
 websitelist/web_100000.txt
-websitelist/output_20000.txt
 websitelist/output_40000.txt
 websitelist/output_60000.txt
 websitelist/output_80000.txt
