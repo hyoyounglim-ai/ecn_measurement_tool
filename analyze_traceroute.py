@@ -71,21 +71,21 @@ def analyze_all_traceroutes():
     # Write CSV header
     with open(output_file, 'w', encoding='utf-8') as f:
         # Write CSV header
-        f.write('파일명,출발지IP,목적지IP,도메인,날짜,ECN변경여부,ECN변경홉,총홉수\n')
+        f.write('source_ip,dest_ip,domain,date,ecn_changed,ecn_change_hop,total_hops,filename\n')
         
         for file_path in traceroute_files:
             results = analyze_traceroute_file(file_path)
             
             # Format as CSV row
             csv_row = [
-                os.path.basename(file_path),
                 results['source_ip'],
                 results['dest_ip'],
                 results['domain'],
                 results['date'],
-                '예' if results['ecn_changed'] else '아니오',
+                'True' if results['ecn_changed'] else 'False',
                 str(results['ecn_change_hop']) if results['ecn_changed'] else 'N/A',
-                str(results['total_hops'])
+                str(results['total_hops']),
+                os.path.basename(file_path),
             ]
             
             # Write CSV row
