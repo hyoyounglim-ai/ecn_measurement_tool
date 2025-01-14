@@ -14,12 +14,20 @@ def analyze_traceroute_file(file_path):
     }
     
     # Extract source IP, destination info from filename
+    # 128.110.219.137 3
+    # D 4
+    # 3611 5
+    # correcao.pt 6
+    # 51.222.41.187 7
+    # 2025-01-08 8
+    # 1736352766.txt 9
     filename = os.path.basename(file_path)
     if filename.startswith('Traceroute_Only_S_'):
         parts = filename.split('_')
         results['source_ip'] = parts[3]
-        results['domain'] = parts[5]
-        results['dest_ip'] = parts[6].split('.txt')[0]
+        results['domain'] = parts[6]
+        results['dest_ip'] = parts[7]
+        results['date'] = parts[8]
     
     # Analyze the traceroute data
     with open(file_path, 'r') as f:
@@ -50,8 +58,7 @@ def analyze_all_traceroutes():
     """Analyze all traceroute files in the traceroute directory"""
     traceroute_files = glob.glob('traceroute/Traceroute_Only_*.txt')
     
-    print("=== Traceroute Analysis Report ===")
-    print(f"Analyzing {len(traceroute_files)} files\n")
+    print(f"Analyzing {len(traceroute_files)} files...")
     
     # Create results directory if it doesn't exist
     if not os.path.exists('analysis_results'):
@@ -59,30 +66,33 @@ def analyze_all_traceroutes():
     
     # Prepare output file
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_file = f'analysis_results/traceroute_analysis_{timestamp}.txt'
+    output_file = f'analysis_results/traceroute_analysis_{timestamp}.csv'
     
+    # Write CSV header
     with open(output_file, 'w', encoding='utf-8') as f:
+        # Write CSV header
+        f.write('파일명,출발지IP,목적지IP,도메인,날짜,ECN변경여부,ECN변경홉,총홉수\n')
+        
         for file_path in traceroute_files:
             results = analyze_traceroute_file(file_path)
             
-            # Format the analysis results
-            analysis = f"""
-File: {os.path.basename(file_path)}
-출발지 IP: {results['source_ip']}
-목적지 IP: {results['dest_ip']}
-도메인: {results['domain']}
-ECN 변경 여부: {'예' if results['ecn_changed'] else '아니오'}
-"""
-            if results['ecn_changed']:
-                analysis += f"ECN 변경된 홉: {results['ecn_change_hop']}\n"
-            analysis += f"총 홉 수: {results['total_hops']}\n"
-            analysis += "="*50
+            # Format as CSV row
+            csv_row = [
+                os.path.basename(file_path),
+                results['source_ip'],
+                results['dest_ip'],
+                results['domain'],
+                results['date'],
+                '예' if results['ecn_changed'] else '아니오',
+                str(results['ecn_change_hop']) if results['ecn_changed'] else 'N/A',
+                str(results['total_hops'])
+            ]
             
-            # Write to file and print to console
-            f.write(analysis)
-            print(analysis)
+            # Write CSV row
+            f.write(','.join(csv_row) + '\n')
     
     print(f"\nAnalysis results have been saved to: {output_file}")
 
 if __name__ == "__main__":
     analyze_all_traceroutes() 
+    
