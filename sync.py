@@ -41,7 +41,7 @@ def collect_results_from_nodes():
     print(f"\nUploading files to {len(nodes)} nodes...")
     
     # 로컬 소스 디렉토리 설정
-    local_dir = Path('results')  # 업로드할 파일이 있는 로컬 디렉토리
+    local_dir = Path('analysis_results')  # 업로드할 파일이 있는 로컬 디렉토리
     if not local_dir.exists():
         print(f"Error: Local directory {local_dir} does not exist")
         return
