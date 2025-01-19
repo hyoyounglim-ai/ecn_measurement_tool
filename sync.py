@@ -40,11 +40,12 @@ def collect_results_from_nodes():
     
     print(f"\nUploading files to {len(nodes)} nodes...")
     
-    # 로컬 소스 디렉토리 설정
-    local_dir = Path('analysis_results')  # 업로드할 파일이 있는 로컬 디렉토리
-    if not local_dir.exists():
-        print(f"Error: Local directory {local_dir} does not exist")
-        return
+    # 업로드할 파일 목록 설정
+    files_to_upload = [
+        {'dir': Path('analysis_results'), 'pattern': '*.csv'},  # 기존 결과 파일
+        {'dir': Path('.'), 'pattern': 'ecn_analysis_results.csv'},  # 분석 결과
+        {'dir': Path('.'), 'pattern': 'sae_only_results.csv'}  # SAE-only 결과
+    ]
     
     for node in nodes:
         print(f"\nConnecting to {node['hostname']}...")
@@ -73,17 +74,26 @@ def collect_results_from_nodes():
                     print(f"Creating remote directory: {remote_path}")
                     sftp.mkdir(remote_path)
                 
-                # 파일 업로드
-                local_files = list(local_dir.glob('*.csv'))
-                print(f"Found {len(local_files)} CSV files to upload")
+                # 각 디렉토리의 파일들을 업로드
+                total_uploaded = 0
+                for file_config in files_to_upload:
+                    local_dir = file_config['dir']
+                    if not local_dir.exists():
+                        print(f"Warning: Directory {local_dir} does not exist, skipping...")
+                        continue
+                    
+                    local_files = list(local_dir.glob(file_config['pattern']))
+                    print(f"Found {len(local_files)} files matching {file_config['pattern']} in {local_dir}")
+                    
+                    for file_path in local_files:
+                        print(f"Uploading {file_path.name}...")
+                        sftp.put(
+                            str(file_path),
+                            os.path.join(remote_path, file_path.name)
+                        )
+                        total_uploaded += 1
                 
-                for file_path in local_files:
-                    print(f"Uploading {file_path.name}...")
-                    sftp.put(
-                        str(file_path),
-                        os.path.join(remote_path, file_path.name)
-                    )
-                print("All files uploaded successfully")
+                print(f"Successfully uploaded {total_uploaded} files")
             except Exception as e:
                 print(f"Error uploading to {node['hostname']}: {e}")
             
