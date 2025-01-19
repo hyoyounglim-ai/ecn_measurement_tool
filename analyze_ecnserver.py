@@ -76,8 +76,10 @@ def analyze_ecn_results():
     print(f"SAE-only servers: {stats['sae_only']} ({(stats['sae_only']/stats['total_servers']*100):.2f}%)")
     print(f"Error responses: {stats['errors']} ({(stats['errors']/stats['total_servers']*100):.2f}%)")
     
-    # 도메인별 통계를 DataFrame으로 변환
+    # DataFrame 생성 및 저장
     rows = []
+    sae_only_rows = []  # SAE-only 결과를 위한 별도 리스트
+    
     for domain, ips in domain_stats.items():
         for ip, stats in ips.items():
             row = {
@@ -90,14 +92,40 @@ def analyze_ecn_results():
                 'total': sum(stats.values())
             }
             rows.append(row)
+            
+            # SAE-only 결과가 있는 경우 별도 저장
+            if stats['sae_only'] > 0:
+                sae_only_row = {
+                    'domain': domain,
+                    'ip': ip,
+                    'count': stats['sae_only']
+                }
+                sae_only_rows.append(sae_only_row)
     
+    # 전체 결과 DataFrame
     df = pd.DataFrame(rows)
     df = df.sort_values(['domain', 'total'], ascending=[True, False])
+    
+    # SAE-only 결과 DataFrame
+    sae_df = pd.DataFrame(sae_only_rows)
+    if not sae_df.empty:
+        sae_df = sae_df.sort_values(['count', 'domain'], ascending=[False, True])
     
     # CSV 파일로 저장
     output_file = 'ecn_analysis_results.csv'
     df.to_csv(output_file, index=False)
     print(f"\nDetailed statistics saved to {output_file}")
+    
+    sae_output_file = 'sae_only_results.csv'
+    sae_df.to_csv(sae_output_file, index=False)
+    print(f"SAE-only results saved to {sae_output_file}")
+    
+    # SAE-only 결과 출력
+    if not sae_df.empty:
+        print("\nServers with SAE-only responses:")
+        print(sae_df.to_string(index=False))
+    else:
+        print("\nNo SAE-only responses found")
     
     # 도메인별 IP 수 출력
     domain_ip_counts = df.groupby('domain').size()
