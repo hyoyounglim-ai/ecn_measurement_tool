@@ -27,10 +27,7 @@ def analyze_traceroute_file(file_path):
         'previous_hop_ip': '',
         'total_hops': 0
     }
-        # 로컬 IP 가져오기
-    local_ip = get_local_ip()
-    print(f"Local IP: {local_ip}")
-    
+
     # Extract source IP, destination info from filename
     # 128.110.219.137 3
     # D 4
@@ -87,7 +84,11 @@ def analyze_all_traceroutes():
     # Create results directory if it doesn't exist
     if not os.path.exists('analysis_results'):
         os.makedirs('analysis_results')
+    # 로컬 IP 가져오기
+    local_ip = get_local_ip()
+    print(f"Local IP: {local_ip}")
     
+
     # Prepare output file
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     output_file = f'analysis_results/traceroute_analysis_{timestamp}_{local_ip}.csv'
