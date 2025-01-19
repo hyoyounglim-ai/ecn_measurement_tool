@@ -91,7 +91,7 @@ def analyze_all_traceroutes():
 
     # Prepare output file
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_file = f'analysis_results/traceroute_analysis_{timestamp}_{local_ip}.csv'
+    output_file = f'analysis_results/traceroute_analysis_{local_ip}_{timestamp}.csv'
     
     # Write CSV header
     with open(output_file, 'w', encoding='utf-8') as f:
