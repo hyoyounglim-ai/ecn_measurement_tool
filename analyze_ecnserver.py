@@ -1,9 +1,26 @@
 from pathlib import Path
 import pandas as pd
 from collections import defaultdict
+import socket
+
+def get_local_ip():
+    try:
+        # 외부 연결을 통해 실제 IP 확인
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.connect(("8.8.8.8", 80))
+        ip = s.getsockname()[0]
+        s.close()
+        return ip
+    except Exception as e:
+        print(f"Warning: Could not get local IP: {e}")
+        return "unknown"
 
 def analyze_ecn_results():
     print("Starting ECN server analysis...")
+    
+    # 로컬 IP 가져오기
+    local_ip = get_local_ip()
+    print(f"Local IP: {local_ip}")
     
     result_dir = Path('./ecnserver')
     if not result_dir.exists():
@@ -111,12 +128,12 @@ def analyze_ecn_results():
     if not sae_df.empty:
         sae_df = sae_df.sort_values(['count', 'domain'], ascending=[False, True])
     
-    # CSV 파일로 저장
-    output_file = 'ecn_analysis_results.csv'
+    # CSV 파일로 저장 (IP 주소 포함)
+    output_file = f'ecn_analysis_results_{local_ip}.csv'
     df.to_csv(output_file, index=False)
     print(f"\nDetailed statistics saved to {output_file}")
     
-    sae_output_file = 'sae_only_results.csv'
+    sae_output_file = f'sae_only_results_{local_ip}.csv'
     sae_df.to_csv(sae_output_file, index=False)
     print(f"SAE-only results saved to {sae_output_file}")
     

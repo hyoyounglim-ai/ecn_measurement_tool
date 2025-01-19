@@ -42,9 +42,9 @@ def collect_results_from_nodes():
     
     # 업로드할 파일 목록 설정
     files_to_upload = [
-        {'dir': Path('analysis_results'), 'pattern': '*.csv'},  # 기존 결과 파일
-        {'dir': Path('.'), 'pattern': 'ecn_analysis_results.csv'},  # 분석 결과
-        {'dir': Path('.'), 'pattern': 'sae_only_results.csv'}  # SAE-only 결과
+        {'dir': Path('results'), 'pattern': '*.csv'},  # 기존 결과 파일
+        {'dir': Path('.'), 'pattern': 'ecn_analysis_results_*.csv'},  # 분석 결과
+        {'dir': Path('.'), 'pattern': 'sae_only_results_*.csv'}  # SAE-only 결과
     ]
     
     for node in nodes:
