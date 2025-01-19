@@ -19,6 +19,9 @@ def analyze_ecn_results():
         'errors': 0
     }
     
+    # 중복 체크를 위한 세트
+    seen_results = set()  # (domain, ip, status) 튜플을 저장
+    
     # 도메인별 통계: {domain: {ip: {ecn: 0, non_ecn: 0, error: 0, sae_only: 0}}}
     domain_stats = defaultdict(lambda: defaultdict(lambda: {'ecn': 0, 'non_ecn': 0, 'error': 0, 'sae_only': 0}))
     
@@ -40,6 +43,12 @@ def analyze_ecn_results():
                     status, ip, domain = parts
                     domain = domain.lower()
                     
+                    # 중복 체크
+                    result_key = (domain, ip, status)
+                    if result_key in seen_results:
+                        continue
+                    seen_results.add(result_key)
+                    
                     # 상태에 따른 통계 업데이트
                     if status == 'SAE-ECN':
                         stats['ecn_enabled'] += 1
@@ -53,6 +62,8 @@ def analyze_ecn_results():
                     elif status == 'Error':
                         stats['errors'] += 1
                         domain_stats[domain][ip]['error'] += 1
+    
+    print(f"\nRemoved {len(seen_results)} duplicate entries")
     
     stats['total_servers'] = sum([stats['ecn_enabled'], stats['ecn_disabled'], 
                                 stats['sae_only'], stats['errors']])
