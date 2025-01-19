@@ -1,7 +1,20 @@
 import os
 import glob
 from datetime import datetime
+import socket
 
+def get_local_ip():
+    try:
+        # 외부 연결을 통해 실제 IP 확인
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.connect(("8.8.8.8", 80))
+        ip = s.getsockname()[0]
+        s.close()
+        return ip
+    except Exception as e:
+        print(f"Warning: Could not get local IP: {e}")
+        return "unknown"
+    
 def analyze_traceroute_file(file_path):
     """Analyze a single traceroute file and return the results"""
     results = {
@@ -14,6 +27,9 @@ def analyze_traceroute_file(file_path):
         'previous_hop_ip': '',
         'total_hops': 0
     }
+        # 로컬 IP 가져오기
+    local_ip = get_local_ip()
+    print(f"Local IP: {local_ip}")
     
     # Extract source IP, destination info from filename
     # 128.110.219.137 3
@@ -74,7 +90,7 @@ def analyze_all_traceroutes():
     
     # Prepare output file
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_file = f'analysis_results/traceroute_analysis_{timestamp}.csv'
+    output_file = f'analysis_results/traceroute_analysis_{timestamp}_{local_ip}.csv'
     
     # Write CSV header
     with open(output_file, 'w', encoding='utf-8') as f:
