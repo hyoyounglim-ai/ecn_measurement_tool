@@ -78,6 +78,7 @@ def collect_results_from_nodes():
     
     # 업로드할 파일 목록 설정
     files_to_upload = [
+        {'dir': Path('results'), 'pattern': '*.csv'},  # 기존 결과 파일
         {'dir': Path('ecnserver'), 'pattern': 'result_*.txt'},  # 기본 결과 파일
         {'dir': Path('ecnserver'), 'pattern': 'revise_*.txt'},  # 수정된 결과 파일
         {'dir': Path('.'), 'pattern': 'ecn_analysis_results_*.csv'},  # 분석 결과
