@@ -1,0 +1,4224 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ipify.org:443
+DEBUG:urllib3.connectionpool:https://api.ipify.org:443 "GET / HTTP/1.1" 200 15
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ipify.org:443
+DEBUG:urllib3.connectionpool:https://api.ipify.org:443 "GET / HTTP/1.1" 200 15
+INFO:root:[Client] My public IP address is: 183.107.244.250
+INFO:root:[Client] home_dir /Users/hyoyounglim/Project/ecn_measurement_tool
+INFO:root:[Client] data_dir /Users/hyoyounglim/Project/ecn_measurement_tool/traceroute
+INFO:root:[Client] data_dir /Users/hyoyounglim/Project/ecn_measurement_tool/ecnserver
+INFO:root:[Client] Today's date: 2025-07-08
+INFO:root:[ECN_SENDER] Start traceroute
+1 ['101', 'github.com', '20.200.245.247']
+Saving the results : Traceroute to 20.200.245.247
+2 ['102', 'dostor.org', '172.67.69.12']
+Saving the results : Traceroute to 172.67.69.12
+3 ['103', 'nytimes.com', '151.101.193.164']
+Saving the results : Traceroute to 151.101.193.164
+4 ['104', 'xhamster.com', '104.18.146.40']
+Saving the results : Traceroute to 104.18.146.40
+5 ['105', 'zendesk.com', '216.198.53.2']
+Saving the results : Traceroute to 216.198.53.2
+6 ['106', 'hao123.com', '110.242.69.86']
+Saving the results : Traceroute to 110.242.69.86
+7 ['107', 'intuit.com', '184.28.226.206']
+Saving the results : Traceroute to 184.28.226.206
+8 ['108', 'ettoday.net', '219.85.79.131']
+Saving the results : Traceroute to 219.85.79.131
+9 ['109', 'grammarly.com', '3.171.185.42']
+Saving the results : Traceroute to 3.171.185.42
+10 ['110', 'pinterest.com', '151.101.128.84']
+Saving the results : Traceroute to 151.101.128.84
+11 ['111', 'notion.so', '208.103.161.1']
+Saving the results : Traceroute to 208.103.161.1
+12 ['112', 'apple.com', '17.253.144.10']
+Saving the results : Traceroute to 17.253.144.10
+13 ['113', 'wetransfer.com', '18.67.51.126']
+Saving the results : Traceroute to 18.67.51.126
+14 ['114', 'ilovepdf.com', '104.18.35.86']
+Saving the results : Traceroute to 104.18.35.86
+15 ['115', 'amazon.co.uk', '54.239.34.171']
+62.115.138.169	14	50	1	0	0	32	0
+150.222.192.24	17	236	1	0	0	0	0
+150.222.192.12	20	236	1	0	0	0	0
+Saving the results : Traceroute to 54.239.34.171
+16 ['116', 'kompas.com', '3.168.178.28']
+Saving the results : Traceroute to 3.168.178.28
+17 ['117', '163.com', '59.111.160.244']
+Saving the results : Traceroute to 59.111.160.244
+18 ['118', 'imgur.com', '199.232.196.193']
+Saving the results : Traceroute to 199.232.196.193
+19 ['119', 'daum.net', '211.249.220.24']
+Saving the results : Traceroute to 211.249.220.24
+20 ['120', 'amazon.de', '176.32.108.185']
+62.115.120.239	15	242	1	0	0	32	0
+Saving the results : Traceroute to 176.32.108.185
+21 ['121', 'google.es', '172.217.161.227']
+Saving the results : Traceroute to 172.217.161.227
+22 ['122', 'espn.com', '13.225.117.110']
+Saving the results : Traceroute to 13.225.117.110
+23 ['123', 'tumblr.com', '192.0.77.40']
+Saving the results : Traceroute to 192.0.77.40
+24 ['124', 'salesforce.com', '23.1.99.130']
+62.115.140.73	14	242	1	0	0	32	0
+62.115.169.41	27	240	1	0	0	32	0
+Saving the results : Traceroute to 23.1.99.130
+25 ['125', 'savefrom.net', '104.22.40.216']
+Saving the results : Traceroute to 104.22.40.216
+26 ['126', 'rednet.cn', '180.163.29.151']
+Saving the results : Traceroute to 180.163.29.151
+27 ['127', 'cloudflare.com', '104.16.132.229']
+Saving the results : Traceroute to 104.16.132.229
+28 ['128', 'shutterstock.com', '99.83.219.164']
+Saving the results : Traceroute to 99.83.219.164
+29 ['129', 'deepl.com', '104.18.36.122']
+Saving the results : Traceroute to 104.18.36.122
+30 ['130', 't.me', '149.154.167.99']
+Saving the results : Traceroute to 149.154.167.99
+31 ['131', 'google.it', '142.250.76.131']
+Saving the results : Traceroute to 142.250.76.131
+32 ['132', 'google.ru', '172.217.25.163']
+Saving the results : Traceroute to 172.217.25.163
+33 ['133', 'primevideo.com', '18.244.60.122']
+Saving the results : Traceroute to 18.244.60.122
+34 ['134', 'cnzz.com', '59.82.60.44']
+Saving the results : Traceroute to 59.82.60.44
+35 ['135', 'wix.com', '199.15.163.133']
+Saving the results : Traceroute to 199.15.163.133
+36 ['136', 'stackexchange.com', '172.64.144.30']
+Saving the results : Traceroute to 172.64.144.30
+37 ['137', 'tistory.com', '121.53.223.39']
+Saving the results : Traceroute to 121.53.223.39
+38 ['138', 'soundcloud.com', '13.225.117.124']
+Saving the results : Traceroute to 13.225.117.124
+39 ['139', 'google.co.uk', '142.250.206.195']
+Saving the results : Traceroute to 142.250.206.195
+40 ['140', 'wellsfargo.com', '23.53.2.75']
+Saving the results : Traceroute to 23.53.2.75
+41 ['141', 'namecheap.com', '198.54.117.250']
+Saving the results : Traceroute to 198.54.117.250
+42 ['142', 'indiatimes.com', '104.75.40.88']
+Saving the results : Traceroute to 104.75.40.88
+43 ['143', 'force.com', '104.109.10.129']
+Saving the results : Traceroute to 104.109.10.129
+44 ['144', 'google.fr', '142.250.207.99']
+Saving the results : Traceroute to 142.250.207.99
+45 ['145', '51.la', '103.151.139.205']
+Saving the results : Traceroute to 103.151.139.205
+46 ['146', 'nih.gov', '156.40.212.210']
+Saving the results : Traceroute to 156.40.212.210
+47 ['147', 'ups.com', '153.2.228.130']
+Saving the results : Traceroute to 153.2.228.130
+48 ['148', 'speedtest.net', '151.101.66.219']
+Saving the results : Traceroute to 151.101.66.219
+49 ['149', 'pixnet.net', '103.23.108.107']
+Saving the results : Traceroute to 103.23.108.107
+50 ['150', 'americanexpress.com', '202.43.63.119']
+Saving the results : Traceroute to 202.43.63.119
+51 ['151', 'detik.com', '203.190.242.211']
+Saving the results : Traceroute to 203.190.242.211
+52 ['152', 'archive.org', '207.241.224.2']
+Saving the results : Traceroute to 207.241.224.2
+53 ['153', 'aliyun.com', '106.11.253.83']
+Saving the results : Traceroute to 106.11.253.83
+54 ['154', 'craigslist.org', '208.82.238.129']
+Saving the results : Traceroute to 208.82.238.129
+55 ['155', 'google.com.sg', '172.217.161.195']
+Saving the results : Traceroute to 172.217.161.195
+56 ['156', 'smallpdf.com', '3.168.167.31']
+Saving the results : Traceroute to 3.168.167.31
+57 ['157', 'ikea.com', '104.18.12.173']
+Saving the results : Traceroute to 104.18.12.173
+58 ['158', 'vimeo.com', '162.159.138.60']
+Saving the results : Traceroute to 162.159.138.60
+59 ['159', 'mozilla.org', '35.190.14.201']
+Saving the results : Traceroute to 35.190.14.201
+60 ['160', 'line.me', '147.92.243.206']
+Saving the results : Traceroute to 147.92.243.206
+61 ['161', 'bbc.co.uk', '151.101.64.81']
+Saving the results : Traceroute to 151.101.64.81
+62 ['162', 'w3schools.com', '13.248.240.135']
+Saving the results : Traceroute to 13.248.240.135
+63 ['163', 'suara.com', '104.22.79.102']
+Saving the results : Traceroute to 104.22.79.102
+64 ['164', 'amazon.ca', '54.239.18.172']
+Saving the results : Traceroute to 54.239.18.172
+65 ['165', 'instructure.com', '151.101.66.132']
+Saving the results : Traceroute to 151.101.66.132
+66 ['166', 'gosuslugi.ru', '213.59.253.7']
+Saving the results : Traceroute to 213.59.253.7
+67 ['167', 'avito.ru', '176.114.124.24']
+Saving the results : Traceroute to 176.114.124.24
+68 ['168', 'investing.com', '172.64.155.105']
+Saving the results : Traceroute to 172.64.155.105
+69 ['169', 'pexels.com', '104.18.67.220']
+Saving the results : Traceroute to 104.18.67.220
+70 ['170', 'figma.com', '18.244.60.87']
+Saving the results : Traceroute to 18.244.60.87
+71 ['171', 'pixabay.com', '172.64.147.160']
+Saving the results : Traceroute to 172.64.147.160
+72 ['172', 'theguardian.com', '151.101.129.111']
+Saving the results : Traceroute to 151.101.129.111
+73 ['173', 'digikala.com', '185.188.104.10']
+Saving the results : Traceroute to 185.188.104.10
+74 ['174', 'google.com.tw', '142.250.206.195']
+Saving the results : Traceroute to 142.250.206.195
+75 ['175', 'fedex.com', '170.170.193.102']
+Saving the results : Traceroute to 170.170.193.102
+76 ['176', 'zerodha.com', '104.18.117.40']
+Saving the results : Traceroute to 104.18.117.40
+77 ['177', 'globo.com', '186.192.83.12']
+Saving the results : Traceroute to 186.192.83.12
+78 ['178', 'myworkday.com', '209.177.165.18']
+Saving the results : Traceroute to 209.177.165.18
+79 ['179', 'bestbuy.com', '23.49.224.236']
+Saving the results : Traceroute to 23.49.224.236
+80 ['180', 'healthline.com', '18.161.6.29']
+Saving the results : Traceroute to 18.161.6.29
+81 ['181', 'samsung.com', '211.45.27.231']
+Saving the results : Traceroute to 211.45.27.231
+82 ['182', 'cnbc.com', '52.204.64.79']
+Saving the results : Traceroute to 52.204.64.79
+83 ['183', 'trendyol.com', '104.16.151.136']
+Saving the results : Traceroute to 104.16.151.136
+84 ['184', 'metropoles.com', '186.195.65.65']
+Saving the results : Traceroute to 186.195.65.65
+85 ['185', 'yelp.com', '151.101.76.116']
+Saving the results : Traceroute to 151.101.76.116
+86 ['186', 'kumparan.com', '54.179.193.158']
+Saving the results : Traceroute to 54.179.193.158
+87 ['187', 'usps.com', '56.0.134.100']
+Saving the results : Traceroute to 56.0.134.100
+88 ['188', 'xnxx.com', '185.88.181.58']
+Saving the results : Traceroute to 185.88.181.58
+89 ['189', 'airbnb.com', '44.223.197.210']
+Saving the results : Traceroute to 44.223.197.210
+90 ['190', 'capitalone.com', '204.63.43.34']
+Saving the results : Traceroute to 204.63.43.34
+91 ['191', 'hdfcbank.com', '104.16.36.67']
+Saving the results : Traceroute to 104.16.36.67
+92 ['192', 'zhihu.com', '103.41.167.234']
+Saving the results : Traceroute to 103.41.167.234
+93 ['193', 'docusign.com', '3.33.186.135']
+Saving the results : Traceroute to 3.33.186.135
+94 ['194', 'sogou.com', '43.153.249.87']
+Saving the results : Traceroute to 43.153.249.87
+95 ['195', 'washingtonpost.com', '184.87.104.94']
+Saving the results : Traceroute to 184.87.104.94
+96 ['196', 'google.com.mx', '172.217.25.163']
+Saving the results : Traceroute to 172.217.25.163
+97 ['197', 'onlinesbi.com', '192.12.109.68']
+Saving the results : Traceroute to 192.12.109.68
+98 ['198', 'bilibili.com', '47.103.24.173']
+Saving the results : Traceroute to 47.103.24.173
+99 ['199', 'bet9ja.com', '185.179.62.2']
+Saving the results : Traceroute to 185.179.62.2
+100 ['200', 'cnet.com', '34.149.196.126']
+Saving the results : Traceroute to 34.149.196.126
+101 ['2101', 'mangakakalot.com', '104.26.3.251']
+Saving the results : Traceroute to 104.26.3.251
+102 ['2102', 'tribune.com.pk', '104.18.193.13']
+Saving the results : Traceroute to 104.18.193.13
+103 ['2103', 'draftkings.com', '23.44.173.43']
+Saving the results : Traceroute to 23.44.173.43
+104 ['2104', 'hometax.go.kr', '116.67.103.140']
+Saving the results : Traceroute to 116.67.103.140
+105 ['2105', 'voot.com', '23.35.197.75']
+Saving the results : Traceroute to 23.35.197.75
+106 ['2106', 'netafraz.com', '149.202.28.105']
+Saving the results : Traceroute to 149.202.28.105
+107 ['2107', 'olymptrade.com', '96.43.100.21']
+Saving the results : Traceroute to 96.43.100.21
+108 ['2108', 'howstuffworks.com', '3.171.185.19']
+Saving the results : Traceroute to 3.171.185.19
+109 ['2109', 'faz.net', '40.118.6.229']
+Saving the results : Traceroute to 40.118.6.229
+110 ['2110', 'bisnis.com', '104.22.27.216']
+Saving the results : Traceroute to 104.22.27.216
+111 ['2111', 'kapwing.com', '104.18.31.197']
+Saving the results : Traceroute to 104.18.31.197
+112 ['2112', 'newstrend.news', '172.67.140.129']
+Saving the results : Traceroute to 172.67.140.129
+113 ['2113', 'beeg.com', '172.67.181.179']
+Saving the results : Traceroute to 172.67.181.179
+114 ['2114', 'wegotthiscovered.com', '172.67.69.4']
+Saving the results : Traceroute to 172.67.69.4
+115 ['2115', 'redsys.es', '193.16.243.179']
+Saving the results : Traceroute to 193.16.243.179
+116 ['2116', 'tizianafausti.com', '172.67.74.91']
+Saving the results : Traceroute to 172.67.74.91
+117 ['2117', 'synology.com', '35.182.152.81']
+Saving the results : Traceroute to 35.182.152.81
+118 ['2118', 'filmibeat.com', '172.64.147.39']
+Saving the results : Traceroute to 172.64.147.39
+119 ['2119', 'hk01.com', '18.64.8.106']
+Saving the results : Traceroute to 18.64.8.106
+120 ['2120', 'santander.com.ar', '200.61.38.216']
+Saving the results : Traceroute to 200.61.38.216
+121 ['2121', 'today.com', '54.69.127.167']
+Saving the results : Traceroute to 54.69.127.167
+122 ['2122', 'ixxx.com', '104.18.6.140']
+Saving the results : Traceroute to 104.18.6.140
+123 ['2123', 'ovh.com', '198.27.92.1']
+Saving the results : Traceroute to 198.27.92.1
+124 ['2124', 'darmankade.com', '185.166.104.3']
+Saving the results : Traceroute to 185.166.104.3
+125 ['2125', 'anthropologie.com', '35.241.25.51']
+Saving the results : Traceroute to 35.241.25.51
+126 ['2126', 'paylocity.com', '20.119.0.30']
+Saving the results : Traceroute to 20.119.0.30
+127 ['2127', 'clareityiam.net', 'N/A']
+Traceback (most recent call last):
+  File "/Users/hyoyounglim/Project/ecn_measurement_tool/venv/lib/python3.13/site-packages/scapy/fields.py", line 861, in h2i
+    inet_aton(x)
+    ~~~~~~~~~^^^
+OSError: illegal IP address string passed to inet_aton
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hyoyounglim/Project/ecn_measurement_tool/traceroute_only.py", line 83, in <module>
+    main()
+    ~~~~^^
+  File "/Users/hyoyounglim/Project/ecn_measurement_tool/traceroute_only.py", line 52, in main
+    res,unans = sr(IP(dst=destip, ttl=(j), tos=tos)/UDP(sport=53001, dport=80), timeout=0.3, filter=filter, verbose=0)
+                   ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hyoyounglim/Project/ecn_measurement_tool/venv/lib/python3.13/site-packages/scapy/base_classes.py", line 481, in __call__
+    i.__init__(*args, **kargs)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/hyoyounglim/Project/ecn_measurement_tool/venv/lib/python3.13/site-packages/scapy/packet.py", line 199, in __init__
+    self.get_field(fname).any2i(self, value)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/hyoyounglim/Project/ecn_measurement_tool/venv/lib/python3.13/site-packages/scapy/fields.py", line 900, in any2i
+    return self.h2i(pkt, x)
+           ~~~~~~~~^^^^^^^^
+  File "/Users/hyoyounglim/Project/ecn_measurement_tool/venv/lib/python3.13/site-packages/scapy/fields.py", line 863, in h2i
+    return Net(x)
+  File "/Users/hyoyounglim/Project/ecn_measurement_tool/venv/lib/python3.13/site-packages/scapy/base_classes.py", line 229, in __init__
+    self.mask = int(mask)
+                ~~~^^^^^^
+ValueError: invalid literal for int() with base 10: 'A'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ipify.org:443
+DEBUG:urllib3.connectionpool:https://api.ipify.org:443 "GET / HTTP/1.1" 200 15
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.ipify.org:443
+DEBUG:urllib3.connectionpool:https://api.ipify.org:443 "GET / HTTP/1.1" 200 15
+INFO:root:[Client] My public IP address is: 183.107.244.250
+INFO:root:[Client] home_dir /Users/hyoyounglim/Project/ecn_measurement_tool
+INFO:root:[Client] data_dir /Users/hyoyounglim/Project/ecn_measurement_tool/traceroute
+INFO:root:[Client] data_dir /Users/hyoyounglim/Project/ecn_measurement_tool/ecnserver
+INFO:root:[Client] Today's date: 2025-07-09
+INFO:root:[ECN_SENDER] Start traceroute
+1 ['101', 'github.com', '20.200.245.247']
+Saving the results : Traceroute to 20.200.245.247
+2 ['102', 'dostor.org', '172.67.69.12']
+Saving the results : Traceroute to 172.67.69.12
+3 ['103', 'nytimes.com', '151.101.193.164']
+Saving the results : Traceroute to 151.101.193.164
+4 ['104', 'xhamster.com', '104.18.146.40']
+Saving the results : Traceroute to 104.18.146.40
+5 ['105', 'zendesk.com', '216.198.53.2']
+Saving the results : Traceroute to 216.198.53.2
+6 ['106', 'hao123.com', '110.242.69.86']
+Saving the results : Traceroute to 110.242.69.86
+7 ['107', 'intuit.com', '184.28.226.206']
+Saving the results : Traceroute to 184.28.226.206
+8 ['108', 'ettoday.net', '219.85.79.131']
+Saving the results : Traceroute to 219.85.79.131
+9 ['109', 'grammarly.com', '3.171.185.42']
+Saving the results : Traceroute to 3.171.185.42
+10 ['110', 'pinterest.com', '151.101.128.84']
+Saving the results : Traceroute to 151.101.128.84
+11 ['111', 'notion.so', '208.103.161.1']
+Saving the results : Traceroute to 208.103.161.1
+12 ['112', 'apple.com', '17.253.144.10']
+Saving the results : Traceroute to 17.253.144.10
+13 ['113', 'wetransfer.com', '18.67.51.126']
+Saving the results : Traceroute to 18.67.51.126
+14 ['114', 'ilovepdf.com', '104.18.35.86']
+Saving the results : Traceroute to 104.18.35.86
+15 ['115', 'amazon.co.uk', '54.239.34.171']
+62.115.138.169	14	50	1	0	0	32	0
+150.222.192.24	16	236	1	0	0	0	0
+150.222.192.12	19	236	1	0	0	0	0
+Saving the results : Traceroute to 54.239.34.171
+16 ['116', 'kompas.com', '3.168.178.28']
+Saving the results : Traceroute to 3.168.178.28
+17 ['117', '163.com', '59.111.160.244']
+Saving the results : Traceroute to 59.111.160.244
+18 ['118', 'imgur.com', '199.232.196.193']
+Saving the results : Traceroute to 199.232.196.193
+19 ['119', 'daum.net', '211.249.220.24']
+Saving the results : Traceroute to 211.249.220.24
+20 ['120', 'amazon.de', '176.32.108.185']
+62.115.120.239	15	242	1	0	0	32	0
+Saving the results : Traceroute to 176.32.108.185
+21 ['121', 'google.es', '172.217.161.227']
+Saving the results : Traceroute to 172.217.161.227
+22 ['122', 'espn.com', '13.225.117.110']
+Saving the results : Traceroute to 13.225.117.110
+23 ['123', 'tumblr.com', '192.0.77.40']
+Saving the results : Traceroute to 192.0.77.40
+24 ['124', 'salesforce.com', '23.1.99.130']
+62.115.140.73	14	242	1	0	0	32	0
+Saving the results : Traceroute to 23.1.99.130
+25 ['125', 'savefrom.net', '104.22.40.216']
+Saving the results : Traceroute to 104.22.40.216
+26 ['126', 'rednet.cn', '180.163.29.151']
+Saving the results : Traceroute to 180.163.29.151
+27 ['127', 'cloudflare.com', '104.16.132.229']
+Saving the results : Traceroute to 104.16.132.229
+28 ['128', 'shutterstock.com', '99.83.219.164']
+Saving the results : Traceroute to 99.83.219.164
+29 ['129', 'deepl.com', '104.18.36.122']
+Saving the results : Traceroute to 104.18.36.122
+30 ['130', 't.me', '149.154.167.99']
+Saving the results : Traceroute to 149.154.167.99
+31 ['131', 'google.it', '142.250.76.131']
+Saving the results : Traceroute to 142.250.76.131
+32 ['132', 'google.ru', '172.217.25.163']
+Saving the results : Traceroute to 172.217.25.163
+33 ['133', 'primevideo.com', '18.244.60.122']
+Saving the results : Traceroute to 18.244.60.122
+34 ['134', 'cnzz.com', '59.82.60.44']
+Saving the results : Traceroute to 59.82.60.44
+35 ['135', 'wix.com', '199.15.163.133']
+Saving the results : Traceroute to 199.15.163.133
+36 ['136', 'stackexchange.com', '172.64.144.30']
+Saving the results : Traceroute to 172.64.144.30
+37 ['137', 'tistory.com', '121.53.223.39']
+Saving the results : Traceroute to 121.53.223.39
+38 ['138', 'soundcloud.com', '13.225.117.124']
+Saving the results : Traceroute to 13.225.117.124
+39 ['139', 'google.co.uk', '142.250.206.195']
+Saving the results : Traceroute to 142.250.206.195
+40 ['140', 'wellsfargo.com', '23.53.2.75']
+Saving the results : Traceroute to 23.53.2.75
+41 ['141', 'namecheap.com', '198.54.117.250']
+Saving the results : Traceroute to 198.54.117.250
+42 ['142', 'indiatimes.com', '104.75.40.88']
+Saving the results : Traceroute to 104.75.40.88
+43 ['143', 'force.com', '104.109.10.129']
+Saving the results : Traceroute to 104.109.10.129
+44 ['144', 'google.fr', '142.250.207.99']
+Saving the results : Traceroute to 142.250.207.99
+45 ['145', '51.la', '103.151.139.205']
+Saving the results : Traceroute to 103.151.139.205
+46 ['146', 'nih.gov', '156.40.212.210']
+Saving the results : Traceroute to 156.40.212.210
+47 ['147', 'ups.com', '153.2.228.130']
+Saving the results : Traceroute to 153.2.228.130
+48 ['148', 'speedtest.net', '151.101.66.219']
+Saving the results : Traceroute to 151.101.66.219
+49 ['149', 'pixnet.net', '103.23.108.107']
+Saving the results : Traceroute to 103.23.108.107
+50 ['150', 'americanexpress.com', '202.43.63.119']
+Saving the results : Traceroute to 202.43.63.119
+51 ['151', 'detik.com', '203.190.242.211']
+Saving the results : Traceroute to 203.190.242.211
+52 ['152', 'archive.org', '207.241.224.2']
+Saving the results : Traceroute to 207.241.224.2
+53 ['153', 'aliyun.com', '106.11.253.83']
+Saving the results : Traceroute to 106.11.253.83
+54 ['154', 'craigslist.org', '208.82.238.129']
+Saving the results : Traceroute to 208.82.238.129
+55 ['155', 'google.com.sg', '172.217.161.195']
+Saving the results : Traceroute to 172.217.161.195
+56 ['156', 'smallpdf.com', '3.168.167.31']
+Saving the results : Traceroute to 3.168.167.31
+57 ['157', 'ikea.com', '104.18.12.173']
+Saving the results : Traceroute to 104.18.12.173
+58 ['158', 'vimeo.com', '162.159.138.60']
+Saving the results : Traceroute to 162.159.138.60
+59 ['159', 'mozilla.org', '35.190.14.201']
+Saving the results : Traceroute to 35.190.14.201
+60 ['160', 'line.me', '147.92.243.206']
+Saving the results : Traceroute to 147.92.243.206
+61 ['161', 'bbc.co.uk', '151.101.64.81']
+Saving the results : Traceroute to 151.101.64.81
+62 ['162', 'w3schools.com', '13.248.240.135']
+Saving the results : Traceroute to 13.248.240.135
+63 ['163', 'suara.com', '104.22.79.102']
+Saving the results : Traceroute to 104.22.79.102
+64 ['164', 'amazon.ca', '54.239.18.172']
+Saving the results : Traceroute to 54.239.18.172
+65 ['165', 'instructure.com', '151.101.66.132']
+Saving the results : Traceroute to 151.101.66.132
+66 ['166', 'gosuslugi.ru', '213.59.253.7']
+Saving the results : Traceroute to 213.59.253.7
+67 ['167', 'avito.ru', '176.114.124.24']
+Saving the results : Traceroute to 176.114.124.24
+68 ['168', 'investing.com', '172.64.155.105']
+Saving the results : Traceroute to 172.64.155.105
+69 ['169', 'pexels.com', '104.18.67.220']
+Saving the results : Traceroute to 104.18.67.220
+70 ['170', 'figma.com', '18.244.60.87']
+Saving the results : Traceroute to 18.244.60.87
+71 ['171', 'pixabay.com', '172.64.147.160']
+Saving the results : Traceroute to 172.64.147.160
+72 ['172', 'theguardian.com', '151.101.129.111']
+Saving the results : Traceroute to 151.101.129.111
+73 ['173', 'digikala.com', '185.188.104.10']
+Saving the results : Traceroute to 185.188.104.10
+74 ['174', 'google.com.tw', '142.250.206.195']
+Saving the results : Traceroute to 142.250.206.195
+75 ['175', 'fedex.com', '170.170.193.102']
+Saving the results : Traceroute to 170.170.193.102
+76 ['176', 'zerodha.com', '104.18.117.40']
+Saving the results : Traceroute to 104.18.117.40
+77 ['177', 'globo.com', '186.192.83.12']
+Saving the results : Traceroute to 186.192.83.12
+78 ['178', 'myworkday.com', '209.177.165.18']
+Saving the results : Traceroute to 209.177.165.18
+79 ['179', 'bestbuy.com', '23.49.224.236']
+Saving the results : Traceroute to 23.49.224.236
+80 ['180', 'healthline.com', '18.161.6.29']
+Saving the results : Traceroute to 18.161.6.29
+81 ['181', 'samsung.com', '211.45.27.231']
+Saving the results : Traceroute to 211.45.27.231
+82 ['182', 'cnbc.com', '52.204.64.79']
+Saving the results : Traceroute to 52.204.64.79
+83 ['183', 'trendyol.com', '104.16.151.136']
+Saving the results : Traceroute to 104.16.151.136
+84 ['184', 'metropoles.com', '186.195.65.65']
+Saving the results : Traceroute to 186.195.65.65
+85 ['185', 'yelp.com', '151.101.76.116']
+Saving the results : Traceroute to 151.101.76.116
+86 ['186', 'kumparan.com', '54.179.193.158']
+Saving the results : Traceroute to 54.179.193.158
+87 ['187', 'usps.com', '56.0.134.100']
+Saving the results : Traceroute to 56.0.134.100
+88 ['188', 'xnxx.com', '185.88.181.58']
+Saving the results : Traceroute to 185.88.181.58
+89 ['189', 'airbnb.com', '44.223.197.210']
+Saving the results : Traceroute to 44.223.197.210
+90 ['190', 'capitalone.com', '204.63.43.34']
+Saving the results : Traceroute to 204.63.43.34
+91 ['191', 'hdfcbank.com', '104.16.36.67']
+Saving the results : Traceroute to 104.16.36.67
+92 ['192', 'zhihu.com', '103.41.167.234']
+Saving the results : Traceroute to 103.41.167.234
+93 ['193', 'docusign.com', '3.33.186.135']
+Saving the results : Traceroute to 3.33.186.135
+94 ['194', 'sogou.com', '43.153.249.87']
+Saving the results : Traceroute to 43.153.249.87
+95 ['195', 'washingtonpost.com', '184.87.104.94']
+Saving the results : Traceroute to 184.87.104.94
+96 ['196', 'google.com.mx', '172.217.25.163']
+Saving the results : Traceroute to 172.217.25.163
+97 ['197', 'onlinesbi.com', '192.12.109.68']
+Saving the results : Traceroute to 192.12.109.68
+98 ['198', 'bilibili.com', '47.103.24.173']
+Saving the results : Traceroute to 47.103.24.173
+99 ['199', 'bet9ja.com', '185.179.62.2']
+Saving the results : Traceroute to 185.179.62.2
+100 ['200', 'cnet.com', '34.149.196.126']
+Saving the results : Traceroute to 34.149.196.126
+101 ['2101', 'mangakakalot.com', '104.26.3.251']
+Saving the results : Traceroute to 104.26.3.251
+102 ['2102', 'tribune.com.pk', '104.18.193.13']
+Saving the results : Traceroute to 104.18.193.13
+103 ['2103', 'draftkings.com', '23.44.173.43']
+Saving the results : Traceroute to 23.44.173.43
+104 ['2104', 'hometax.go.kr', '116.67.103.140']
+Saving the results : Traceroute to 116.67.103.140
+105 ['2105', 'voot.com', '23.35.197.75']
+Saving the results : Traceroute to 23.35.197.75
+106 ['2106', 'netafraz.com', '149.202.28.105']
+Saving the results : Traceroute to 149.202.28.105
+107 ['2107', 'olymptrade.com', '96.43.100.21']
+Saving the results : Traceroute to 96.43.100.21
+108 ['2108', 'howstuffworks.com', '3.171.185.19']
+Saving the results : Traceroute to 3.171.185.19
+109 ['2109', 'faz.net', '40.118.6.229']
+Saving the results : Traceroute to 40.118.6.229
+110 ['2110', 'bisnis.com', '104.22.27.216']
+Saving the results : Traceroute to 104.22.27.216
+111 ['2111', 'kapwing.com', '104.18.31.197']
+Saving the results : Traceroute to 104.18.31.197
+112 ['2112', 'newstrend.news', '172.67.140.129']
+Saving the results : Traceroute to 172.67.140.129
+113 ['2113', 'beeg.com', '172.67.181.179']
+Saving the results : Traceroute to 172.67.181.179
+114 ['2114', 'wegotthiscovered.com', '172.67.69.4']
+Saving the results : Traceroute to 172.67.69.4
+115 ['2115', 'redsys.es', '193.16.243.179']
+Saving the results : Traceroute to 193.16.243.179
+116 ['2116', 'tizianafausti.com', '172.67.74.91']
+Saving the results : Traceroute to 172.67.74.91
+117 ['2117', 'synology.com', '35.182.152.81']
+Saving the results : Traceroute to 35.182.152.81
+118 ['2118', 'filmibeat.com', '172.64.147.39']
+Saving the results : Traceroute to 172.64.147.39
+119 ['2119', 'hk01.com', '18.64.8.106']
+Saving the results : Traceroute to 18.64.8.106
+120 ['2120', 'santander.com.ar', '200.61.38.216']
+Saving the results : Traceroute to 200.61.38.216
+121 ['2121', 'today.com', '54.69.127.167']
+Saving the results : Traceroute to 54.69.127.167
+122 ['2122', 'ixxx.com', '104.18.6.140']
+Saving the results : Traceroute to 104.18.6.140
+123 ['2123', 'ovh.com', '198.27.92.1']
+Saving the results : Traceroute to 198.27.92.1
+124 ['2124', 'darmankade.com', '185.166.104.3']
+Saving the results : Traceroute to 185.166.104.3
+125 ['2125', 'anthropologie.com', '35.241.25.51']
+Saving the results : Traceroute to 35.241.25.51
+126 ['2126', 'paylocity.com', '20.119.0.30']
+Saving the results : Traceroute to 20.119.0.30
+127 ['2127', 'clareityiam.net', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+128 ['2128', 'digg.com', '18.67.51.62']
+Saving the results : Traceroute to 18.67.51.62
+129 ['2129', 'leagueofgraphs.com', '37.187.230.72']
+Saving the results : Traceroute to 37.187.230.72
+130 ['2130', '52pojie.cn', '124.232.185.97']
+Saving the results : Traceroute to 124.232.185.97
+131 ['2131', 'g2a.com', '172.67.36.196']
+Saving the results : Traceroute to 172.67.36.196
+132 ['2132', 'dzone.com', '172.67.73.87']
+Saving the results : Traceroute to 172.67.73.87
+133 ['2133', 'scmp.com', '104.18.204.43']
+Saving the results : Traceroute to 104.18.204.43
+134 ['2134', 'pcgamer.com', '151.101.130.114']
+Saving the results : Traceroute to 151.101.130.114
+135 ['2135', 'le360.ma', '104.22.66.113']
+Saving the results : Traceroute to 104.22.66.113
+136 ['2136', '7k7k.com', '106.75.33.163']
+Saving the results : Traceroute to 106.75.33.163
+137 ['2137', 'aipai.com', '180.184.204.115']
+Saving the results : Traceroute to 180.184.204.115
+138 ['2138', 'spigen.com', '23.227.38.32']
+Saving the results : Traceroute to 23.227.38.32
+139 ['2139', 'tower.im', '39.125.80.182']
+Saving the results : Traceroute to 39.125.80.182
+140 ['2140', 'cornell.edu', '128.253.173.246']
+Saving the results : Traceroute to 128.253.173.246
+141 ['2141', 'consolegameswiki.com', '172.67.75.236']
+Saving the results : Traceroute to 172.67.75.236
+142 ['2142', '6pm.com', '52.38.151.45']
+Saving the results : Traceroute to 52.38.151.45
+143 ['2143', 'gh0089.com', '13.248.169.48']
+Saving the results : Traceroute to 13.248.169.48
+144 ['2144', 'icons8.com', '192.158.231.225']
+Saving the results : Traceroute to 192.158.231.225
+145 ['2145', 'esocial.gov.br', '189.9.80.137']
+Saving the results : Traceroute to 189.9.80.137
+146 ['2146', 'livestrong.com', '172.64.148.26']
+Saving the results : Traceroute to 172.64.148.26
+147 ['2147', 'mainichi.jp', '18.67.51.62']
+Saving the results : Traceroute to 18.67.51.62
+148 ['2148', 'wowkeren.com', '104.21.91.18']
+Saving the results : Traceroute to 104.21.91.18
+149 ['2149', 'meduza.io', '104.18.1.79']
+Saving the results : Traceroute to 104.18.1.79
+150 ['2150', 'jwpub.org', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+151 ['2151', 'tailwindapp.com', '104.22.26.243']
+Saving the results : Traceroute to 104.22.26.243
+152 ['2152', 'fmkorea.com', '3.171.185.89']
+Saving the results : Traceroute to 3.171.185.89
+153 ['2153', 'privateemail.com', '198.54.122.136']
+Saving the results : Traceroute to 198.54.122.136
+154 ['2154', 'hostinger.com', '104.16.65.50']
+Saving the results : Traceroute to 104.16.65.50
+155 ['2155', 'rikunabi.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+156 ['2156', 'ew.com', '172.66.1.220']
+Saving the results : Traceroute to 172.66.1.220
+157 ['2157', 'bankbazaar.com', '23.207.219.94']
+Saving the results : Traceroute to 23.207.219.94
+158 ['2158', 'ohou.se', '23.206.175.177']
+Saving the results : Traceroute to 23.206.175.177
+159 ['2159', 'porntrex.com', '88.80.24.7']
+Saving the results : Traceroute to 88.80.24.7
+160 ['2160', 'nimo.tv', '101.47.31.77']
+63.223.58.182	8	248	1	0	0	0	0
+33.225.238.26	11	54	1	0	0	0	0
+Saving the results : Traceroute to 101.47.31.77
+161 ['2161', 'txxx.com', '62.122.168.133']
+Saving the results : Traceroute to 62.122.168.133
+162 ['2162', 'dailywire.com', '104.18.38.33']
+Saving the results : Traceroute to 104.18.38.33
+163 ['2163', 'backlog.com', '13.225.134.86']
+Saving the results : Traceroute to 13.225.134.86
+164 ['2164', 'softonic.com.br', '151.101.193.91']
+Saving the results : Traceroute to 151.101.193.91
+165 ['2165', 'etherscan.io', '104.22.15.57']
+Saving the results : Traceroute to 104.22.15.57
+166 ['2166', 'gxu.edu.cn', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+167 ['2167', 'polygon.com', '151.101.195.52']
+Saving the results : Traceroute to 151.101.195.52
+168 ['2168', 'psychologytoday.com', '35.168.41.57']
+Saving the results : Traceroute to 35.168.41.57
+169 ['2169', 'pirate-proxy.app', '199.59.243.228']
+Saving the results : Traceroute to 199.59.243.228
+170 ['2170', 'neilpatel.com', '104.22.34.214']
+Saving the results : Traceroute to 104.22.34.214
+171 ['2171', 'angelbroking.com', '13.233.21.99']
+Saving the results : Traceroute to 13.233.21.99
+172 ['2172', 'pluralsight.com', '104.17.192.111']
+Saving the results : Traceroute to 104.17.192.111
+173 ['2173', 'comcast.com', '96.99.227.0']
+Saving the results : Traceroute to 96.99.227.0
+174 ['2174', 'onamae.com', '104.17.114.69']
+Saving the results : Traceroute to 104.17.114.69
+175 ['2175', 'priberam.org', '213.63.185.142']
+Saving the results : Traceroute to 213.63.185.142
+176 ['2176', 'extendoffice.com', '3.146.208.110']
+Saving the results : Traceroute to 3.146.208.110
+177 ['2177', 'popcat.click', '104.21.112.1']
+Saving the results : Traceroute to 104.21.112.1
+178 ['2178', 'haber7.com', '185.195.230.23']
+Saving the results : Traceroute to 185.195.230.23
+179 ['2179', 'wordwall.net', '20.238.3.66']
+Saving the results : Traceroute to 20.238.3.66
+180 ['2180', 'oricon.co.jp', '104.18.251.41']
+Saving the results : Traceroute to 104.18.251.41
+181 ['2181', 'metamask.io', '172.64.147.181']
+Saving the results : Traceroute to 172.64.147.181
+182 ['2182', 'infowars.com', '104.22.31.87']
+Saving the results : Traceroute to 104.22.31.87
+183 ['2183', 'aax.com', '24.199.73.23']
+Saving the results : Traceroute to 24.199.73.23
+184 ['2184', 'chuansong.me', '208.98.40.225']
+Saving the results : Traceroute to 208.98.40.225
+185 ['2185', 'xiazaiba.com', '104.18.13.44']
+Saving the results : Traceroute to 104.18.13.44
+186 ['2186', 'theconversation.com', '151.101.66.132']
+Saving the results : Traceroute to 151.101.66.132
+187 ['2187', 'pbs.org', '54.225.206.152']
+Saving the results : Traceroute to 54.225.206.152
+188 ['2188', 'lihkg.com', '104.17.127.209']
+Saving the results : Traceroute to 104.17.127.209
+189 ['2189', 'duomai.com', '121.40.30.115']
+Saving the results : Traceroute to 121.40.30.115
+190 ['2190', 'pirateship.com', '75.2.70.75']
+Saving the results : Traceroute to 75.2.70.75
+191 ['2191', 'aucfan.com', '52.198.201.156']
+Saving the results : Traceroute to 52.198.201.156
+192 ['2192', 'collegedunia.com', '13.225.117.9']
+Saving the results : Traceroute to 13.225.117.9
+193 ['2193', 'algerie360.com', '172.67.70.4']
+Saving the results : Traceroute to 172.67.70.4
+194 ['2194', 'nab.com.au', '13.54.206.94']
+Saving the results : Traceroute to 13.54.206.94
+195 ['2195', 'mckinsey.com', '157.191.4.253']
+Saving the results : Traceroute to 157.191.4.253
+196 ['2196', 'wlp-acs.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+197 ['2197', 'carmax.com', '23.49.225.37']
+Saving the results : Traceroute to 23.49.225.37
+198 ['2198', 'provincial.com', '23.50.2.41']
+Saving the results : Traceroute to 23.50.2.41
+199 ['2199', 'elbotola.com', '104.21.112.1']
+Saving the results : Traceroute to 104.21.112.1
+200 ['2200', 'nga.cn', '119.167.239.35']
+Saving the results : Traceroute to 119.167.239.35
+201 ['601', 'wpengine.com', '104.18.37.43']
+Saving the results : Traceroute to 104.18.37.43
+202 ['602', '9384.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+203 ['603', 'business.site', '216.239.32.29']
+Saving the results : Traceroute to 216.239.32.29
+204 ['604', 'youporn.com', '66.254.114.79']
+Saving the results : Traceroute to 66.254.114.79
+205 ['605', 'hamariweb.com', '104.22.71.203']
+Saving the results : Traceroute to 104.22.71.203
+206 ['606', 'nicovideo.jp', '18.64.8.59']
+Saving the results : Traceroute to 18.64.8.59
+207 ['607', 'www.gov.cn', '129.227.71.25']
+23.91.111.230	12	246	1	0	0	40	0
+98.98.230.185	13	54	1	0	0	40	0
+98.98.230.237	14	247	1	8	0	40	0
+98.98.126.245	15	246	1	8	0	72	0
+45.40.49.81	16	54	1	8	0	72	0
+45.40.49.103	17	53	1	8	0	72	0
+Saving the results : Traceroute to 129.227.71.25
+208 ['608', 'akamaized.net', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+209 ['609', 'correios.com.br', '186.211.255.80']
+Saving the results : Traceroute to 186.211.255.80
+210 ['610', 'newsearnmoney.com', '172.67.131.92']
+Saving the results : Traceroute to 172.67.131.92
+211 ['611', 'buzzfeed.com', '151.101.194.114']
+Saving the results : Traceroute to 151.101.194.114
+212 ['612', '4chan.org', '104.16.228.229']
+Saving the results : Traceroute to 104.16.228.229
+213 ['613', 'chron.com', '98.129.228.59']
+Saving the results : Traceroute to 98.129.228.59
+214 ['614', 'toutiao.com', '122.14.229.38']
+Saving the results : Traceroute to 122.14.229.38
+215 ['615', 'bamboohr.com', '104.17.246.112']
+Saving the results : Traceroute to 104.17.246.112
+216 ['616', 'itmedia.co.jp', '57.182.29.191']
+Saving the results : Traceroute to 57.182.29.191
+217 ['617', 'stockx.com', '104.16.109.9']
+Saving the results : Traceroute to 104.16.109.9
+218 ['618', 'ticketmaster.com', '151.101.66.87']
+Saving the results : Traceroute to 151.101.66.87
+219 ['619', 'google.az', '142.250.206.228']
+Saving the results : Traceroute to 142.250.206.228
+220 ['620', 'irctc.co.in', '103.252.142.27']
+Saving the results : Traceroute to 103.252.142.27
+221 ['621', 'ny.gov', '107.20.176.212']
+Saving the results : Traceroute to 107.20.176.212
+222 ['622', 'chinanetrank.com', '47.90.61.157']
+Saving the results : Traceroute to 47.90.61.157
+223 ['623', 'emojipedia.org', '104.22.55.209']
+Saving the results : Traceroute to 104.22.55.209
+224 ['624', 'bola.com', '35.190.21.225']
+Saving the results : Traceroute to 35.190.21.225
+225 ['625', 'dw.com', '194.55.30.46']
+62.115.135.147	16	49	1	0	0	32	0
+62.115.176.119	17	240	1	0	0	0	0
+81.173.192.5	18	240	1	0	0	0	0
+89.1.86.42	19	240	1	0	0	0	0
+89.1.16.134	20	239	1	0	0	0	0
+89.1.34.2	21	240	1	0	0	0	0
+194.55.26.2	22	239	1	0	0	0	0
+Saving the results : Traceroute to 194.55.30.46
+226 ['626', 'tapd.cn', '106.55.126.171']
+Saving the results : Traceroute to 106.55.126.171
+227 ['627', 'sarkariresult.com', '3.168.178.66']
+Saving the results : Traceroute to 3.168.178.66
+228 ['628', 'behance.net', '151.101.65.197']
+Saving the results : Traceroute to 151.101.65.197
+229 ['629', 'asus.com', '103.10.4.227']
+Saving the results : Traceroute to 103.10.4.227
+230 ['630', 'rediff.com', '203.251.233.88']
+Saving the results : Traceroute to 203.251.233.88
+231 ['631', 'go.com', '76.223.18.1']
+Saving the results : Traceroute to 76.223.18.1
+232 ['632', 'dreamstime.com', '163.73.69.39']
+Saving the results : Traceroute to 163.73.69.39
+233 ['633', 'mit.edu', '202.43.51.219']
+Saving the results : Traceroute to 202.43.51.219
+234 ['634', 'academia.edu', '13.225.117.124']
+Saving the results : Traceroute to 13.225.117.124
+235 ['635', 'statista.com', '13.225.117.31']
+Saving the results : Traceroute to 13.225.117.31
+236 ['636', 'reclameaqui.com.br', '172.64.147.18']
+Saving the results : Traceroute to 172.64.147.18
+237 ['637', 'mayoclinic.org', '129.176.1.88']
+Saving the results : Traceroute to 129.176.1.88
+238 ['638', 'slickdeals.net', '104.17.126.18']
+Saving the results : Traceroute to 104.17.126.18
+239 ['639', 'wsj.com', '13.225.117.124']
+Saving the results : Traceroute to 13.225.117.124
+240 ['640', 'tinder.com', '52.84.150.60']
+Saving the results : Traceroute to 52.84.150.60
+241 ['641', 'matchesfashion.com', '104.86.111.88']
+62.115.120.75	14	241	1	0	0	32	0
+62.115.169.185	15	241	1	0	0	32	0
+23.197.75.90	17	240	1	0	0	32	0
+23.197.64.139	18	237	1	0	0	32	0
+Saving the results : Traceroute to 104.86.111.88
+242 ['642', 'binomo-investment.com', '172.67.186.69']
+Saving the results : Traceroute to 172.67.186.69
+243 ['643', 'fool.com', '104.18.25.135']
+Saving the results : Traceroute to 104.18.25.135
+244 ['644', 'impress.co.jp', '203.183.234.2']
+Saving the results : Traceroute to 203.183.234.2
+245 ['645', 'wordreference.com', '148.251.52.149']
+Saving the results : Traceroute to 148.251.52.149
+246 ['646', 'webex.com', '144.196.130.69']
+Saving the results : Traceroute to 144.196.130.69
+247 ['647', 'www.gov.uk', '146.75.48.144']
+Saving the results : Traceroute to 146.75.48.144
+248 ['648', 'enimerotiko.gr', '104.21.16.1']
+Saving the results : Traceroute to 104.21.16.1
+249 ['649', 'cbssports.com', '151.101.65.188']
+Saving the results : Traceroute to 151.101.65.188
+250 ['650', 'discover.com', '23.74.21.253']
+Saving the results : Traceroute to 23.74.21.253
+251 ['651', 'rottentomatoes.com', '182.162.59.90']
+Saving the results : Traceroute to 182.162.59.90
+252 ['652', 'aa.com', '104.75.1.137']
+Saving the results : Traceroute to 104.75.1.137
+253 ['653', 'livedoor.com', '147.92.184.22']
+Saving the results : Traceroute to 147.92.184.22
+254 ['654', 'bloomberg.com', '3.33.146.110']
+Saving the results : Traceroute to 3.33.146.110
+255 ['655', 'kickstarter.com', '172.64.149.97']
+Saving the results : Traceroute to 172.64.149.97
+256 ['656', 'merriam-webster.com', '3.168.178.96']
+Saving the results : Traceroute to 3.168.178.96
+257 ['657', 'dawn.com', '172.67.157.237']
+Saving the results : Traceroute to 172.67.157.237
+258 ['658', 'farfetch.com', '23.9.135.190']
+Saving the results : Traceroute to 23.9.135.190
+259 ['659', 'united.com', '23.49.224.103']
+Saving the results : Traceroute to 23.49.224.103
+260 ['660', 'espncricinfo.com', '18.136.133.161']
+Saving the results : Traceroute to 18.136.133.161
+261 ['661', '58.com', '42.187.161.231']
+Saving the results : Traceroute to 42.187.161.231
+262 ['662', 'medicalnewstoday.com', '99.84.66.54']
+Saving the results : Traceroute to 99.84.66.54
+263 ['663', 'hurirk.net', '172.67.159.248']
+Saving the results : Traceroute to 172.67.159.248
+264 ['664', 'india.com', '23.44.173.34']
+Saving the results : Traceroute to 23.44.173.34
+265 ['665', 'oraclecloud.com', '138.1.33.162']
+Saving the results : Traceroute to 138.1.33.162
+266 ['666', 'zhibo8.cc', '120.77.216.70']
+Saving the results : Traceroute to 120.77.216.70
+267 ['667', 'premierbet.co.ao', '104.18.19.19']
+Saving the results : Traceroute to 104.18.19.19
+268 ['668', 'hotels.com', '23.36.17.112']
+Saving the results : Traceroute to 23.36.17.112
+269 ['669', 'hubspot.com', '104.16.117.116']
+Saving the results : Traceroute to 104.16.117.116
+270 ['670', 't66y.com', '205.185.121.64']
+Saving the results : Traceroute to 205.185.121.64
+271 ['671', 'ecosia.org', '140.99.233.2']
+Saving the results : Traceroute to 140.99.233.2
+272 ['672', 'visitbeijing.com.cn', '43.134.159.162']
+30.1.128.26	13	241	1	0	0	160	0
+30.115.83.9	14	241	1	0	0	160	0
+Saving the results : Traceroute to 43.134.159.162
+273 ['673', 'eluniverso.com', '15.197.168.244']
+Saving the results : Traceroute to 15.197.168.244
+274 ['674', 'sastasundar.com', '3.7.188.188']
+Saving the results : Traceroute to 3.7.188.188
+275 ['675', 'nownews.com', '107.167.188.74']
+Saving the results : Traceroute to 107.167.188.74
+276 ['676', 'europa.eu', '147.67.210.45']
+Saving the results : Traceroute to 147.67.210.45
+277 ['677', 'onelogin.com', '52.34.255.254']
+Saving the results : Traceroute to 52.34.255.254
+278 ['678', 'jotform.com', '104.18.24.107']
+Saving the results : Traceroute to 104.18.24.107
+279 ['679', 'noaa.gov', '137.75.88.7']
+Saving the results : Traceroute to 137.75.88.7
+280 ['680', 'eee114.com', '45.205.50.9']
+Saving the results : Traceroute to 45.205.50.9
+281 ['681', 'cisco.com', '72.163.4.185']
+Saving the results : Traceroute to 72.163.4.185
+282 ['682', 'google.com.ua', '172.217.25.163']
+Saving the results : Traceroute to 172.217.25.163
+283 ['683', 'morningpost.com.cn', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+284 ['684', 'mercadolibre.com.ve', '3.33.182.45']
+Saving the results : Traceroute to 3.33.182.45
+285 ['685', 'pixiv.net', '210.140.139.158']
+Saving the results : Traceroute to 210.140.139.158
+286 ['686', 'cima4u.ws', '172.237.146.8']
+Saving the results : Traceroute to 172.237.146.8
+287 ['687', 'apa.az', '172.67.72.217']
+Saving the results : Traceroute to 172.67.72.217
+288 ['688', 'convertio.co', '3.168.167.125']
+Saving the results : Traceroute to 3.168.167.125
+289 ['689', 'delta.com', '204.74.99.103']
+Saving the results : Traceroute to 204.74.99.103
+290 ['690', 'cricbuzz.com', '13.235.191.202']
+Saving the results : Traceroute to 13.235.191.202
+291 ['691', 'huim.com', '120.55.248.182']
+Saving the results : Traceroute to 120.55.248.182
+292 ['692', 'google.be', '142.250.207.99']
+Saving the results : Traceroute to 142.250.207.99
+293 ['693', 'pcbaby.com.cn', '183.61.120.23']
+Saving the results : Traceroute to 183.61.120.23
+294 ['694', 'nsw.gov.au', '99.83.133.180']
+Saving the results : Traceroute to 99.83.133.180
+295 ['695', 'dianping.com', '202.90.108.5']
+Saving the results : Traceroute to 202.90.108.5
+296 ['696', '258.com', '182.16.75.22']
+Saving the results : Traceroute to 182.16.75.22
+297 ['697', 'unsplash.com', '151.101.193.181']
+Saving the results : Traceroute to 151.101.193.181
+298 ['698', 'bild.de', '145.243.248.20']
+Saving the results : Traceroute to 145.243.248.20
+299 ['699', 'inb.network', '172.67.137.108']
+Saving the results : Traceroute to 172.67.137.108
+300 ['700', 'oschina.net', '180.76.198.147']
+Saving the results : Traceroute to 180.76.198.147
+301 ['2401', 'adf.ly', '172.66.40.139']
+Saving the results : Traceroute to 172.66.40.139
+302 ['2402', 'soy502.com', '3.171.185.84']
+Saving the results : Traceroute to 3.171.185.84
+303 ['2403', 'worthpoint.com', '15.197.237.133']
+Saving the results : Traceroute to 15.197.237.133
+304 ['2404', 'pdfdrive.com', '172.67.202.44']
+Saving the results : Traceroute to 172.67.202.44
+305 ['2405', 'my.ecwid.com', '52.7.52.253']
+Saving the results : Traceroute to 52.7.52.253
+306 ['2406', 'popbela.com', '18.244.60.72']
+Saving the results : Traceroute to 18.244.60.72
+307 ['2407', 'refersion.com', '104.18.23.158']
+Saving the results : Traceroute to 104.18.23.158
+308 ['2408', 'webhostbox.net', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+309 ['2409', 'yahoosmallbusiness.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+310 ['2410', 'livechatinc.com', '104.18.24.244']
+Saving the results : Traceroute to 104.18.24.244
+311 ['2411', 'btkitty.bid', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+312 ['2412', 'iod2.cn', '3.33.251.168']
+Saving the results : Traceroute to 3.33.251.168
+313 ['2413', 'zj.gov.cn', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+314 ['2414', 'elbalad.news', '172.67.69.123']
+Saving the results : Traceroute to 172.67.69.123
+315 ['2415', 'groove.co', '204.246.191.106']
+Saving the results : Traceroute to 204.246.191.106
+316 ['2416', 'elsiglo.mx', '52.117.172.166']
+Saving the results : Traceroute to 52.117.172.166
+317 ['2417', 'hasoffers.com', '34.83.23.193']
+Saving the results : Traceroute to 34.83.23.193
+318 ['2418', 'ranker.com', '151.101.195.11']
+Saving the results : Traceroute to 151.101.195.11
+319 ['2419', 'ipko.pl', '193.109.225.71']
+213.248.96.145	17	238	1	0	0	32	0
+195.116.35.194	18	232	1	8	0	32	0
+Saving the results : Traceroute to 193.109.225.71
+320 ['2420', 'careers360.com', '3.168.167.20']
+Saving the results : Traceroute to 3.168.167.20
+321 ['2421', 'bseindia.com', '23.53.2.152']
+Saving the results : Traceroute to 23.53.2.152
+322 ['2422', 'bubble.io', '104.17.123.183']
+Saving the results : Traceroute to 104.17.123.183
+323 ['2423', 'yxdown.com', '82.156.167.230']
+Saving the results : Traceroute to 82.156.167.230
+324 ['2424', 'bbvanet.com.mx', '148.244.38.132']
+Saving the results : Traceroute to 148.244.38.132
+325 ['2425', 'excite.co.jp', '52.193.247.45']
+Saving the results : Traceroute to 52.193.247.45
+326 ['2426', 'calameo.com', '85.233.202.179']
+Saving the results : Traceroute to 85.233.202.179
+327 ['2427', 'ionos.de', '217.160.86.51']
+212.227.112.234	18	238	1	0	0	0	0
+Saving the results : Traceroute to 217.160.86.51
+328 ['2428', 'worldoftanks.eu', '5.188.189.202']
+Saving the results : Traceroute to 5.188.189.202
+329 ['2429', 'zozo.jp', '23.53.228.170']
+Saving the results : Traceroute to 23.53.228.170
+330 ['2430', 'turo.com', '172.64.150.165']
+Saving the results : Traceroute to 172.64.150.165
+331 ['2431', 'heise.de', '193.99.144.80']
+Saving the results : Traceroute to 193.99.144.80
+332 ['2432', 'jobui.com', '121.9.201.137']
+Saving the results : Traceroute to 121.9.201.137
+333 ['2433', 'foursquare.com', '151.101.194.132']
+Saving the results : Traceroute to 151.101.194.132
+334 ['2434', 'jetblue.com', '151.101.42.245']
+Saving the results : Traceroute to 151.101.42.245
+335 ['2435', 'eroterest.net', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+336 ['2436', 'cybersource.com', '162.159.153.2']
+Saving the results : Traceroute to 162.159.153.2
+337 ['2437', 'patpat.com', '3.168.178.109']
+Saving the results : Traceroute to 3.168.178.109
+338 ['2438', 'usmagazine.com', '192.0.66.2']
+Saving the results : Traceroute to 192.0.66.2
+339 ['2439', 'gearbest.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+340 ['2440', 'andhrajyothy.com', '54.82.165.54']
+Saving the results : Traceroute to 54.82.165.54
+341 ['2441', 'nicsorts-accarade.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+342 ['2442', 'gameforge.com', '172.64.144.70']
+Saving the results : Traceroute to 172.64.144.70
+343 ['2443', 'material.io', '216.239.38.21']
+Saving the results : Traceroute to 216.239.38.21
+344 ['2444', 'mydealz.de', '104.18.201.116']
+Saving the results : Traceroute to 104.18.201.116
+345 ['2445', 'gotporn.com', '104.18.3.231']
+Saving the results : Traceroute to 104.18.3.231
+346 ['2446', 'cengage.com', '69.32.208.75']
+Saving the results : Traceroute to 69.32.208.75
+347 ['2447', 'chinagate.cn', '210.72.21.20']
+Saving the results : Traceroute to 210.72.21.20
+348 ['2448', 'chuandong.com', '121.201.38.194']
+Saving the results : Traceroute to 121.201.38.194
+349 ['2449', 'niuche.com', '58.218.215.104']
+Saving the results : Traceroute to 58.218.215.104
+350 ['2450', 'qeqeqe.com', '134.175.182.25']
+Saving the results : Traceroute to 134.175.182.25
+351 ['2451', 'wkzuche.com', '203.107.60.192']
+Saving the results : Traceroute to 203.107.60.192
+352 ['2452', 'carousell.sg', '172.64.147.119']
+Saving the results : Traceroute to 172.64.147.119
+353 ['2453', 'maigoo.com', '119.23.77.4']
+Saving the results : Traceroute to 119.23.77.4
+354 ['2454', '1x001.com', '45.135.120.161']
+Saving the results : Traceroute to 45.135.120.161
+355 ['2455', 'bizrate.com', '3.170.221.129']
+Saving the results : Traceroute to 3.170.221.129
+356 ['2456', '1tv.ru', '178.248.233.188']
+Saving the results : Traceroute to 178.248.233.188
+357 ['2457', 'jashautchord.com', '139.45.197.154']
+Saving the results : Traceroute to 139.45.197.154
+358 ['2458', 'gitbook.io', '104.18.40.47']
+Saving the results : Traceroute to 104.18.40.47
+359 ['2459', 'acuityscheduling.com', '54.149.38.108']
+Saving the results : Traceroute to 54.149.38.108
+360 ['2460', 'seznamzpravy.cz', '185.66.189.31']
+Saving the results : Traceroute to 185.66.189.31
+361 ['2461', 'daserste.de', '34.102.229.12']
+Saving the results : Traceroute to 34.102.229.12
+362 ['2462', 'fda.gov', '104.75.35.4']
+Saving the results : Traceroute to 104.75.35.4
+363 ['2463', 'epidemicsound.com', '151.101.129.91']
+Saving the results : Traceroute to 151.101.129.91
+364 ['2464', 'xunta.gal', '85.91.64.109']
+Saving the results : Traceroute to 85.91.64.109
+365 ['2465', 'addictinggames.com', '104.21.51.162']
+Saving the results : Traceroute to 104.21.51.162
+366 ['2466', 'list.ly', '99.83.220.108']
+Saving the results : Traceroute to 99.83.220.108
+367 ['2467', 'company-information.service.gov.uk', '35.179.85.141']
+62.115.127.7	14	242	1	0	0	32	0
+Saving the results : Traceroute to 35.179.85.141
+368 ['2468', 'economist.com', '172.64.145.237']
+Saving the results : Traceroute to 172.64.145.237
+369 ['2469', 'yunaq.com', '154.93.109.10']
+Saving the results : Traceroute to 154.93.109.10
+370 ['2470', 'duosecurity.com', '3.170.221.109']
+Saving the results : Traceroute to 3.170.221.109
+371 ['2471', 'investors.com', '104.16.64.225']
+Saving the results : Traceroute to 104.16.64.225
+372 ['2472', 'vinted.fr', '104.18.121.232']
+Saving the results : Traceroute to 104.18.121.232
+373 ['2473', 'nearbyme.io', '192.241.228.85']
+Saving the results : Traceroute to 192.241.228.85
+374 ['2474', 'columbia.edu', '162.159.128.65']
+Saving the results : Traceroute to 162.159.128.65
+375 ['2475', 'visymo.com', '81.171.31.112']
+Saving the results : Traceroute to 81.171.31.112
+376 ['2476', 'fineartamerica.com', '99.83.205.165']
+Saving the results : Traceroute to 99.83.205.165
+377 ['2477', 'vitalsource.com', '104.19.190.84']
+Saving the results : Traceroute to 104.19.190.84
+378 ['2478', 'bbva.mx', '23.41.91.61']
+Saving the results : Traceroute to 23.41.91.61
+379 ['2479', 'ssa.gov', '137.200.39.62']
+Saving the results : Traceroute to 137.200.39.62
+380 ['2480', 'newsmax.com', '64.135.21.3']
+Saving the results : Traceroute to 64.135.21.3
+381 ['2481', 'tokyo.lg.jp', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+382 ['2482', 'fardanews.com', '31.193.186.247']
+Saving the results : Traceroute to 31.193.186.247
+383 ['2483', 'pse.com.co', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+384 ['2484', 'vercel.com', '198.169.1.65']
+Saving the results : Traceroute to 198.169.1.65
+385 ['2485', 'gayboystube.com', '138.124.181.89']
+Saving the results : Traceroute to 138.124.181.89
+386 ['2486', 'las2orillas.co', '172.67.24.242']
+Saving the results : Traceroute to 172.67.24.242
+387 ['2487', 'kariyer.net', '85.153.149.69']
+Saving the results : Traceroute to 85.153.149.69
+388 ['2488', 'basecamp.com', '104.18.14.58']
+Saving the results : Traceroute to 104.18.14.58
+389 ['2489', 'cimri.com', '172.67.36.122']
+Saving the results : Traceroute to 172.67.36.122
+390 ['2490', 'brainly.co.id', '104.19.234.36']
+Saving the results : Traceroute to 104.19.234.36
+391 ['2491', 'techbang.com', '35.75.33.251']
+Saving the results : Traceroute to 35.75.33.251
+392 ['2492', 'pagina12.com.ar', '104.22.70.126']
+Saving the results : Traceroute to 104.22.70.126
+393 ['2493', 'ogunhaber.com', '212.68.42.217']
+Saving the results : Traceroute to 212.68.42.217
+394 ['2494', 'cloudwaysapps.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+395 ['2495', 'xsrv.jp', '219.94.200.238']
+Saving the results : Traceroute to 219.94.200.238
+396 ['2496', 'childrensalon.com', '3.171.185.99']
+Saving the results : Traceroute to 3.171.185.99
+397 ['2497', 'humblebundle.com', '104.18.39.232']
+Saving the results : Traceroute to 104.18.39.232
+398 ['2498', 'instamojo.com', '3.6.68.245']
+Saving the results : Traceroute to 3.6.68.245
+399 ['2499', 'saude.gov.br', '15.229.88.156']
+62.115.138.65	13	243	1	0	0	32	0
+Saving the results : Traceroute to 15.229.88.156
+400 ['2500', 'byrenjia.com', '45.119.254.117']
+Saving the results : Traceroute to 45.119.254.117
+401 ['201', 'grid.id', '52.77.152.15']
+Saving the results : Traceroute to 52.77.152.15
+402 ['202', 'foxnews.com', '23.61.253.154']
+Saving the results : Traceroute to 23.61.253.154
+403 ['203', 'momoshop.com.tw', '219.87.10.143']
+Saving the results : Traceroute to 219.87.10.143
+404 ['204', 'homedepot.com', '35.201.95.83']
+Saving the results : Traceroute to 35.201.95.83
+405 ['205', 'google.com.tr', '142.250.206.227']
+Saving the results : Traceroute to 142.250.206.227
+406 ['206', 'target.com', '151.101.130.187']
+Saving the results : Traceroute to 151.101.130.187
+407 ['207', 'atlassian.com', '13.225.117.2']
+Saving the results : Traceroute to 13.225.117.2
+408 ['208', 'ca.gov', '13.107.246.74']
+Saving the results : Traceroute to 13.107.246.74
+409 ['209', 'jiameng.com', '127.0.0.1']
+no result with 127.0.0.1
+410 ['210', 'google.ca', '142.250.206.195']
+Saving the results : Traceroute to 142.250.206.195
+411 ['211', 'mediafire.com', '104.17.151.117']
+Saving the results : Traceroute to 104.17.151.117
+412 ['212', 'businessinsider.com', '151.101.129.171']
+Saving the results : Traceroute to 151.101.129.171
+413 ['213', 'ebay.de', '23.53.3.140']
+Saving the results : Traceroute to 23.53.3.140
+414 ['214', 'albawabhnews.com', '172.67.193.147']
+Saving the results : Traceroute to 172.67.193.147
+415 ['215', 'box.com', '74.112.186.157']
+Saving the results : Traceroute to 74.112.186.157
+416 ['216', 'chess.com', '104.18.141.67']
+Saving the results : Traceroute to 104.18.141.67
+417 ['217', 'uol.com.br', '200.147.35.149']
+Saving the results : Traceroute to 200.147.35.149
+418 ['218', 'ltn.com.tw', '34.80.242.206']
+Saving the results : Traceroute to 34.80.242.206
+419 ['219', 'varzesh3.com', '185.143.235.201']
+Saving the results : Traceroute to 185.143.235.201
+420 ['220', 'coursera.org', '18.244.60.24']
+Saving the results : Traceroute to 18.244.60.24
+421 ['221', 'hulu.com', '203.251.233.97']
+Saving the results : Traceroute to 203.251.233.97
+422 ['222', '360.com', '104.192.110.232']
+Saving the results : Traceroute to 104.192.110.232
+423 ['223', 'fidelity.com', '23.53.228.139']
+Saving the results : Traceroute to 23.53.228.139
+424 ['224', 'skype.com', '20.70.246.20']
+Saving the results : Traceroute to 20.70.246.20
+425 ['225', 'liputan6.com', '35.190.21.225']
+Saving the results : Traceroute to 35.190.21.225
+426 ['226', 'videocampaign.co', '138.128.241.162']
+69.174.5.90	10	47	1	8	0	0	0
+138.128.241.162	11	54	1	0	0	0	0
+138.128.241.162	12	54	1	0	0	0	0
+138.128.241.162	13	54	1	0	0	0	0
+138.128.241.162	14	54	1	0	0	0	0
+138.128.241.162	15	54	1	0	0	0	0
+138.128.241.162	16	54	1	0	0	0	0
+138.128.241.162	17	54	1	0	0	0	0
+138.128.241.162	21	54	1	0	0	0	0
+138.128.241.162	24	54	1	0	0	0	0
+138.128.241.162	27	54	1	0	0	0	0
+Saving the results : Traceroute to 138.128.241.162
+427 ['227', 'slideshare.net', '151.101.130.152']
+Saving the results : Traceroute to 151.101.130.152
+428 ['228', 'manage.wix.com', '34.149.206.255']
+Saving the results : Traceroute to 34.149.206.255
+429 ['229', 'robinhood.com', '18.64.8.120']
+Saving the results : Traceroute to 18.64.8.120
+430 ['230', 'weather.com', '104.75.33.186']
+Saving the results : Traceroute to 104.75.33.186
+431 ['231', 'remove.bg', '172.64.153.100']
+Saving the results : Traceroute to 172.64.153.100
+432 ['232', 'redd.it', '151.101.129.140']
+Saving the results : Traceroute to 151.101.129.140
+433 ['233', 'manoramaonline.com', '23.49.224.41']
+Saving the results : Traceroute to 23.49.224.41
+434 ['234', 'padlet.com', '104.18.42.238']
+Saving the results : Traceroute to 104.18.42.238
+435 ['235', 'sahibinden.com', '85.153.138.111']
+Saving the results : Traceroute to 85.153.138.111
+436 ['236', 'cnnic.cn', '182.131.26.231']
+Saving the results : Traceroute to 182.131.26.231
+437 ['237', 'fiverr.com', '104.18.113.47']
+Saving the results : Traceroute to 104.18.113.47
+438 ['238', 'mercadolibre.com.ar', '3.33.182.45']
+Saving the results : Traceroute to 3.33.182.45
+439 ['239', 'investopedia.com', '162.159.141.224']
+Saving the results : Traceroute to 162.159.141.224
+440 ['240', 'chouftv.ma', '104.26.1.97']
+Saving the results : Traceroute to 104.26.1.97
+441 ['241', 'coinmarketcap.com', '3.168.167.124']
+Saving the results : Traceroute to 3.168.167.124
+442 ['242', 'researchgate.net', '104.18.41.9']
+Saving the results : Traceroute to 104.18.41.9
+443 ['243', 'glassdoor.com', '104.16.25.46']
+Saving the results : Traceroute to 104.16.25.46
+444 ['244', 'lazada.sg', '47.246.165.182']
+63.223.58.178	8	248	1	0	0	0	0
+63.220.195.231	9	245	1	20	0	20	0
+Saving the results : Traceroute to 47.246.165.182
+445 ['245', 'mercadolibre.com.mx', '15.197.170.90']
+Saving the results : Traceroute to 15.197.170.90
+446 ['246', 'realtor.com', '35.84.49.241']
+Saving the results : Traceroute to 35.84.49.241
+447 ['247', 'namu.wiki', '104.16.219.109']
+Saving the results : Traceroute to 104.16.219.109
+448 ['248', 'docusign.net', '162.248.184.28']
+Saving the results : Traceroute to 162.248.184.28
+449 ['249', 'geeksforgeeks.org', '34.218.62.116']
+Saving the results : Traceroute to 34.218.62.116
+450 ['250', 'telewebion.com', '185.165.205.2']
+Saving the results : Traceroute to 185.165.205.2
+451 ['251', 'linktr.ee', '151.101.194.133']
+Saving the results : Traceroute to 151.101.194.133
+452 ['252', 'in.gr', '213.133.127.245']
+Saving the results : Traceroute to 213.133.127.245
+453 ['253', 'taboola.com', '151.101.66.132']
+Saving the results : Traceroute to 151.101.66.132
+454 ['254', 'mercari.com', '13.225.134.78']
+Saving the results : Traceroute to 13.225.134.78
+455 ['255', 'disneyplus.com', '34.110.155.89']
+Saving the results : Traceroute to 34.110.155.89
+456 ['256', 'moneycontrol.com', '23.32.56.201']
+Saving the results : Traceroute to 23.32.56.201
+457 ['257', 'etoro.com', '23.1.161.50']
+Saving the results : Traceroute to 23.1.161.50
+458 ['258', 'merdeka.com', '34.143.193.14']
+Saving the results : Traceroute to 34.143.193.14
+459 ['259', 'shopee.tw', '202.181.90.201']
+Saving the results : Traceroute to 202.181.90.201
+460 ['260', 'cloudfront.net', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+461 ['261', 'hepsiburada.com', '85.111.45.200']
+Saving the results : Traceroute to 85.111.45.200
+462 ['262', 'adp.com', '170.146.93.56']
+Saving the results : Traceroute to 170.146.93.56
+463 ['263', 'bankofamerica.com', '171.161.148.150']
+Saving the results : Traceroute to 171.161.148.150
+464 ['264', 'asos.com', '23.44.173.34']
+Saving the results : Traceroute to 23.44.173.34
+465 ['265', 'line.biz', '147.92.243.14']
+Saving the results : Traceroute to 147.92.243.14
+466 ['266', 'icicibank.com', '20.204.105.107']
+Saving the results : Traceroute to 20.204.105.107
+467 ['267', 'alwafd.news', '172.67.75.97']
+Saving the results : Traceroute to 172.67.75.97
+468 ['268', 'duckduckgo.com', '20.43.161.105']
+Saving the results : Traceroute to 20.43.161.105
+469 ['269', 'aliexpress.ru', '47.246.133.142']
+Saving the results : Traceroute to 47.246.133.142
+470 ['270', 'wikihow.com', '151.101.193.91']
+Saving the results : Traceroute to 151.101.193.91
+471 ['271', 'allegro.pl', '5.134.213.80']
+Saving the results : Traceroute to 5.134.213.80
+472 ['272', 'discord.com', '162.159.128.233']
+Saving the results : Traceroute to 162.159.128.233
+473 ['273', 'rt.com', '91.215.41.4']
+Saving the results : Traceroute to 91.215.41.4
+474 ['274', 'coupang.com', '3.168.178.64']
+Saving the results : Traceroute to 3.168.178.64
+475 ['275', 'wildberries.ru', '185.62.202.2']
+Saving the results : Traceroute to 185.62.202.2
+476 ['276', 'sindonews.com', '104.18.15.156']
+Saving the results : Traceroute to 104.18.15.156
+477 ['277', 'dailymail.co.uk', '23.50.0.173']
+Saving the results : Traceroute to 23.50.0.173
+478 ['278', 'redfin.com', '18.64.8.75']
+Saving the results : Traceroute to 18.64.8.75
+479 ['279', 'google.co.th', '172.217.161.227']
+Saving the results : Traceroute to 172.217.161.227
+480 ['280', 'japanpost.jp', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+481 ['281', 'bscscan.com', '104.26.13.158']
+Saving the results : Traceroute to 104.26.13.158
+482 ['282', 'ndtv.com', '104.75.21.171']
+Saving the results : Traceroute to 104.75.21.171
+483 ['283', 'blogger.com', '142.250.207.105']
+Saving the results : Traceroute to 142.250.207.105
+484 ['284', 'dell.com', '143.166.30.172']
+Saving the results : Traceroute to 143.166.30.172
+485 ['285', 't.co', '172.66.0.227']
+Saving the results : Traceroute to 172.66.0.227
+486 ['286', 'google.com.sa', '142.250.206.195']
+Saving the results : Traceroute to 142.250.206.195
+487 ['287', 'reuters.com', '155.46.172.255']
+Saving the results : Traceroute to 155.46.172.255
+488 ['288', 'reverso.net', '104.18.9.175']
+Saving the results : Traceroute to 104.18.9.175
+489 ['289', 'binance.com', '52.198.202.171']
+Saving the results : Traceroute to 52.198.202.171
+490 ['290', 'jawapos.com', '104.18.23.127']
+Saving the results : Traceroute to 104.18.23.127
+491 ['291', 'chinaz.com', '117.25.139.77']
+Saving the results : Traceroute to 117.25.139.77
+492 ['292', 'ozon.ru', '185.73.193.68']
+62.115.50.167	19	238	1	0	0	32	0
+185.73.193.68	23	113	1	0	0	32	0
+Saving the results : Traceroute to 185.73.193.68
+493 ['293', 'google.com.ar', '172.217.25.163']
+Saving the results : Traceroute to 172.217.25.163
+494 ['294', 'spankbang.com', '104.19.239.156']
+Saving the results : Traceroute to 104.19.239.156
+495 ['295', 'tencent.com', '109.244.194.121']
+Saving the results : Traceroute to 109.244.194.121
+496 ['296', 'ameblo.jp', '199.232.210.133']
+Saving the results : Traceroute to 199.232.210.133
+497 ['297', 'amazon.it', '54.239.33.83']
+62.115.136.141	15	50	1	0	0	32	0
+150.222.192.20	17	236	1	0	0	0	0
+150.222.192.8	21	236	1	0	0	0	0
+Saving the results : Traceroute to 54.239.33.83
+498 ['298', 'xiaoman.cn', '116.62.114.195']
+Saving the results : Traceroute to 116.62.114.195
+499 ['299', 'soso.com', '43.153.236.147']
+Saving the results : Traceroute to 43.153.236.147
+500 ['300', 'hbomax.com', '99.84.66.99']
+Saving the results : Traceroute to 99.84.66.99
+501 ['301', 'google.com.eg', '142.250.206.227']
+Saving the results : Traceroute to 142.250.206.227
+502 ['302', 'hotstar.com', '18.244.60.52']
+Saving the results : Traceroute to 18.244.60.52
+503 ['303', 'googlevideo.com', '172.217.25.164']
+Saving the results : Traceroute to 172.217.25.164
+504 ['304', 'sberbank.ru', '194.54.14.168']
+Saving the results : Traceroute to 194.54.14.168
+505 ['305', 'tripadvisor.com', '151.101.130.28']
+Saving the results : Traceroute to 151.101.130.28
+506 ['306', 'gusuwang.com', '47.110.147.40']
+Saving the results : Traceroute to 47.110.147.40
+507 ['307', 'tudou.com', '106.11.43.107']
+Saving the results : Traceroute to 106.11.43.107
+508 ['308', 'aol.com', '76.223.84.192']
+Saving the results : Traceroute to 76.223.84.192
+509 ['309', 'shein.com', '52.39.90.56']
+Saving the results : Traceroute to 52.39.90.56
+510 ['310', 'amazon.fr', '54.239.33.91']
+62.115.138.169	14	50	1	0	0	32	0
+150.222.192.24	17	236	1	0	0	0	0
+150.222.192.12	20	236	1	0	0	0	0
+Saving the results : Traceroute to 54.239.33.91
+511 ['311', 'liansuo.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+512 ['312', 'ladbible.com', '104.16.208.202']
+Saving the results : Traceroute to 104.16.208.202
+513 ['313', 'ria.ru', '194.190.139.47']
+Saving the results : Traceroute to 194.190.139.47
+514 ['314', 'indiamart.com', '35.190.37.46']
+Saving the results : Traceroute to 35.190.37.46
+515 ['315', 'canada.ca', '205.193.215.159']
+Saving the results : Traceroute to 205.193.215.159
+516 ['316', 'rokna.net', '94.182.153.235']
+Saving the results : Traceroute to 94.182.153.235
+517 ['317', 'bet365.com', '5.226.179.10']
+Saving the results : Traceroute to 5.226.179.10
+518 ['318', 'twimg.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+519 ['319', 'wayfair.com', '151.101.193.252']
+Saving the results : Traceroute to 151.101.193.252
+520 ['320', 'hp.com', '15.72.80.135']
+Saving the results : Traceroute to 15.72.80.135
+521 ['321', 'naukri.com', '203.251.233.179']
+Saving the results : Traceroute to 203.251.233.179
+522 ['322', 'irs.gov', '152.216.7.110']
+Saving the results : Traceroute to 152.216.7.110
+523 ['323', 'dailymotion.com', '195.8.215.136']
+62.115.118.63	17	240	1	0	0	32	0
+Saving the results : Traceroute to 195.8.215.136
+524 ['324', 'setn.com', '54.238.119.86']
+Saving the results : Traceroute to 54.238.119.86
+525 ['325', 'nike.com', '3.168.167.26']
+Saving the results : Traceroute to 3.168.167.26
+526 ['326', 'scribd.com', '151.101.194.152']
+Saving the results : Traceroute to 151.101.194.152
+527 ['327', 'y2mate.com', '172.67.16.87']
+Saving the results : Traceroute to 172.67.16.87
+528 ['328', 'iyiou.com', '120.53.69.12']
+Saving the results : Traceroute to 120.53.69.12
+529 ['329', 'crowdworks.jp', '54.92.100.7']
+Saving the results : Traceroute to 54.92.100.7
+530 ['330', 'wikimedia.org', '103.102.166.224']
+Saving the results : Traceroute to 103.102.166.224
+531 ['331', 'ih5.cn', '161.189.151.162']
+Saving the results : Traceroute to 161.189.151.162
+532 ['332', 'seznam.cz', '77.75.77.222']
+Saving the results : Traceroute to 77.75.77.222
+533 ['333', 'mailchimp.com', '23.207.219.119']
+Saving the results : Traceroute to 23.207.219.119
+534 ['334', 'mercadolivre.com.br', '15.197.170.90']
+Saving the results : Traceroute to 15.197.170.90
+535 ['335', 'tableau.com', '184.87.100.7']
+Saving the results : Traceroute to 184.87.100.7
+536 ['336', 'ask.com', '146.75.114.114']
+Saving the results : Traceroute to 146.75.114.114
+537 ['337', 'typeform.com', '3.168.178.44']
+Saving the results : Traceroute to 3.168.178.44
+538 ['338', 'hootsuite.com', '3.168.167.97']
+Saving the results : Traceroute to 3.168.167.97
+539 ['339', 'techcrunch.com', '192.0.66.220']
+Saving the results : Traceroute to 192.0.66.220
+540 ['340', 'patreon.com', '104.16.24.14']
+Saving the results : Traceroute to 104.16.24.14
+541 ['341', 'cj.com', '159.127.40.163']
+Saving the results : Traceroute to 159.127.40.163
+542 ['342', 'shareasale.com', '104.16.62.114']
+Saving the results : Traceroute to 104.16.62.114
+543 ['343', 'orange.fr', '193.252.148.46']
+62.115.137.63	11	245	1	0	0	32	0
+195.12.254.213	12	247	1	8	0	32	0
+193.251.128.187	13	238	1	8	0	0	0
+80.12.246.35	18	230	1	8	0	0	0
+Saving the results : Traceroute to 193.252.148.46
+544 ['344', 'fast.com', '104.74.161.183']
+Saving the results : Traceroute to 104.74.161.183
+545 ['345', 'google.pl', '142.250.207.99']
+Saving the results : Traceroute to 142.250.207.99
+546 ['346', 'onet.pl', '3.171.185.52']
+Saving the results : Traceroute to 3.171.185.52
+547 ['347', 'flickr.com', '3.168.165.100']
+Saving the results : Traceroute to 3.168.165.100
+548 ['348', 'cambridge.org', '104.17.110.190']
+Saving the results : Traceroute to 104.17.110.190
+549 ['349', 'shaparak.ir', '185.167.73.34']
+62.115.138.235	10	240	1	0	0	32	0
+62.115.149.47	11	247	1	0	0	32	0
+193.251.150.198	12	233	1	8	0	0	0
+85.132.90.170	13	231	1	8	0	0	0
+Saving the results : Traceroute to 185.167.73.34
+550 ['350', 'tokopedia.com', '47.74.234.244']
+Saving the results : Traceroute to 47.74.234.244
+551 ['351', 'udemy.com', '104.16.142.237']
+Saving the results : Traceroute to 104.16.142.237
+552 ['352', 'greenhouse.io', '151.101.66.133']
+Saving the results : Traceroute to 151.101.66.133
+553 ['353', 'goodreads.com', '52.94.237.126']
+Saving the results : Traceroute to 52.94.237.126
+554 ['354', 'constantcontact.com', '208.75.122.14']
+Saving the results : Traceroute to 208.75.122.14
+555 ['355', 'trustpilot.com', '54.246.131.99']
+62.115.120.239	16	242	1	0	0	32	0
+Saving the results : Traceroute to 54.246.131.99
+556 ['356', 'vnexpress.net', '111.65.250.2']
+Saving the results : Traceroute to 111.65.250.2
+557 ['357', 'donya-e-eqtesad.com', '45.94.255.75']
+62.115.138.235	10	240	1	0	0	32	0
+62.115.149.47	11	247	1	0	0	32	0
+193.251.150.198	12	233	1	8	0	0	0
+85.132.90.170	14	231	1	8	0	0	0
+45.94.255.75	17	50	1	0	0	0	0
+45.94.255.75	19	50	1	0	0	0	0
+45.94.255.75	20	50	1	0	0	0	0
+45.94.255.75	22	50	1	0	0	0	0
+45.94.255.75	24	50	1	0	0	0	0
+45.94.255.75	26	50	1	0	0	0	0
+45.94.255.75	29	50	1	0	0	0	0
+Saving the results : Traceroute to 45.94.255.75
+558 ['358', 'myworkdayjobs.com', '127.0.0.1']
+no result with 127.0.0.1
+559 ['359', 'focus.cn', '61.135.164.48']
+Saving the results : Traceroute to 61.135.164.48
+560 ['360', 'thesaurus.com', '104.18.34.167']
+Saving the results : Traceroute to 104.18.34.167
+561 ['361', 'eatthis.com', '104.18.23.55']
+Saving the results : Traceroute to 104.18.23.55
+562 ['362', 'citi.com', '104.96.178.165']
+Saving the results : Traceroute to 104.96.178.165
+563 ['363', 'filimo.com', '185.147.178.23']
+Saving the results : Traceroute to 185.147.178.23
+564 ['364', 'google.co.kr', '172.217.25.163']
+Saving the results : Traceroute to 172.217.25.163
+565 ['365', 'breitbart.com', '34.117.28.18']
+Saving the results : Traceroute to 34.117.28.18
+566 ['366', 'kakaku.com', '162.159.141.66']
+Saving the results : Traceroute to 162.159.141.66
+567 ['367', 'marca.com', '34.147.120.111']
+Saving the results : Traceroute to 34.147.120.111
+568 ['368', 'ameritrade.com', '162.93.211.151']
+Saving the results : Traceroute to 162.93.211.151
+569 ['369', 'squarespace.com', '198.185.159.176']
+Saving the results : Traceroute to 198.185.159.176
+570 ['370', 'onlyfans.com', '162.159.140.146']
+Saving the results : Traceroute to 162.159.140.146
+571 ['371', 'cowin.gov.in', '3.6.46.116']
+Saving the results : Traceroute to 3.6.46.116
+572 ['372', 'dcard.tw', '104.19.248.7']
+Saving the results : Traceroute to 104.19.248.7
+573 ['373', 'bukalapak.com', '45.60.251.175']
+Saving the results : Traceroute to 45.60.251.175
+574 ['374', 'ai.marketing', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+575 ['375', 'worldometers.info', '104.26.4.2']
+Saving the results : Traceroute to 104.26.4.2
+576 ['376', 'fc2.com', '199.48.210.151']
+Saving the results : Traceroute to 199.48.210.151
+577 ['377', 'shopee.com.my', '202.181.90.194']
+Saving the results : Traceroute to 202.181.90.194
+578 ['378', 'trello.com', '13.225.117.100']
+Saving the results : Traceroute to 13.225.117.100
+579 ['379', 'blackboard.com', '20.85.72.68']
+Saving the results : Traceroute to 20.85.72.68
+580 ['380', 'marketwatch.com', '18.64.8.64']
+Saving the results : Traceroute to 18.64.8.64
+581 ['381', 'xfinity.com', '96.99.240.130']
+Saving the results : Traceroute to 96.99.240.130
+582 ['382', 'quora.com', '34.199.194.116']
+Saving the results : Traceroute to 34.199.194.116
+583 ['383', 'cdc.gov', '198.246.106.49']
+Saving the results : Traceroute to 198.246.106.49
+584 ['384', 'ebay.co.uk', '23.53.3.148']
+Saving the results : Traceroute to 23.53.3.148
+585 ['385', 'ouedkniss.com', '197.112.51.31']
+Saving the results : Traceroute to 197.112.51.31
+586 ['386', 'dhl.com', '199.40.254.32']
+Saving the results : Traceroute to 199.40.254.32
+587 ['387', 'evernote.com', '34.98.96.201']
+Saving the results : Traceroute to 34.98.96.201
+588 ['388', 'shopee.co.id', '202.181.90.156']
+Saving the results : Traceroute to 202.181.90.156
+589 ['389', 'ahram.org.eg', '104.22.68.76']
+Saving the results : Traceroute to 104.22.68.76
+590 ['390', 'kapanlagi.com', '35.247.145.125']
+Saving the results : Traceroute to 35.247.145.125
+591 ['391', 'op.gg', '3.168.167.57']
+Saving the results : Traceroute to 3.168.167.57
+592 ['392', 'freshdesk.com', '13.225.134.34']
+Saving the results : Traceroute to 13.225.134.34
+593 ['393', 'yts.mx', '172.67.69.153']
+Saving the results : Traceroute to 172.67.69.153
+594 ['394', 'td.com', '23.53.2.147']
+Saving the results : Traceroute to 23.53.2.147
+595 ['395', 'shimo.im', '116.205.2.136']
+Saving the results : Traceroute to 116.205.2.136
+596 ['396', 'google.co.id', '172.217.161.195']
+Saving the results : Traceroute to 172.217.161.195
+597 ['397', 'wordpress.org', '198.143.164.252']
+Saving the results : Traceroute to 198.143.164.252
+598 ['398', 'upwork.com', '104.18.89.237']
+Saving the results : Traceroute to 104.18.89.237
+599 ['399', 'rezka.ag', '82.221.104.145']
+Saving the results : Traceroute to 82.221.104.145
+600 ['400', 'dianxiaomi.com', '106.53.131.190']
+Saving the results : Traceroute to 106.53.131.190
+601 ['1201', 'user-shield.com', '104.21.22.13']
+Saving the results : Traceroute to 104.21.22.13
+602 ['1202', 'csod.com', '35.71.168.136']
+Saving the results : Traceroute to 35.71.168.136
+603 ['1203', 'insertlive.com', '104.18.13.68']
+Saving the results : Traceroute to 104.18.13.68
+604 ['1204', 'freejobalert.com', '104.26.5.152']
+Saving the results : Traceroute to 104.26.5.152
+605 ['1205', 'ynet.co.il', '23.49.225.247']
+Saving the results : Traceroute to 23.49.225.247
+606 ['1206', 'att.net', '144.160.36.42']
+Saving the results : Traceroute to 144.160.36.42
+607 ['1207', 'gamestop.com', '3.163.24.62']
+Saving the results : Traceroute to 3.163.24.62
+608 ['1208', 'cybozu.com', '103.79.14.41']
+Saving the results : Traceroute to 103.79.14.41
+609 ['1209', 'novinky.cz', '77.75.78.151']
+Saving the results : Traceroute to 77.75.78.151
+610 ['1210', 'lavanguardia.com', '88.87.219.203']
+195.12.254.213	12	247	1	8	0	32	0
+81.52.166.146	13	238	1	8	0	0	0
+Saving the results : Traceroute to 88.87.219.203
+611 ['1211', 'swagbucks.com', '13.225.117.52']
+Saving the results : Traceroute to 13.225.117.52
+612 ['1212', 'cleartax.in', '18.67.51.37']
+Saving the results : Traceroute to 18.67.51.37
+613 ['1213', 'fsalfrwdr.com', '104.21.56.10']
+Saving the results : Traceroute to 104.21.56.10
+614 ['1214', 'huffpost.com', '151.101.130.114']
+Saving the results : Traceroute to 151.101.130.114
+615 ['1215', 'xing.com', '109.233.159.253']
+62.115.147.233	11	246	1	0	0	32	0
+81.95.2.138	12	246	1	0	0	0	0
+5.56.21.98	13	246	1	0	0	0	0
+185.169.112.5	14	245	1	0	0	0	0
+Saving the results : Traceroute to 109.233.159.253
+616 ['1216', 'dalfak.com', '192.155.108.150']
+Saving the results : Traceroute to 192.155.108.150
+617 ['1217', 'mailerlite.com', '104.18.37.66']
+Saving the results : Traceroute to 104.18.37.66
+618 ['1218', 'itopvpn.com', '52.2.29.105']
+Saving the results : Traceroute to 52.2.29.105
+619 ['1219', 'caisse-epargne.fr', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+620 ['1220', 'feishu.cn', '122.14.236.76']
+Saving the results : Traceroute to 122.14.236.76
+621 ['1221', 'familydoctor.com.cn', '106.55.120.91']
+Saving the results : Traceroute to 106.55.120.91
+622 ['1222', 'wunderground.com', '104.75.33.186']
+Saving the results : Traceroute to 104.75.33.186
+623 ['1223', 'crowd1.com', '104.18.0.188']
+Saving the results : Traceroute to 104.18.0.188
+624 ['1224', 'yoomoney.ru', '109.235.165.222']
+Saving the results : Traceroute to 109.235.165.222
+625 ['1225', '2gis.ru', '91.236.51.50']
+Saving the results : Traceroute to 91.236.51.50
+626 ['1226', 'google.nl', '142.250.206.227']
+Saving the results : Traceroute to 142.250.206.227
+627 ['1227', 'ed.gov', '165.224.129.153']
+Saving the results : Traceroute to 165.224.129.153
+628 ['1228', 'archiveofourown.org', '104.20.9.2']
+Saving the results : Traceroute to 104.20.9.2
+629 ['1229', 'avaz.ba', '172.67.71.21']
+Saving the results : Traceroute to 172.67.71.21
+630 ['1230', 'kahoot.it', '18.64.8.118']
+Saving the results : Traceroute to 18.64.8.118
+631 ['1231', 'ynet.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+632 ['1232', 'hltv.org', '172.64.146.44']
+Saving the results : Traceroute to 172.64.146.44
+633 ['1233', 'bkn.go.id', '103.170.104.132']
+Saving the results : Traceroute to 103.170.104.132
+634 ['1234', 'elmostaqbal.com', '104.21.7.23']
+Saving the results : Traceroute to 104.21.7.23
+635 ['1235', 'mashable.com', '172.64.145.239']
+Saving the results : Traceroute to 172.64.145.239
+636 ['1236', 'baskino.me', '104.21.48.1']
+Saving the results : Traceroute to 104.21.48.1
+637 ['1237', 'egov.kz', '195.12.113.2']
+Saving the results : Traceroute to 195.12.113.2
+638 ['1238', 'eenadu.net', '65.2.52.30']
+Saving the results : Traceroute to 65.2.52.30
+639 ['1239', 'zomato.com', '13.228.127.134']
+Saving the results : Traceroute to 13.228.127.134
+640 ['1240', 'privatbank.ua', '99.83.167.35']
+Saving the results : Traceroute to 99.83.167.35
+641 ['1241', 'dma.ao', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+642 ['1242', 'realsrv.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+643 ['1243', 'impots.gouv.fr', '145.242.11.100']
+Saving the results : Traceroute to 145.242.11.100
+644 ['1244', 'prezi.com', '75.2.83.248']
+Saving the results : Traceroute to 75.2.83.248
+645 ['1245', 'google.hu', '172.217.25.163']
+Saving the results : Traceroute to 172.217.25.163
+646 ['1246', 'hatena.ne.jp', '54.64.92.163']
+Saving the results : Traceroute to 54.64.92.163
+647 ['1247', 'doramy.club', '172.67.162.234']
+Saving the results : Traceroute to 172.67.162.234
+648 ['1248', 'ibb.co', '45.43.142.1']
+Saving the results : Traceroute to 45.43.142.1
+649 ['1249', '3dmgame.com', '138.113.125.12']
+Saving the results : Traceroute to 138.113.125.12
+650 ['1250', 'tap.az', '104.18.7.53']
+Saving the results : Traceroute to 104.18.7.53
+651 ['1251', 'mgid.com', '64.58.116.132']
+Saving the results : Traceroute to 64.58.116.132
+652 ['1252', 'legit.ng', '3.171.185.28']
+Saving the results : Traceroute to 3.171.185.28
+653 ['1253', 'band.us', '117.52.137.169']
+Saving the results : Traceroute to 117.52.137.169
+654 ['1254', 'frontapp.com', '3.171.185.3']
+Saving the results : Traceroute to 3.171.185.3
+655 ['1255', 'biggo.com.tw', '220.130.250.81']
+Saving the results : Traceroute to 220.130.250.81
+656 ['1256', 'mastermilligram.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+657 ['1257', 'vg.no', '99.84.66.128']
+Saving the results : Traceroute to 99.84.66.128
+658 ['1258', 'kaiserpermanente.org', '198.140.13.22']
+Saving the results : Traceroute to 198.140.13.22
+659 ['1259', 'dream.co.id', '146.190.82.73']
+Saving the results : Traceroute to 146.190.82.73
+660 ['1260', 'photofans.cn', '49.4.10.123']
+Saving the results : Traceroute to 49.4.10.123
+661 ['1261', '7po.com', '220.197.201.184']
+Saving the results : Traceroute to 220.197.201.184
+662 ['1262', 'donga.com', '210.115.155.100']
+Saving the results : Traceroute to 210.115.155.100
+663 ['1263', 'skillshare.com', '104.18.32.122']
+Saving the results : Traceroute to 104.18.32.122
+664 ['1264', 'weibo.cn', '36.51.224.126']
+Saving the results : Traceroute to 36.51.224.126
+665 ['1265', 'clutch.co', '104.18.69.32']
+Saving the results : Traceroute to 104.18.69.32
+666 ['1266', 'youzan.com', '140.143.255.205']
+Saving the results : Traceroute to 140.143.255.205
+667 ['1267', 'alsolta.net', '172.67.163.242']
+Saving the results : Traceroute to 172.67.163.242
+668 ['1268', 'redtube.com', '66.254.114.238']
+Saving the results : Traceroute to 66.254.114.238
+669 ['1269', 'office.net', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+670 ['1270', 'linksynergy.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+671 ['1271', 'icicidirect.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+672 ['1272', 'priceline.com', '151.101.194.186']
+Saving the results : Traceroute to 151.101.194.186
+673 ['1273', 'infusionsoft.com', '104.18.7.143']
+Saving the results : Traceroute to 104.18.7.143
+674 ['1274', 'gadgetnews.net', '185.143.235.201']
+Saving the results : Traceroute to 185.143.235.201
+675 ['1275', 'elzmannews.com', '172.67.188.151']
+Saving the results : Traceroute to 172.67.188.151
+676 ['1276', 'wired.com', '151.101.130.194']
+Saving the results : Traceroute to 151.101.130.194
+677 ['1277', 'powtoon.com', '151.101.130.132']
+Saving the results : Traceroute to 151.101.130.132
+678 ['1278', 'screenrant.com', '34.202.200.131']
+Saving the results : Traceroute to 34.202.200.131
+679 ['1279', 'liveinternet.ru', '88.212.202.50']
+Saving the results : Traceroute to 88.212.202.50
+680 ['1280', 'hqporner.com', '88.208.35.41']
+Saving the results : Traceroute to 88.208.35.41
+681 ['1281', 'o2.pl', '212.77.98.29']
+62.115.120.71	16	240	1	0	0	32	0
+185.182.244.32	17	228	1	8	0	32	0
+185.182.245.93	19	228	1	8	0	32	0
+185.182.246.246	20	230	1	8	0	32	0
+Saving the results : Traceroute to 212.77.98.29
+682 ['1282', 'square-enix.com', '61.195.60.80']
+Saving the results : Traceroute to 61.195.60.80
+683 ['1283', 'exoclick.com', '87.98.253.29']
+Saving the results : Traceroute to 87.98.253.29
+684 ['1284', 'xtx6.com', '43.224.154.10']
+Saving the results : Traceroute to 43.224.154.10
+685 ['1285', 'mega.nz', '31.216.144.5']
+Saving the results : Traceroute to 31.216.144.5
+686 ['1286', 'yellowpages.com', '151.138.15.18']
+Saving the results : Traceroute to 151.138.15.18
+687 ['1287', 'vaghtesobh.com', '195.28.169.107']
+Saving the results : Traceroute to 195.28.169.107
+688 ['1288', '5ch.net', '104.22.0.109']
+Saving the results : Traceroute to 104.22.0.109
+689 ['1289', 'bitfinex.com', '104.16.167.90']
+Saving the results : Traceroute to 104.16.167.90
+690 ['1290', 'animeflv.net', '185.178.208.140']
+Saving the results : Traceroute to 185.178.208.140
+691 ['1291', 'bitrix24.ru', '178.248.238.120']
+Saving the results : Traceroute to 178.248.238.120
+692 ['1292', 'apkpure.com', '104.22.4.119']
+Saving the results : Traceroute to 104.22.4.119
+693 ['1293', 'bleacherreport.com', '151.101.65.91']
+Saving the results : Traceroute to 151.101.65.91
+694 ['1294', 'skysports.com', '90.216.128.5']
+Saving the results : Traceroute to 90.216.128.5
+695 ['1295', 'b2b.cn', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+696 ['1296', 'cuevana3.io', '69.16.230.42']
+Saving the results : Traceroute to 69.16.230.42
+697 ['1297', 'gorgias.com', '99.83.190.102']
+Saving the results : Traceroute to 99.83.190.102
+698 ['1298', 'obligationmelonvase.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+699 ['1299', 'auspost.com.au', '13.225.117.104']
+Saving the results : Traceroute to 13.225.117.104
+700 ['1300', 'teamviewer.com', '52.223.21.92']
+Saving the results : Traceroute to 52.223.21.92
+701 ['3301', 'popin.cc', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+702 ['3302', 'lifehack.org', '104.25.107.109']
+Saving the results : Traceroute to 104.25.107.109
+703 ['3303', 'typosthes.gr', '104.21.48.1']
+Saving the results : Traceroute to 104.21.48.1
+704 ['3304', 'dspultra.com', '139.45.195.13']
+Saving the results : Traceroute to 139.45.195.13
+705 ['3305', 'microsoftstream.com', '20.70.246.20']
+Saving the results : Traceroute to 20.70.246.20
+706 ['3306', 'jbhifi.com.au', '23.227.38.32']
+Saving the results : Traceroute to 23.227.38.32
+707 ['3307', 'uhc.com', '20.221.105.198']
+Saving the results : Traceroute to 20.221.105.198
+708 ['3308', 'teamblind.com', '13.225.117.81']
+Saving the results : Traceroute to 13.225.117.81
+709 ['3309', 'conversion.ai', '104.21.57.215']
+Saving the results : Traceroute to 104.21.57.215
+710 ['3310', 'liverpool.com.mx', '201.116.168.228']
+Saving the results : Traceroute to 201.116.168.228
+711 ['3311', 'mdbootstrap.com', '51.195.116.113']
+Saving the results : Traceroute to 51.195.116.113
+712 ['3312', 'bancochile.cl', '45.223.24.240']
+131.125.141.81	15	51	1	0	0	0	0
+Saving the results : Traceroute to 45.223.24.240
+713 ['3313', 'asda.com', '104.75.1.188']
+Saving the results : Traceroute to 104.75.1.188
+714 ['3314', 'automizely.com', '172.64.153.88']
+Saving the results : Traceroute to 172.64.153.88
+715 ['3315', 'cartesfrance.fr', '162.19.60.88']
+Saving the results : Traceroute to 162.19.60.88
+716 ['3316', 'onedio.com', '18.64.8.38']
+Saving the results : Traceroute to 18.64.8.38
+717 ['3317', 'tinypng.com', '35.190.0.251']
+Saving the results : Traceroute to 35.190.0.251
+718 ['3318', 'earnforex.com', '88.214.203.19']
+Saving the results : Traceroute to 88.214.203.19
+719 ['3319', 'angular.io', '151.101.65.195']
+Saving the results : Traceroute to 151.101.65.195
+720 ['3320', 'truecaller.com', '15.207.137.63']
+Saving the results : Traceroute to 15.207.137.63
+721 ['3321', 'uzone.id', '104.26.0.163']
+Saving the results : Traceroute to 104.26.0.163
+722 ['3322', '2checkout.com', '45.60.12.94']
+Saving the results : Traceroute to 45.60.12.94
+723 ['3323', 'mathworks.com', '144.212.130.17']
+Saving the results : Traceroute to 144.212.130.17
+724 ['3324', 'alchemer.com', '162.159.135.42']
+Saving the results : Traceroute to 162.159.135.42
+725 ['3325', 'vivo.com.cn', '101.237.40.56']
+Saving the results : Traceroute to 101.237.40.56
+726 ['3326', 'census.gov', '148.129.75.166']
+Saving the results : Traceroute to 148.129.75.166
+727 ['3327', 'ijie.com', '106.2.167.180']
+Saving the results : Traceroute to 106.2.167.180
+728 ['3328', 'jlchina.cn', '221.204.251.64']
+Saving the results : Traceroute to 221.204.251.64
+729 ['3329', 'ylsw.com', '121.89.203.170']
+Saving the results : Traceroute to 121.89.203.170
+730 ['3330', 'zhiding.cn', '106.75.20.183']
+Saving the results : Traceroute to 106.75.20.183
+731 ['3331', 'fnac.com', '23.53.228.113']
+Saving the results : Traceroute to 23.53.228.113
+732 ['3332', 'jiji.ng', '172.67.74.110']
+Saving the results : Traceroute to 172.67.74.110
+733 ['3333', 'thetradedesk.com', '18.238.192.90']
+Saving the results : Traceroute to 18.238.192.90
+734 ['3334', 'dutrag.com', '172.237.146.8']
+Saving the results : Traceroute to 172.237.146.8
+735 ['3335', 'difi.no', '79.170.81.232']
+62.115.116.106	16	241	1	0	0	32	0
+213.248.77.49	17	240	1	0	0	32	0
+213.167.114.218	18	238	1	0	0	32	0
+81.166.123.57	19	238	1	0	0	32	0
+213.167.114.67	20	238	1	0	0	32	0
+213.167.114.137	21	238	1	0	0	32	0
+193.247.202.15	22	236	1	0	0	32	0
+217.17.208.235	23	235	1	0	0	32	0
+79.170.86.145	24	234	1	0	0	0	0
+Saving the results : Traceroute to 79.170.81.232
+736 ['3336', '10jqka.com.cn', '122.224.107.239']
+Saving the results : Traceroute to 122.224.107.239
+737 ['3337', 'tcs.com', '4.247.162.6']
+Saving the results : Traceroute to 4.247.162.6
+738 ['3338', 'tvn24.pl', '13.225.134.48']
+Saving the results : Traceroute to 13.225.134.48
+739 ['3339', 'gleam.io', '172.66.40.77']
+Saving the results : Traceroute to 172.66.40.77
+740 ['3340', 'zeczec.com', '172.67.25.189']
+Saving the results : Traceroute to 172.67.25.189
+741 ['3341', 'elementor.com', '104.18.179.120']
+Saving the results : Traceroute to 104.18.179.120
+742 ['3342', 'cnki.net', '115.31.65.33']
+Saving the results : Traceroute to 115.31.65.33
+743 ['3343', 'wiocha.pl', '51.255.52.131']
+Saving the results : Traceroute to 51.255.52.131
+744 ['3344', 'simplyhired.com', '104.18.34.137']
+Saving the results : Traceroute to 104.18.34.137
+745 ['3345', 'sci-hub.se', '186.2.163.219']
+Saving the results : Traceroute to 186.2.163.219
+746 ['3346', 'hdsex.org', '190.2.144.178']
+Saving the results : Traceroute to 190.2.144.178
+747 ['3347', 'manganato.com', '104.26.3.67']
+Saving the results : Traceroute to 104.26.3.67
+748 ['3348', 'noodlemagazine.com', '185.149.135.3']
+Saving the results : Traceroute to 185.149.135.3
+749 ['3349', 'nps.gov', '52.6.8.53']
+Saving the results : Traceroute to 52.6.8.53
+750 ['3350', 'uploadhaven.com', '169.197.82.18']
+Saving the results : Traceroute to 169.197.82.18
+751 ['3351', 'androidauthority.com', '172.66.133.107']
+Saving the results : Traceroute to 172.66.133.107
+752 ['3352', 'woshipm.com', '116.62.28.124']
+Saving the results : Traceroute to 116.62.28.124
+753 ['3353', 'digitalocean.com', '104.19.173.68']
+Saving the results : Traceroute to 104.19.173.68
+754 ['3354', 'fnp.com', '34.160.249.45']
+Saving the results : Traceroute to 34.160.249.45
+755 ['3355', 'iribnews.ir', '194.41.49.118']
+Saving the results : Traceroute to 194.41.49.118
+756 ['3356', 'terkini.id', '172.67.73.155']
+Saving the results : Traceroute to 172.67.73.155
+757 ['3357', 'adcash.com', '104.18.223.112']
+Saving the results : Traceroute to 104.18.223.112
+758 ['3358', 'kolesa.kz', '185.143.129.26']
+Saving the results : Traceroute to 185.143.129.26
+759 ['3359', 'mamba.ru', '185.165.123.195']
+Saving the results : Traceroute to 185.165.123.195
+760 ['3360', 'delfi.lv', '172.67.38.134']
+Saving the results : Traceroute to 172.67.38.134
+761 ['3361', 'uisdc.com', '121.41.93.19']
+Saving the results : Traceroute to 121.41.93.19
+762 ['3362', 'formula1.com', '75.2.124.44']
+Saving the results : Traceroute to 75.2.124.44
+763 ['3363', 'rooziato.com', '185.166.104.3']
+Saving the results : Traceroute to 185.166.104.3
+764 ['3364', 'glideapp.io', '198.185.159.144']
+Saving the results : Traceroute to 198.185.159.144
+765 ['3365', 'tradingeconomics.com', '107.21.51.107']
+Saving the results : Traceroute to 107.21.51.107
+766 ['3366', 'sofascore.com', '151.101.195.52']
+Saving the results : Traceroute to 151.101.195.52
+767 ['3367', 'aaa.com', '45.60.62.121']
+Saving the results : Traceroute to 45.60.62.121
+768 ['3368', 'jisilu.cn', '182.92.149.237']
+Saving the results : Traceroute to 182.92.149.237
+769 ['3369', 'utis.edu.az', '82.194.5.23']
+62.115.145.173	19	239	1	0	0	32	0
+109.235.192.138	20	237	1	0	0	32	0
+82.194.5.23	26	230	1	0	0	32	0
+Saving the results : Traceroute to 82.194.5.23
+770 ['3370', 'swissborg.com', '104.21.91.6']
+Saving the results : Traceroute to 104.21.91.6
+771 ['3371', 'blog.google', '216.239.34.21']
+Saving the results : Traceroute to 216.239.34.21
+772 ['3372', 'www.gob.pe', '52.43.232.43']
+Saving the results : Traceroute to 52.43.232.43
+773 ['3373', 'autonews.ru', '80.68.253.12']
+62.115.174.33	18	233	1	8	0	32	0
+Saving the results : Traceroute to 80.68.253.12
+774 ['3374', 'almaany.com', '172.67.71.147']
+Saving the results : Traceroute to 172.67.71.147
+775 ['3375', 'hemnet.se', '104.18.98.117']
+Saving the results : Traceroute to 104.18.98.117
+776 ['3376', 'acer.com', '35.76.194.118']
+Saving the results : Traceroute to 35.76.194.118
+777 ['3377', 'fuse-cloud.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+778 ['3378', 'sabangnet.co.kr', '27.102.150.160']
+Saving the results : Traceroute to 27.102.150.160
+779 ['3379', 'intel.com', '13.91.95.74']
+Saving the results : Traceroute to 13.91.95.74
+780 ['3380', 'navitime.co.jp', '3.171.185.36']
+Saving the results : Traceroute to 3.171.185.36
+781 ['3381', 'marinetraffic.com', '104.18.9.70']
+Saving the results : Traceroute to 104.18.9.70
+782 ['3382', 'getfireshot.com', '148.113.152.88']
+Saving the results : Traceroute to 148.113.152.88
+783 ['3383', 'braze.com', '104.17.228.60']
+Saving the results : Traceroute to 104.17.228.60
+784 ['3384', 'redlink.com.ar', '45.233.68.1']
+Saving the results : Traceroute to 45.233.68.1
+785 ['3385', 'contabo.com', '104.20.11.66']
+Saving the results : Traceroute to 104.20.11.66
+786 ['3386', 'roboform.com', '67.208.88.196']
+Saving the results : Traceroute to 67.208.88.196
+787 ['3387', 'square.site', '74.115.51.5']
+Saving the results : Traceroute to 74.115.51.5
+788 ['3388', 'ratopati.com', '172.67.68.147']
+Saving the results : Traceroute to 172.67.68.147
+789 ['3389', 'datadoghq.com', '18.64.8.26']
+Saving the results : Traceroute to 18.64.8.26
+790 ['3390', 'alc.co.jp', '18.67.51.105']
+Saving the results : Traceroute to 18.67.51.105
+791 ['3391', 'aofex.com', '104.21.96.1']
+Saving the results : Traceroute to 104.21.96.1
+792 ['3392', 'zola.com', '3.163.24.20']
+Saving the results : Traceroute to 3.163.24.20
+793 ['3393', 'efatura.gov.tr', '212.133.164.92']
+Saving the results : Traceroute to 212.133.164.92
+794 ['3394', 'paytr.com', '104.18.16.24']
+Saving the results : Traceroute to 104.18.16.24
+795 ['3395', 'ftvnews.com.tw', '104.18.29.226']
+Saving the results : Traceroute to 104.18.29.226
+796 ['3396', 'perfectgirls.net', '104.21.16.1']
+Saving the results : Traceroute to 104.21.16.1
+797 ['3397', 'linuxize.com', '172.67.74.167']
+Saving the results : Traceroute to 172.67.74.167
+798 ['3398', 'pairs.lv', '54.95.38.192']
+Saving the results : Traceroute to 54.95.38.192
+799 ['3399', 'pathofexile.com', '104.17.255.156']
+Saving the results : Traceroute to 104.17.255.156
+800 ['3400', 'baeldung.com', '172.66.40.248']
+Saving the results : Traceroute to 172.66.40.248
+801 ['1301', 'sepe.gob.es', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+802 ['1302', 'liveworksheets.com', '104.26.6.3']
+Saving the results : Traceroute to 104.26.6.3
+803 ['1303', 'rue20.com', '172.67.138.80']
+Saving the results : Traceroute to 172.67.138.80
+804 ['1304', 'pikabu.ru', '185.178.210.201']
+Saving the results : Traceroute to 185.178.210.201
+805 ['1305', 'genpi.co', '172.67.140.16']
+Saving the results : Traceroute to 172.67.140.16
+806 ['1306', 'elaard.com', '172.67.144.127']
+Saving the results : Traceroute to 172.67.144.127
+807 ['1307', 'rocketreach.co', '104.18.18.17']
+Saving the results : Traceroute to 104.18.18.17
+808 ['1308', 'zazzle.com', '151.101.66.119']
+Saving the results : Traceroute to 151.101.66.119
+809 ['1309', 'anydesk.com', '3.168.178.85']
+Saving the results : Traceroute to 3.168.178.85
+810 ['1310', 'lamabang.com', '47.91.170.222']
+Saving the results : Traceroute to 47.91.170.222
+811 ['1311', 'tsichuan.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+812 ['1312', 'xgo.com.cn', '42.187.180.19']
+Saving the results : Traceroute to 42.187.180.19
+813 ['1313', 'concursolutions.com', '23.49.225.63']
+Saving the results : Traceroute to 23.49.225.63
+814 ['1314', 'dagospia.com', '3.171.185.105']
+Saving the results : Traceroute to 3.171.185.105
+815 ['1315', 'scotiabank.com', '104.75.31.86']
+Saving the results : Traceroute to 104.75.31.86
+816 ['1316', 'kbb.com', '23.47.181.117']
+Saving the results : Traceroute to 23.47.181.117
+817 ['1317', 'shopee.com.br', '147.136.186.197']
+Saving the results : Traceroute to 147.136.186.197
+818 ['1318', 'nbcsports.com', '23.32.56.152']
+Saving the results : Traceroute to 23.32.56.152
+819 ['1319', 'thebase.in', '13.230.149.252']
+Saving the results : Traceroute to 13.230.149.252
+820 ['1320', 'sketchup.com', '18.67.51.42']
+Saving the results : Traceroute to 18.67.51.42
+821 ['1321', 'utorrent.com', '34.201.157.226']
+Saving the results : Traceroute to 34.201.157.226
+822 ['1322', 'inps.it', '151.101.195.10']
+Saving the results : Traceroute to 151.101.195.10
+823 ['1323', 'rarbg.to', '66.175.216.36']
+Saving the results : Traceroute to 66.175.216.36
+824 ['1324', 'vectorstock.com', '13.225.134.93']
+Saving the results : Traceroute to 13.225.134.93
+825 ['1325', 'xn--jj0bj8t5nckzp7hsmgb.kr', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+826 ['1326', 'kapitalbank.az', '162.159.141.21']
+Saving the results : Traceroute to 162.159.141.21
+827 ['1327', 'dynamics.com', '20.70.246.20']
+Saving the results : Traceroute to 20.70.246.20
+828 ['1328', 'firefoxchina.cn', '39.102.151.181']
+Saving the results : Traceroute to 39.102.151.181
+829 ['1329', 'modesens.com', '54.183.173.122']
+Saving the results : Traceroute to 54.183.173.122
+830 ['1330', 'vmwareidentity.com', '76.223.114.35']
+Saving the results : Traceroute to 76.223.114.35
+831 ['1331', 'poshmark.com', '3.170.221.79']
+Saving the results : Traceroute to 3.170.221.79
+832 ['1332', 'towardsdatascience.com', '141.193.213.21']
+Saving the results : Traceroute to 141.193.213.21
+833 ['1333', 'wpthemego.com', '15.235.183.150']
+Saving the results : Traceroute to 15.235.183.150
+834 ['1334', 'zdnet.com', '34.149.132.124']
+Saving the results : Traceroute to 34.149.132.124
+835 ['1335', 'uline.com', '23.76.153.88']
+Saving the results : Traceroute to 23.76.153.88
+836 ['1336', 'dior.com', '185.16.44.89']
+Saving the results : Traceroute to 185.16.44.89
+837 ['1337', 'delhivery.com', '54.254.94.255']
+Saving the results : Traceroute to 54.254.94.255
+838 ['1338', 'malavida.com', '91.192.108.161']
+Saving the results : Traceroute to 91.192.108.161
+839 ['1339', 'hotpepper.jp', '160.17.98.198']
+Saving the results : Traceroute to 160.17.98.198
+840 ['1340', 'info.com', '18.244.60.58']
+Saving the results : Traceroute to 18.244.60.58
+841 ['1341', 'match.com', '208.83.240.49']
+Saving the results : Traceroute to 208.83.240.49
+842 ['1342', 'made-in-china.com', '213.61.193.204']
+62.115.118.59	10	241	1	0	0	32	0
+213.248.98.125	11	239	1	0	0	32	0
+193.114.171.29	12	247	1	0	0	0	0
+Saving the results : Traceroute to 213.61.193.204
+843 ['1343', 'apache.org', '151.101.2.132']
+Saving the results : Traceroute to 151.101.2.132
+844 ['1344', 'shopstyle.com', '13.225.117.97']
+Saving the results : Traceroute to 13.225.117.97
+845 ['1345', 'nature.com', '151.101.108.95']
+Saving the results : Traceroute to 151.101.108.95
+846 ['1346', 'media-amazon.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+847 ['1347', 'monbin.site', '103.224.212.110']
+Saving the results : Traceroute to 103.224.212.110
+848 ['1348', 'myspace.com', '34.111.176.156']
+Saving the results : Traceroute to 34.111.176.156
+849 ['1349', 'vseigru.net', '5.254.28.65']
+Saving the results : Traceroute to 5.254.28.65
+850 ['1350', 'avg.com', '166.98.243.13']
+Saving the results : Traceroute to 166.98.243.13
+851 ['1351', 'sejda.com', '104.26.1.190']
+Saving the results : Traceroute to 104.26.1.190
+852 ['1352', 'ants.gouv.fr', '176.100.168.125']
+62.115.120.227	15	240	1	0	0	32	0
+62.115.167.57	17	239	1	0	0	32	0
+176.100.168.125	22	40	1	8	0	32	0
+176.100.168.125	23	40	1	8	0	32	0
+176.100.168.125	24	40	1	8	0	32	0
+176.100.168.125	25	40	1	8	0	32	0
+176.100.168.125	26	40	1	8	0	32	0
+176.100.168.125	27	40	1	8	0	32	0
+176.100.168.125	28	40	1	8	0	32	0
+176.100.168.125	29	40	1	8	0	32	0
+Saving the results : Traceroute to 176.100.168.125
+853 ['1353', 'urbandictionary.com', '34.36.133.39']
+Saving the results : Traceroute to 34.36.133.39
+854 ['1354', 'ac-illust.com', '18.64.8.97']
+Saving the results : Traceroute to 18.64.8.97
+855 ['1355', 'dikaiologitika.gr', '104.21.112.1']
+Saving the results : Traceroute to 104.21.112.1
+856 ['1356', 'sony.com', '44.218.59.236']
+Saving the results : Traceroute to 44.218.59.236
+857 ['1357', 'gettyimages.com', '13.225.134.16']
+Saving the results : Traceroute to 13.225.134.16
+858 ['1358', 'greatandhra.com', '104.22.42.68']
+Saving the results : Traceroute to 104.22.42.68
+859 ['1359', 'julian-fashion.com', '52.169.184.163']
+Saving the results : Traceroute to 52.169.184.163
+860 ['1360', 'chinatimes.com', '35.244.236.6']
+Saving the results : Traceroute to 35.244.236.6
+861 ['1361', 'sec.gov', '23.41.86.221']
+Saving the results : Traceroute to 23.41.86.221
+862 ['1362', 'delgarm.com', '185.120.222.246']
+Saving the results : Traceroute to 185.120.222.246
+863 ['1363', 'kdca.go.kr', '27.101.223.253']
+Saving the results : Traceroute to 27.101.223.253
+864 ['1364', 'dmm.com', '13.248.196.236']
+Saving the results : Traceroute to 13.248.196.236
+865 ['1365', 'agoda.com', '103.6.182.20']
+Saving the results : Traceroute to 103.6.182.20
+866 ['1366', 'digiato.com', '194.147.142.68']
+Saving the results : Traceroute to 194.147.142.68
+867 ['1367', 'reurl.cc', '35.229.143.32']
+Saving the results : Traceroute to 35.229.143.32
+868 ['1368', '0123movie.net', '104.21.34.147']
+Saving the results : Traceroute to 104.21.34.147
+869 ['1369', 'adidas.com', '87.237.217.231']
+Saving the results : Traceroute to 87.237.217.231
+870 ['1370', 'mojifen.com', '23.224.39.48']
+Saving the results : Traceroute to 23.224.39.48
+871 ['1371', 'audible.com', '52.94.224.232']
+Saving the results : Traceroute to 52.94.224.232
+872 ['1372', 'myanimelist.net', '23.206.175.153']
+Saving the results : Traceroute to 23.206.175.153
+873 ['1373', 'crisp.chat', '104.18.29.104']
+Saving the results : Traceroute to 104.18.29.104
+874 ['1374', 'myfreecams.com', '163.237.254.146']
+Saving the results : Traceroute to 163.237.254.146
+875 ['1375', 'live.net', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+876 ['1376', 'minecraft.net', '13.107.246.74']
+Saving the results : Traceroute to 13.107.246.74
+877 ['1377', 'pngwing.com', '172.67.165.106']
+Saving the results : Traceroute to 172.67.165.106
+878 ['1378', 'tim.it', '15.160.73.215']
+62.115.140.73	14	242	1	0	0	32	0
+52.119.153.49	18	233	1	8	0	32	0
+52.119.153.252	19	231	1	8	0	32	0
+52.119.154.13	20	233	1	8	0	32	0
+52.119.154.90	21	232	1	8	0	32	0
+Saving the results : Traceroute to 15.160.73.215
+879 ['1379', 'chewy.com', '23.50.0.94']
+Saving the results : Traceroute to 23.50.0.94
+880 ['1380', 'ecwid.com', '3.168.178.100']
+Saving the results : Traceroute to 3.168.178.100
+881 ['1381', 'curseforge.com', '104.17.29.3']
+Saving the results : Traceroute to 104.17.29.3
+882 ['1382', 'popads.net', '216.21.13.12']
+Saving the results : Traceroute to 216.21.13.12
+883 ['1383', 'nordstromrack.com', '199.232.46.132']
+Saving the results : Traceroute to 199.232.46.132
+884 ['1384', 'upstox.com', '3.168.167.85']
+Saving the results : Traceroute to 3.168.167.85
+885 ['1385', 'braintreegateway.com', '76.223.13.31']
+Saving the results : Traceroute to 76.223.13.31
+886 ['1386', 'ifeng.com', '82.156.59.186']
+Saving the results : Traceroute to 82.156.59.186
+887 ['1387', 'thingiverse.com', '104.19.147.91']
+Saving the results : Traceroute to 104.19.147.91
+888 ['1388', '99designs.com', '35.168.209.148']
+Saving the results : Traceroute to 35.168.209.148
+889 ['1389', 'd1ev.com', '59.110.227.13']
+Saving the results : Traceroute to 59.110.227.13
+890 ['1390', 'jnu.edu.cn', '218.19.141.2']
+Saving the results : Traceroute to 218.19.141.2
+891 ['1391', 'creativemarket.com', '104.18.27.236']
+Saving the results : Traceroute to 104.18.27.236
+892 ['1392', 'one.com', '195.47.247.8']
+62.115.138.113	15	241	1	0	0	32	0
+Saving the results : Traceroute to 195.47.247.8
+893 ['1393', 'subscene.com', '172.67.179.155']
+Saving the results : Traceroute to 172.67.179.155
+894 ['1394', 'dailypakistan.com.pk', '65.109.77.254']
+Saving the results : Traceroute to 65.109.77.254
+895 ['1395', 'thehill.com', '151.101.65.91']
+Saving the results : Traceroute to 151.101.65.91
+896 ['1396', 'officedepot.com', '23.51.140.23']
+Saving the results : Traceroute to 23.51.140.23
+897 ['1397', 'dv37.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+898 ['1398', 'yenisafak.com', '52.174.3.80']
+Saving the results : Traceroute to 52.174.3.80
+899 ['1399', 'arzdigital.com', '104.26.15.148']
+Saving the results : Traceroute to 104.26.15.148
+900 ['1400', 'gamespot.com', '199.232.208.194']
+Saving the results : Traceroute to 199.232.208.194
+901 ['2001', 'connexion-mabanque.bnpparibas', '23.44.173.57']
+Saving the results : Traceroute to 23.44.173.57
+902 ['2002', 'bluehost.in', '172.64.153.58']
+Saving the results : Traceroute to 172.64.153.58
+903 ['2003', 'pdf2go.com', '104.22.78.171']
+Saving the results : Traceroute to 104.22.78.171
+904 ['2004', 'dstv.com', '104.19.231.113']
+Saving the results : Traceroute to 104.19.231.113
+905 ['2005', 'moe.gov.sa', '91.195.88.235']
+Saving the results : Traceroute to 91.195.88.235
+906 ['2006', 'miro.com', '3.171.185.40']
+Saving the results : Traceroute to 3.171.185.40
+907 ['2007', 'cafef.vn', '14.225.10.17']
+Saving the results : Traceroute to 14.225.10.17
+908 ['2008', 'miaopai.com', '101.226.28.241']
+Saving the results : Traceroute to 101.226.28.241
+909 ['2009', 'ujigu.com', '210.73.215.85']
+Saving the results : Traceroute to 210.73.215.85
+910 ['2010', 'khabaronline.ir', '5.252.32.18']
+Saving the results : Traceroute to 5.252.32.18
+911 ['2011', 'warriorplus.com', '172.66.43.168']
+Saving the results : Traceroute to 172.66.43.168
+912 ['2012', 'elmundo.es', '34.90.247.117']
+Saving the results : Traceroute to 34.90.247.117
+913 ['2013', 'e-hentai.org', '172.67.2.238']
+Saving the results : Traceroute to 172.67.2.238
+914 ['2014', 'raiffeisen.at', '149.154.103.100']
+Saving the results : Traceroute to 149.154.103.100
+915 ['2015', 'jagranjosh.com', '34.93.52.48']
+Saving the results : Traceroute to 34.93.52.48
+916 ['2016', 'khanefootball.com', '45.94.255.75']
+62.115.138.235	10	240	1	0	0	32	0
+62.115.149.47	11	247	1	0	0	32	0
+193.251.150.198	12	233	1	8	0	0	0
+85.132.90.170	13	231	1	8	0	0	0
+45.94.255.75	17	50	1	0	0	0	0
+45.94.255.75	19	50	1	0	0	0	0
+45.94.255.75	20	50	1	0	0	0	0
+45.94.255.75	22	50	1	0	0	0	0
+45.94.255.75	23	50	1	0	0	0	0
+45.94.255.75	24	50	1	0	0	0	0
+45.94.255.75	27	50	1	0	0	0	0
+Saving the results : Traceroute to 45.94.255.75
+917 ['2017', 'citibankonline.com', '104.96.178.165']
+Saving the results : Traceroute to 104.96.178.165
+918 ['2018', 'samplicio.us', '44.210.186.187']
+Saving the results : Traceroute to 44.210.186.187
+919 ['2019', 'legalzoom.com', '65.9.42.26']
+Saving the results : Traceroute to 65.9.42.26
+920 ['2020', 'sznews.com', '58.61.29.118']
+Saving the results : Traceroute to 58.61.29.118
+921 ['2021', '39.net', '211.99.112.93']
+Saving the results : Traceroute to 211.99.112.93
+922 ['2022', 'hnu.edu.cn', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+923 ['2023', 'vetogate.com', '172.67.75.129']
+Saving the results : Traceroute to 172.67.75.129
+924 ['2024', 'un.org', '157.150.185.49']
+62.115.116.41	11	245	1	0	0	32	0
+195.12.254.213	12	247	1	8	0	32	0
+Saving the results : Traceroute to 157.150.185.49
+925 ['2025', 'beauty321.com', '172.67.72.23']
+Saving the results : Traceroute to 172.67.72.23
+926 ['2026', 'cbslocal.com', '151.101.65.188']
+Saving the results : Traceroute to 151.101.65.188
+927 ['2027', 'prensalibre.com', '192.0.66.2']
+Saving the results : Traceroute to 192.0.66.2
+928 ['2028', 'dkb.de', '204.246.191.87']
+Saving the results : Traceroute to 204.246.191.87
+929 ['2029', 'geico.com', '159.60.130.6']
+Saving the results : Traceroute to 159.60.130.6
+930 ['2030', 'graphicriver.net', '172.64.146.219']
+Saving the results : Traceroute to 172.64.146.219
+931 ['2031', 'letras.mus.br', '67.213.118.69']
+Saving the results : Traceroute to 67.213.118.69
+932 ['2032', 'premierbetzone.com', '104.18.0.85']
+Saving the results : Traceroute to 104.18.0.85
+933 ['2033', 'material-ui.com', '52.76.120.174']
+Saving the results : Traceroute to 52.76.120.174
+934 ['2034', 'superhuman.com', '104.26.8.98']
+Saving the results : Traceroute to 104.26.8.98
+935 ['2035', 'uchi.ru', '109.238.90.119']
+62.115.124.119	17	239	1	0	0	32	0
+Saving the results : Traceroute to 109.238.90.119
+936 ['2036', 'bu.edu', '128.197.236.4']
+Saving the results : Traceroute to 128.197.236.4
+937 ['2037', 'educity.cn', '180.163.29.252']
+Saving the results : Traceroute to 180.163.29.252
+938 ['2038', 'themuse.com', '104.18.105.113']
+Saving the results : Traceroute to 104.18.105.113
+939 ['2039', 'dhl.de', '23.218.175.82']
+62.115.147.233	11	246	1	0	0	32	0
+81.95.9.81	12	246	1	0	0	0	0
+Saving the results : Traceroute to 23.218.175.82
+940 ['2040', 'powerschool.com', '192.230.66.116']
+Saving the results : Traceroute to 192.230.66.116
+941 ['2041', 'fragrantica.com', '104.18.7.190']
+Saving the results : Traceroute to 104.18.7.190
+942 ['2042', 'stuff.co.nz', '13.225.134.53']
+Saving the results : Traceroute to 13.225.134.53
+943 ['2043', 'maisonmargiela.com', '104.18.163.229']
+Saving the results : Traceroute to 104.18.163.229
+944 ['2044', 'ampproject.org', '142.250.76.142']
+Saving the results : Traceroute to 142.250.76.142
+945 ['2045', 'rapidgator.net', '195.211.222.2']
+Saving the results : Traceroute to 195.211.222.2
+946 ['2046', 'google.co.il', '172.217.161.195']
+Saving the results : Traceroute to 172.217.161.195
+947 ['2047', 'ontvtime.ru', '185.219.100.10']
+Saving the results : Traceroute to 185.219.100.10
+948 ['2048', 'google.com.ly', '172.217.25.163']
+Saving the results : Traceroute to 172.217.25.163
+949 ['2049', 'tubesafari.com', '52.7.11.147']
+Saving the results : Traceroute to 52.7.11.147
+950 ['2050', 'hubspotpreview-na1.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+951 ['2051', 'blog.ir', '195.96.128.225']
+62.115.116.41	11	245	1	0	0	32	0
+195.12.254.213	12	247	1	8	0	32	0
+193.251.154.102	15	232	1	8	0	0	0
+85.132.90.162	17	230	1	8	0	0	0
+195.96.128.225	23	222	1	8	0	0	0
+Saving the results : Traceroute to 195.96.128.225
+952 ['2052', 'xmnn.cn', '222.186.168.163']
+Saving the results : Traceroute to 222.186.168.163
+953 ['2053', '66cruises.com', '23.248.212.53']
+Saving the results : Traceroute to 23.248.212.53
+954 ['2054', 'templatemonster.com', '104.22.22.211']
+Saving the results : Traceroute to 104.22.22.211
+955 ['2055', 'walmart.ca', '23.34.103.33']
+Saving the results : Traceroute to 23.34.103.33
+956 ['2056', 'xiumi.us', '163.181.22.234']
+Saving the results : Traceroute to 163.181.22.234
+957 ['2057', 'plex.tv', '52.18.33.33']
+62.115.122.189	14	241	1	0	0	32	0
+Saving the results : Traceroute to 52.18.33.33
+958 ['2058', 'mosaiquefm.net', '172.67.128.145']
+Saving the results : Traceroute to 172.67.128.145
+959 ['2059', 'cox.com', '45.60.45.167']
+Saving the results : Traceroute to 45.60.45.167
+960 ['2060', 'alugha.com', '95.217.58.250']
+Saving the results : Traceroute to 95.217.58.250
+961 ['2061', 'appcast.io', '3.121.43.92']
+62.115.127.7	14	242	1	0	0	32	0
+Saving the results : Traceroute to 3.121.43.92
+962 ['2062', 'herstory.co.id', '172.67.175.164']
+Saving the results : Traceroute to 172.67.175.164
+963 ['2063', 'brightspace.com', '15.223.19.44']
+Saving the results : Traceroute to 15.223.19.44
+964 ['2064', 'ml.com', '171.161.126.85']
+Saving the results : Traceroute to 171.161.126.85
+965 ['2065', 'localbitcoins.com', '172.66.129.232']
+Saving the results : Traceroute to 172.66.129.232
+966 ['2066', 'archdaily.com', '204.246.191.127']
+Saving the results : Traceroute to 204.246.191.127
+967 ['2067', 'joemonster.org', '104.26.14.144']
+Saving the results : Traceroute to 104.26.14.144
+968 ['2068', 'bill.com', '52.24.127.192']
+Saving the results : Traceroute to 52.24.127.192
+969 ['2069', 'mcafee.com', '100.20.214.93']
+Saving the results : Traceroute to 100.20.214.93
+970 ['2070', 'dochub.com', '104.18.2.69']
+Saving the results : Traceroute to 104.18.2.69
+971 ['2071', 'gravatar.com', '192.0.80.242']
+Saving the results : Traceroute to 192.0.80.242
+972 ['2072', 'freemake.com', '104.22.10.162']
+Saving the results : Traceroute to 104.22.10.162
+973 ['2073', 'bandcamp.com', '151.101.65.91']
+Saving the results : Traceroute to 151.101.65.91
+974 ['2074', 'infobae.com', '23.217.136.192']
+Saving the results : Traceroute to 23.217.136.192
+975 ['2075', 'jagonews24.com', '172.66.130.141']
+Saving the results : Traceroute to 172.66.130.141
+976 ['2076', 'ipsosinteractive.com', '89.234.12.26']
+Saving the results : Traceroute to 89.234.12.26
+977 ['2077', 'skrill.com', '3.174.109.12']
+62.115.122.35	17	240	1	0	0	32	0
+Saving the results : Traceroute to 3.174.109.12
+978 ['2078', 'iha.com.tr', '213.14.230.71']
+Saving the results : Traceroute to 213.14.230.71
+979 ['2079', 'cifnews.com', '203.107.60.192']
+Saving the results : Traceroute to 203.107.60.192
+980 ['2080', 'bolnews.com', '104.26.11.66']
+Saving the results : Traceroute to 104.26.11.66
+981 ['2081', 'xueqiu.com', '47.90.115.132']
+Saving the results : Traceroute to 47.90.115.132
+982 ['2082', 'cashfree.com', '3.108.179.37']
+Saving the results : Traceroute to 3.108.179.37
+983 ['2083', 'glosbe.com', '172.67.197.99']
+Saving the results : Traceroute to 172.67.197.99
+984 ['2084', 'diamond.jp', '210.148.177.240']
+Saving the results : Traceroute to 210.148.177.240
+985 ['2085', 'freebitco.in', '172.66.41.13']
+Saving the results : Traceroute to 172.66.41.13
+986 ['2086', 'wowma.jp', '13.230.77.168']
+Saving the results : Traceroute to 13.230.77.168
+987 ['2087', 'indiaglitz.com', '34.235.123.65']
+Saving the results : Traceroute to 34.235.123.65
+988 ['2088', 'qualtrics.com', '50.17.152.14']
+Saving the results : Traceroute to 50.17.152.14
+989 ['2089', 'simplilearn.com', '3.168.178.126']
+Saving the results : Traceroute to 3.168.178.126
+990 ['2090', 'qoo10.jp', '20.200.224.228']
+Saving the results : Traceroute to 20.200.224.228
+991 ['2091', 'bustle.com', '3.168.178.100']
+Saving the results : Traceroute to 3.168.178.100
+992 ['2092', 'apsense.com', '169.60.152.181']
+Saving the results : Traceroute to 169.60.152.181
+993 ['2093', 'obozrevatel.com', '172.67.69.11']
+Saving the results : Traceroute to 172.67.69.11
+994 ['2094', 'captchacheckout.top', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+995 ['2095', 'outlook.com', '52.96.223.2']
+Saving the results : Traceroute to 52.96.223.2
+996 ['2096', 'ruten.com.tw', '104.18.11.27']
+Saving the results : Traceroute to 104.18.11.27
+997 ['2097', 'pinduoduo.com', '124.156.123.148']
+Saving the results : Traceroute to 124.156.123.148
+998 ['2098', 'soba-store.com', '192.124.249.57']
+Saving the results : Traceroute to 192.124.249.57
+999 ['2099', 'bodybuilding.com', '172.67.26.17']
+Saving the results : Traceroute to 172.67.26.17
+1000 ['2100', 'giglio.com', '23.53.3.145']
+Saving the results : Traceroute to 23.53.3.145
+1001 ['801', 'worksmobile.com', '223.130.200.174']
+Saving the results : Traceroute to 223.130.200.174
+1002 ['802', 'gogoanime.pe', '162.254.39.129']
+Saving the results : Traceroute to 162.254.39.129
+1003 ['803', 'google.cl', '142.250.206.195']
+Saving the results : Traceroute to 142.250.206.195
+1004 ['804', 'shopee.sg', '147.136.175.1']
+Saving the results : Traceroute to 147.136.175.1
+1005 ['805', 'kdslife.com', '47.117.181.56']
+Saving the results : Traceroute to 47.117.181.56
+1006 ['806', 'rumble.com', '205.220.231.24']
+Saving the results : Traceroute to 205.220.231.24
+1007 ['807', 'online-convert.com', '104.22.59.173']
+Saving the results : Traceroute to 104.22.59.173
+1008 ['808', 'ouest-france.fr', '217.70.184.38']
+Saving the results : Traceroute to 217.70.184.38
+1009 ['809', 'sbrf.ru', '194.54.14.168']
+Saving the results : Traceroute to 194.54.14.168
+1010 ['810', 'ahrefs.com', '104.18.39.141']
+Saving the results : Traceroute to 104.18.39.141
+1011 ['811', 'bbb.org', '104.18.12.85']
+Saving the results : Traceroute to 104.18.12.85
+1012 ['812', 'oxu.az', '104.22.2.122']
+Saving the results : Traceroute to 104.22.2.122
+1013 ['813', 'kooora.com', '18.200.125.191']
+Saving the results : Traceroute to 18.200.125.191
+1014 ['814', 'docin.com', '221.122.132.138']
+Saving the results : Traceroute to 221.122.132.138
+1015 ['815', 'billdesk.com', '210.210.24.66']
+Saving the results : Traceroute to 210.210.24.66
+1016 ['816', 'southcn.com', '42.194.227.144']
+Saving the results : Traceroute to 42.194.227.144
+1017 ['817', 'springer.com', '199.232.44.95']
+Saving the results : Traceroute to 199.232.44.95
+1018 ['818', 'emis.gov.eg', '41.33.69.7']
+Saving the results : Traceroute to 41.33.69.7
+1019 ['819', 'express.dhl', '199.40.254.32']
+Saving the results : Traceroute to 199.40.254.32
+1020 ['820', 'wplay.co', '23.62.20.9']
+Saving the results : Traceroute to 23.62.20.9
+1021 ['821', 'louisvuitton.com', '23.49.225.62']
+Saving the results : Traceroute to 23.49.225.62
+1022 ['822', 'chaduo.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1023 ['823', '91jm.com', '127.0.0.1']
+no result with 127.0.0.1
+1024 ['824', 'xbytessolutions.com', '104.21.90.78']
+Saving the results : Traceroute to 104.21.90.78
+1025 ['825', 'gmanetwork.com', '13.251.82.77']
+Saving the results : Traceroute to 13.251.82.77
+1026 ['826', 'foodmate.net', '120.26.110.170']
+Saving the results : Traceroute to 120.26.110.170
+1027 ['827', 'poste.it', '13.107.213.43']
+Saving the results : Traceroute to 13.107.213.43
+1028 ['828', 'omgfin.com', '104.21.27.202']
+Saving the results : Traceroute to 104.21.27.202
+1029 ['829', 'nate.com', '120.50.131.112']
+Saving the results : Traceroute to 120.50.131.112
+1030 ['830', 'kayak.com', '151.101.193.29']
+Saving the results : Traceroute to 151.101.193.29
+1031 ['831', 'eqxiu.com', '150.158.218.215']
+Saving the results : Traceroute to 150.158.218.215
+1032 ['832', 'bhaskar.com', '65.2.113.24']
+Saving the results : Traceroute to 65.2.113.24
+1033 ['833', 'topfo.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1034 ['834', 'yektanet.com', '185.166.104.4']
+Saving the results : Traceroute to 185.166.104.4
+1035 ['835', 'lentainform.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1036 ['836', 'nvidia.com', '34.194.97.138']
+Saving the results : Traceroute to 34.194.97.138
+1037 ['837', 'bancodevenezuela.com', '108.157.173.47']
+Saving the results : Traceroute to 108.157.173.47
+1038 ['838', 'mehrnews.com', '185.143.234.120']
+Saving the results : Traceroute to 185.143.234.120
+1039 ['839', 'akhbarelyom.com', '172.67.74.105']
+Saving the results : Traceroute to 172.67.74.105
+1040 ['840', 'interia.pl', '217.74.72.58']
+Saving the results : Traceroute to 217.74.72.58
+1041 ['841', 'zcool.com.cn', '124.70.28.99']
+Saving the results : Traceroute to 124.70.28.99
+1042 ['842', 'faphouse.com', '104.18.36.19']
+Saving the results : Traceroute to 104.18.36.19
+1043 ['843', 'onmarshtompor.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1044 ['844', 'vecteezy.com', '104.18.35.32']
+Saving the results : Traceroute to 104.18.35.32
+1045 ['845', 'opensooq.com', '52.211.187.240']
+62.115.122.189	15	241	1	0	0	32	0
+Saving the results : Traceroute to 52.211.187.240
+1046 ['846', 'dafont.com', '87.98.168.164']
+Saving the results : Traceroute to 87.98.168.164
+1047 ['847', 'olx.in', '35.171.41.78']
+Saving the results : Traceroute to 35.171.41.78
+1048 ['848', 'shopify.com', '23.227.38.33']
+Saving the results : Traceroute to 23.227.38.33
+1049 ['849', 'mydrivers.com', '123.57.177.14']
+Saving the results : Traceroute to 123.57.177.14
+1050 ['850', 'poki.com', '104.18.144.9']
+Saving the results : Traceroute to 104.18.144.9
+1051 ['851', 'rakuten-sec.co.jp', '184.29.17.21']
+Saving the results : Traceroute to 184.29.17.21
+1052 ['852', 'apartments.com', '202.43.48.171']
+Saving the results : Traceroute to 202.43.48.171
+1053 ['853', 'tandfonline.com', '104.18.39.123']
+Saving the results : Traceroute to 104.18.39.123
+1054 ['854', 'uptobox.com', '172.67.29.218']
+Saving the results : Traceroute to 172.67.29.218
+1055 ['855', 'flashscore.com', '34.96.84.62']
+Saving the results : Traceroute to 34.96.84.62
+1056 ['856', 'quizizz.com', '13.225.134.60']
+Saving the results : Traceroute to 13.225.134.60
+1057 ['857', 'amazon.com.mx', '52.94.225.241']
+Saving the results : Traceroute to 52.94.225.241
+1058 ['858', 'anjuke.com', '42.187.161.102']
+Saving the results : Traceroute to 42.187.161.102
+1059 ['859', 'mercadolibre.cl', '18.64.8.94']
+Saving the results : Traceroute to 18.64.8.94
+1060 ['860', 'zhaopin.com', '39.96.126.126']
+Saving the results : Traceroute to 39.96.126.126
+1061 ['861', 'telekom.com', '3.78.119.148']
+62.115.112.63	16	241	1	0	0	32	0
+Saving the results : Traceroute to 3.78.119.148
+1062 ['862', 'javatpoint.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1063 ['863', 'star-clicks.com', '172.67.75.116']
+Saving the results : Traceroute to 172.67.75.116
+1064 ['864', 'stripchat.com', '104.17.118.12']
+Saving the results : Traceroute to 104.17.118.12
+1065 ['865', 'net-a-porter.com', '23.50.0.229']
+Saving the results : Traceroute to 23.50.0.229
+1066 ['866', 'iobit.com', '3.95.188.85']
+Saving the results : Traceroute to 3.95.188.85
+1067 ['867', 'xiaomi.com', '124.251.34.141']
+Saving the results : Traceroute to 124.251.34.141
+1068 ['868', 'wallpaperflare.com', '172.67.210.157']
+Saving the results : Traceroute to 172.67.210.157
+1069 ['869', 'westernjournal.com', '172.67.11.99']
+Saving the results : Traceroute to 172.67.11.99
+1070 ['870', 'abc.net.au', '23.52.32.79']
+Saving the results : Traceroute to 23.52.32.79
+1071 ['871', 'forexfactory.com', '104.18.7.7']
+Saving the results : Traceroute to 104.18.7.7
+1072 ['872', 'meeshosupply.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1073 ['873', 'gotowebinar.com', '52.233.73.148']
+Saving the results : Traceroute to 52.233.73.148
+1074 ['874', 'msi.com', '52.89.164.39']
+Saving the results : Traceroute to 52.89.164.39
+1075 ['875', 'abema.tv', '199.232.214.133']
+Saving the results : Traceroute to 199.232.214.133
+1076 ['876', 'ivi.ru', '80.67.43.1']
+Saving the results : Traceroute to 80.67.43.1
+1077 ['877', 'user-shield-check.com', '172.237.146.25']
+Saving the results : Traceroute to 172.237.146.25
+1078 ['878', 'gov.ao', '102.219.126.201']
+Saving the results : Traceroute to 102.219.126.201
+1079 ['879', 'nyaa.si', '186.2.163.20']
+Saving the results : Traceroute to 186.2.163.20
+1080 ['880', 'zhaket.com', '185.89.22.71']
+Saving the results : Traceroute to 185.89.22.71
+1081 ['881', 'google.co.za', '142.250.206.195']
+Saving the results : Traceroute to 142.250.206.195
+1082 ['882', 'hm.com', '23.50.0.44']
+Saving the results : Traceroute to 23.50.0.44
+1083 ['883', 'realestate.com.au', '23.193.119.209']
+Saving the results : Traceroute to 23.193.119.209
+1084 ['884', 'teamwork.com', '3.228.76.5']
+Saving the results : Traceroute to 3.228.76.5
+1085 ['885', 'xiami.com', '121.40.103.238']
+Saving the results : Traceroute to 121.40.103.238
+1086 ['886', 'shop.app', '185.146.173.20']
+Saving the results : Traceroute to 185.146.173.20
+1087 ['887', '5acbd.com', '114.55.101.172']
+Saving the results : Traceroute to 114.55.101.172
+1088 ['888', 'consultant.ru', '194.105.131.44']
+62.115.174.33	17	233	1	8	0	32	0
+Saving the results : Traceroute to 194.105.131.44
+1089 ['889', 'mundodeportivo.com', '213.4.81.203']
+Saving the results : Traceroute to 213.4.81.203
+1090 ['890', 'wal-mart.com', '161.170.244.20']
+Saving the results : Traceroute to 161.170.244.20
+1091 ['891', 'bbcollab.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1092 ['892', 'nur.kz', '104.21.86.206']
+Saving the results : Traceroute to 104.21.86.206
+1093 ['893', 'waveapps.com', '75.2.70.75']
+Saving the results : Traceroute to 75.2.70.75
+1094 ['894', 'youjizz.com', '66.254.114.242']
+Saving the results : Traceroute to 66.254.114.242
+1095 ['895', 'pnc.com', '23.74.21.234']
+Saving the results : Traceroute to 23.74.21.234
+1096 ['896', 'moneyforward.com', '162.159.129.35']
+Saving the results : Traceroute to 162.159.129.35
+1097 ['897', 'huawei.com', '121.37.49.12']
+Saving the results : Traceroute to 121.37.49.12
+1098 ['898', 'coingecko.com', '104.18.4.118']
+Saving the results : Traceroute to 104.18.4.118
+1099 ['899', 'freee.co.jp', '18.244.60.49']
+Saving the results : Traceroute to 18.244.60.49
+1100 ['900', 'tinkoff.ru', '178.130.128.27']
+Saving the results : Traceroute to 178.130.128.27
+1101 ['4801', 'natureleftjust.top', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1102 ['4802', 'flydubai.com', '104.75.25.54']
+Saving the results : Traceroute to 104.75.25.54
+1103 ['4803', 'cnyes.com', '210.71.219.84']
+Saving the results : Traceroute to 210.71.219.84
+1104 ['4804', 'pydata.org', '104.26.1.204']
+Saving the results : Traceroute to 104.26.1.204
+1105 ['4805', 'diariopanorama.com', '172.67.162.134']
+Saving the results : Traceroute to 172.67.162.134
+1106 ['4806', '20min.ch', '204.246.191.73']
+Saving the results : Traceroute to 204.246.191.73
+1107 ['4807', 'geo.tv', '104.16.219.243']
+Saving the results : Traceroute to 104.16.219.243
+1108 ['4808', 'mediametrics.ru', '88.212.196.113']
+79.104.225.59	18	246	1	0	0	0	0
+62.115.44.73	19	237	1	0	0	0	0
+62.105.150.110	20	241	1	0	0	0	0
+Saving the results : Traceroute to 88.212.196.113
+1109 ['4809', 'aviasales.ru', '3.168.178.36']
+Saving the results : Traceroute to 3.168.178.36
+1110 ['4810', 'mypearson.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1111 ['4811', 'cryptozoon.io', '76.76.21.21']
+Saving the results : Traceroute to 76.76.21.21
+1112 ['4812', 'exsalut.com', '18.156.21.98']
+62.115.120.75	15	241	1	0	0	32	0
+Saving the results : Traceroute to 18.156.21.98
+1113 ['4813', 'medicinenet.com', '104.18.33.29']
+Saving the results : Traceroute to 104.18.33.29
+1114 ['4814', 'multiurok.ru', '172.67.71.240']
+Saving the results : Traceroute to 172.67.71.240
+1115 ['4815', 'myway.com', '146.75.114.114']
+Saving the results : Traceroute to 146.75.114.114
+1116 ['4816', 'aawsat.com', '104.18.25.83']
+Saving the results : Traceroute to 104.18.25.83
+1117 ['4817', 'talkwalker.com', '144.76.143.225']
+Saving the results : Traceroute to 144.76.143.225
+1118 ['4818', 's1-n.com', '69.162.95.4']
+Saving the results : Traceroute to 69.162.95.4
+1119 ['4819', 'practo.com', '13.232.184.38']
+Saving the results : Traceroute to 13.232.184.38
+1120 ['4820', 'thekitchn.com', '151.101.130.49']
+Saving the results : Traceroute to 151.101.130.49
+1121 ['4821', 'soap2day.video', '104.21.36.101']
+Saving the results : Traceroute to 104.21.36.101
+1122 ['4822', 'elastic.co', '34.107.161.234']
+Saving the results : Traceroute to 34.107.161.234
+1123 ['4823', 'olx.ba', '172.67.72.114']
+Saving the results : Traceroute to 172.67.72.114
+1124 ['4824', 'interpals.net', '172.67.69.32']
+Saving the results : Traceroute to 172.67.69.32
+1125 ['4825', 'taojindi.com', '116.153.3.74']
+Saving the results : Traceroute to 116.153.3.74
+1126 ['4826', 'wugu.com.cn', '39.106.234.154']
+Saving the results : Traceroute to 39.106.234.154
+1127 ['4827', 'tpsl-india.in', '103.112.146.24']
+Saving the results : Traceroute to 103.112.146.24
+1128 ['4828', 'youneedabudget.com', '104.26.15.242']
+Saving the results : Traceroute to 104.26.15.242
+1129 ['4829', 'teratail.com', '35.74.223.147']
+Saving the results : Traceroute to 35.74.223.147
+1130 ['4830', 'mhrs.gov.tr', '212.175.171.12']
+Saving the results : Traceroute to 212.175.171.12
+1131 ['4831', 'monday.com', '99.84.55.7']
+Saving the results : Traceroute to 99.84.55.7
+1132 ['4832', 'gujarat.gov.in', '103.234.162.115']
+Saving the results : Traceroute to 103.234.162.115
+1133 ['4833', 'netacad.com', '3.231.193.102']
+Saving the results : Traceroute to 3.231.193.102
+1134 ['4834', 'cfops.it', '127.0.0.1']
+no result with 127.0.0.1
+1135 ['4835', 'meraki.com', '3.171.185.88']
+Saving the results : Traceroute to 3.171.185.88
+1136 ['4836', 'javmix.tv', '172.67.175.47']
+Saving the results : Traceroute to 172.67.175.47
+1137 ['4837', 'lapatilla.com', '104.21.96.1']
+Saving the results : Traceroute to 104.21.96.1
+1138 ['4838', 'atomichub.io', '172.67.70.248']
+Saving the results : Traceroute to 172.67.70.248
+1139 ['4839', 'tubitv.com', '18.67.51.65']
+Saving the results : Traceroute to 18.67.51.65
+1140 ['4840', 'vingle.net', '3.171.185.104']
+Saving the results : Traceroute to 3.171.185.104
+1141 ['4841', 'webtekno.com', '104.26.8.75']
+Saving the results : Traceroute to 104.26.8.75
+1142 ['4842', 'banimode.com', '185.143.232.201']
+Saving the results : Traceroute to 185.143.232.201
+1143 ['4843', 'bankier.pl', '172.67.41.207']
+Saving the results : Traceroute to 172.67.41.207
+1144 ['4844', 'clicky.com', '104.18.21.136']
+Saving the results : Traceroute to 104.18.21.136
+1145 ['4845', 'finishline.com', '23.219.26.225']
+Saving the results : Traceroute to 23.219.26.225
+1146 ['4846', 'ko-fi.com', '172.67.8.185']
+Saving the results : Traceroute to 172.67.8.185
+1147 ['4847', 'yidaba.com', '117.50.126.223']
+Saving the results : Traceroute to 117.50.126.223
+1148 ['4848', 'beforward.jp', '18.180.231.122']
+Saving the results : Traceroute to 18.180.231.122
+1149 ['4849', 'coinmill.com', '54.153.64.97']
+Saving the results : Traceroute to 54.153.64.97
+1150 ['4850', 'uct.ac.za', '137.158.159.192']
+Saving the results : Traceroute to 137.158.159.192
+1151 ['4851', 'wondershare.cn', '47.112.255.41']
+Saving the results : Traceroute to 47.112.255.41
+1152 ['4852', 'blockscan.com', '104.26.4.17']
+Saving the results : Traceroute to 104.26.4.17
+1153 ['4853', 'letgo.com', '3.175.34.105']
+Saving the results : Traceroute to 3.175.34.105
+1154 ['4854', 'sageone.com', '172.64.144.229']
+Saving the results : Traceroute to 172.64.144.229
+1155 ['4855', 'hitleap.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1156 ['4856', 'cbinsights.com', '3.171.185.53']
+Saving the results : Traceroute to 3.171.185.53
+1157 ['4857', 'jiosaavn.com', '20.244.240.164']
+Saving the results : Traceroute to 20.244.240.164
+1158 ['4858', 'workana.com', '34.111.206.199']
+Saving the results : Traceroute to 34.111.206.199
+1159 ['4859', 'matamata.com', '172.67.75.157']
+Saving the results : Traceroute to 172.67.75.157
+1160 ['4860', 'pr0gramm.com', '104.22.56.237']
+Saving the results : Traceroute to 104.22.56.237
+1161 ['4861', '7-11.com.tw', '40.74.105.81']
+Saving the results : Traceroute to 40.74.105.81
+1162 ['4862', 'microcenter.com', '3.138.80.113']
+Saving the results : Traceroute to 3.138.80.113
+1163 ['4863', 'digistore24.com', '31.25.12.18']
+Saving the results : Traceroute to 31.25.12.18
+1164 ['4864', 'onlinereg.in', '180.92.168.134']
+Saving the results : Traceroute to 180.92.168.134
+1165 ['4865', 'simplywall.st', '104.18.15.74']
+Saving the results : Traceroute to 104.18.15.74
+1166 ['4866', 'asp.net', '20.236.44.162']
+Saving the results : Traceroute to 20.236.44.162
+1167 ['4867', 'stripo.email', '52.215.164.14']
+62.115.120.239	15	242	1	0	0	32	0
+Saving the results : Traceroute to 52.215.164.14
+1168 ['4868', 'prakerja.go.id', '104.21.29.234']
+Saving the results : Traceroute to 104.21.29.234
+1169 ['4869', 'anacours.fr', '195.154.224.71']
+Saving the results : Traceroute to 195.154.224.71
+1170 ['4870', 'k-pilates.com', '188.165.53.185']
+Saving the results : Traceroute to 188.165.53.185
+1171 ['4871', 'expedia.com.hk', '23.34.103.179']
+Saving the results : Traceroute to 23.34.103.179
+1172 ['4872', 'itslearning.com', '199.60.103.77']
+Saving the results : Traceroute to 199.60.103.77
+1173 ['4873', 'googlesyndication.com', '142.250.206.228']
+Saving the results : Traceroute to 142.250.206.228
+1174 ['4874', 'mp3-tut.click', '104.21.28.89']
+Saving the results : Traceroute to 104.21.28.89
+1175 ['4875', 'ruijie.com.cn', '101.200.47.40']
+Saving the results : Traceroute to 101.200.47.40
+1176 ['4876', 'indiatyping.com', '104.21.44.114']
+Saving the results : Traceroute to 104.21.44.114
+1177 ['4877', 'al-ain.com', '172.66.133.181']
+Saving the results : Traceroute to 172.66.133.181
+1178 ['4878', 'yonobusiness.sbi', '192.12.109.75']
+Saving the results : Traceroute to 192.12.109.75
+1179 ['4879', 'spartoo.com', '185.28.232.10']
+Saving the results : Traceroute to 185.28.232.10
+1180 ['4880', 'currys.co.uk', '162.159.129.91']
+Saving the results : Traceroute to 162.159.129.91
+1181 ['4881', '24timezones.com', '104.26.3.206']
+Saving the results : Traceroute to 104.26.3.206
+1182 ['4882', 'santillanacompartir.com', '3.168.167.97']
+Saving the results : Traceroute to 3.168.167.97
+1183 ['4883', 'reminews.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1184 ['4884', 'filmweb.pl', '193.200.227.13']
+62.115.124.129	17	240	1	0	0	32	0
+213.248.90.177	18	235	1	0	0	32	0
+88.156.75.238	19	238	1	0	0	32	0
+Saving the results : Traceroute to 193.200.227.13
+1185 ['4885', 'visa.com', '162.159.152.2']
+Saving the results : Traceroute to 162.159.152.2
+1186 ['4886', 'vymaps.com', '148.66.155.86']
+Saving the results : Traceroute to 148.66.155.86
+1187 ['4887', 'kinozal.tv', '172.67.189.243']
+Saving the results : Traceroute to 172.67.189.243
+1188 ['4888', 'meishij.net', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1189 ['4889', 'radiofarda.com', '104.75.46.85']
+Saving the results : Traceroute to 104.75.46.85
+1190 ['4890', 'rule34.xxx', '104.22.18.113']
+Saving the results : Traceroute to 104.22.18.113
+1191 ['4891', 'discuz.net', '0.0.0.1']
+no result with 0.0.0.1
+1192 ['4892', 'adobelogin.com', '192.147.130.204']
+Saving the results : Traceroute to 192.147.130.204
+1193 ['4893', 'soccer365.ru', '51.159.237.131']
+Saving the results : Traceroute to 51.159.237.131
+1194 ['4894', 'copy.ai', '57.180.160.60']
+Saving the results : Traceroute to 57.180.160.60
+1195 ['4895', 'vulture.com', '199.232.197.246']
+Saving the results : Traceroute to 199.232.197.246
+1196 ['4896', 'fivethirtyeight.com', '192.0.66.240']
+Saving the results : Traceroute to 192.0.66.240
+1197 ['4897', 'dienmayxanh.com', '222.255.236.141']
+Saving the results : Traceroute to 222.255.236.141
+1198 ['4898', 'law.go.kr', '27.101.207.66']
+Saving the results : Traceroute to 27.101.207.66
+1199 ['4899', 'garticphone.com', '104.22.63.98']
+Saving the results : Traceroute to 104.22.63.98
+1200 ['4900', 'sportsmole.co.uk', '172.67.128.187']
+Saving the results : Traceroute to 172.67.128.187
+1201 ['2301', 'davivienda.com', '45.60.195.231']
+Saving the results : Traceroute to 45.60.195.231
+1202 ['2302', '6789.com', '129.153.118.29']
+Saving the results : Traceroute to 129.153.118.29
+1203 ['2303', 'gamedog.cn', '103.41.0.164']
+Saving the results : Traceroute to 103.41.0.164
+1204 ['2304', 'cookpad.com', '151.101.193.55']
+Saving the results : Traceroute to 151.101.193.55
+1205 ['2305', 'snapdeal.com', '18.244.60.121']
+Saving the results : Traceroute to 18.244.60.121
+1206 ['2306', 'jiemian.com', '123.59.198.196']
+Saving the results : Traceroute to 123.59.198.196
+1207 ['2307', 'netlify.com', '3.33.186.135']
+Saving the results : Traceroute to 3.33.186.135
+1208 ['2308', 'boohooman.com', '54.68.182.72']
+Saving the results : Traceroute to 54.68.182.72
+1209 ['2309', 'bd-pratidin.com', '104.17.182.66']
+Saving the results : Traceroute to 104.17.182.66
+1210 ['2310', 'shop-pro.jp', '133.130.34.119']
+Saving the results : Traceroute to 133.130.34.119
+1211 ['2311', 'backlog.jp', '54.196.68.238']
+Saving the results : Traceroute to 54.196.68.238
+1212 ['2312', 'wemetiwou.biz', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1213 ['2313', 'hotjar.com', '13.225.134.102']
+Saving the results : Traceroute to 13.225.134.102
+1214 ['2314', 'webull.com', '18.244.60.30']
+Saving the results : Traceroute to 18.244.60.30
+1215 ['2315', 'onliner.by', '178.124.129.112']
+Saving the results : Traceroute to 178.124.129.112
+1216 ['2316', 'laposte.net', '160.92.158.210']
+Saving the results : Traceroute to 160.92.158.210
+1217 ['2317', 'okex.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1218 ['2318', 'ria.com', '213.95.148.25']
+Saving the results : Traceroute to 213.95.148.25
+1219 ['2319', 'citizenfreepress.com', '172.67.73.178']
+Saving the results : Traceroute to 172.67.73.178
+1220 ['2320', 'bahn.de', '81.200.196.33']
+145.254.2.176	17	243	1	0	0	2	2
+92.79.214.159	18	242	1	0	0	2	2
+92.214.25.186	19	241	1	0	0	2	2
+Saving the results : Traceroute to 81.200.196.33
+1221 ['2321', 'cuny.edu', '128.228.254.200']
+Saving the results : Traceroute to 128.228.254.200
+1222 ['2322', 'mufg.jp', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1223 ['2323', 'eonline.com', '23.65.188.97']
+Saving the results : Traceroute to 23.65.188.97
+1224 ['2324', 'lookchem.cn', '121.43.157.234']
+Saving the results : Traceroute to 121.43.157.234
+1225 ['2325', 'premiumbros.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1226 ['2326', 'cyclingnews.com', '151.101.130.114']
+Saving the results : Traceroute to 151.101.130.114
+1227 ['2327', 'midea.com', '15.197.207.92']
+Saving the results : Traceroute to 15.197.207.92
+1228 ['2328', 'jumia.com.eg', '104.17.194.6']
+Saving the results : Traceroute to 104.17.194.6
+1229 ['2329', 'checkout.com', '172.64.148.124']
+Saving the results : Traceroute to 172.64.148.124
+1230 ['2330', 'gjirafa.com', '104.26.1.156']
+Saving the results : Traceroute to 104.26.1.156
+1231 ['2331', 'nhentai.net', '172.67.74.203']
+Saving the results : Traceroute to 172.67.74.203
+1232 ['2332', '1377x.to', '104.21.13.219']
+Saving the results : Traceroute to 104.21.13.219
+1233 ['2333', 'avatrade.com', '104.18.23.15']
+Saving the results : Traceroute to 104.18.23.15
+1234 ['2334', '9876ydd.com', '104.17.7.73']
+Saving the results : Traceroute to 104.17.7.73
+1235 ['2335', 'financialexpress.com', '23.46.237.80']
+Saving the results : Traceroute to 23.46.237.80
+1236 ['2336', 'emag.ro', '46.174.147.20']
+Saving the results : Traceroute to 46.174.147.20
+1237 ['2337', 'get-express-vpns.com', '172.237.146.25']
+Saving the results : Traceroute to 172.237.146.25
+1238 ['2338', 'trendarbitrage.com', '183.90.242.18']
+Saving the results : Traceroute to 183.90.242.18
+1239 ['2339', 'exness.com', '18.166.16.176']
+Saving the results : Traceroute to 18.166.16.176
+1240 ['2340', 'last.fm', '34.96.123.111']
+Saving the results : Traceroute to 34.96.123.111
+1241 ['2341', 'to10.gr', '104.21.19.30']
+Saving the results : Traceroute to 104.21.19.30
+1242 ['2342', 'toasttab.com', '99.84.66.97']
+Saving the results : Traceroute to 99.84.66.97
+1243 ['2343', 'google.hr', '172.217.161.195']
+Saving the results : Traceroute to 172.217.161.195
+1244 ['2344', 'banesco.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1245 ['2345', 'dicio.com.br', '167.114.102.18']
+Saving the results : Traceroute to 167.114.102.18
+1246 ['2346', 'mostaghelonline.com', '157.119.188.131']
+62.115.138.235	10	240	1	0	0	32	0
+62.115.149.47	11	247	1	0	0	32	0
+85.132.90.170	14	231	1	8	0	0	0
+Saving the results : Traceroute to 157.119.188.131
+1247 ['2347', 'fxstreet.com', '104.22.71.139']
+Saving the results : Traceroute to 104.22.71.139
+1248 ['2348', 'icy-veins.com', '104.21.112.1']
+Saving the results : Traceroute to 104.21.112.1
+1249 ['2349', 'nbatopshot.com', '104.17.238.9']
+Saving the results : Traceroute to 104.17.238.9
+1250 ['2350', 'todamateria.com.br', '144.217.224.190']
+Saving the results : Traceroute to 144.217.224.190
+1251 ['2351', 'desertcart.com', '172.67.72.120']
+Saving the results : Traceroute to 172.67.72.120
+1252 ['2352', 'turnitin.com', '151.101.194.133']
+Saving the results : Traceroute to 151.101.194.133
+1253 ['2353', 'indiapost.gov.in', '103.244.124.138']
+Saving the results : Traceroute to 103.244.124.138
+1254 ['2354', 'preply.com', '104.18.20.180']
+Saving the results : Traceroute to 104.18.20.180
+1255 ['2355', 'sbs.co.kr', '3.33.162.224']
+Saving the results : Traceroute to 3.33.162.224
+1256 ['2356', 'pastebin.com', '104.22.68.199']
+Saving the results : Traceroute to 104.22.68.199
+1257 ['2357', 'pinterest.ru', '151.101.128.84']
+Saving the results : Traceroute to 151.101.128.84
+1258 ['2358', 'xiaohongshu.com', '43.159.24.58']
+Saving the results : Traceroute to 43.159.24.58
+1259 ['2359', 'box.net', '74.112.186.156']
+Saving the results : Traceroute to 74.112.186.156
+1260 ['2360', 'oppomobile.com', '106.3.18.141']
+Saving the results : Traceroute to 106.3.18.141
+1261 ['2361', 'transfermarkt.com', '5.159.57.194']
+62.115.132.109	16	240	1	0	0	32	0
+80.81.192.185	17	241	1	0	0	32	0
+5.159.57.194	18	49	1	0	0	32	0
+5.159.57.194	19	49	1	0	0	32	0
+5.159.57.194	20	49	1	0	0	32	0
+5.159.57.194	21	49	1	0	0	32	0
+5.159.57.194	22	49	1	0	0	32	0
+5.159.57.194	23	49	1	0	0	32	0
+5.159.57.194	24	49	1	0	0	32	0
+5.159.57.194	25	49	1	0	0	32	0
+5.159.57.194	28	49	1	0	0	32	0
+Saving the results : Traceroute to 5.159.57.194
+1262 ['2362', 'kbs.co.kr', '13.225.117.92']
+Saving the results : Traceroute to 13.225.117.92
+1263 ['2363', 'vodafone.de', '139.7.147.49']
+145.253.5.57	17	243	1	0	0	2	2
+Saving the results : Traceroute to 139.7.147.49
+1264 ['2364', 'nordpass.com', '172.64.153.140']
+Saving the results : Traceroute to 172.64.153.140
+1265 ['2365', 'parstoday.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1266 ['2366', 'taroot-rangi.com', '185.143.233.120']
+Saving the results : Traceroute to 185.143.233.120
+1267 ['2367', 'nydailynews.com', '192.0.66.144']
+Saving the results : Traceroute to 192.0.66.144
+1268 ['2368', 'picmonkey.com', '76.223.35.209']
+Saving the results : Traceroute to 76.223.35.209
+1269 ['2369', 'crateandbarrel.com', '23.42.212.199']
+Saving the results : Traceroute to 23.42.212.199
+1270 ['2370', 'business.com.tm', '216.250.8.80']
+Saving the results : Traceroute to 216.250.8.80
+1271 ['2371', 'arbitr.ru', '95.167.220.237']
+Saving the results : Traceroute to 95.167.220.237
+1272 ['2372', 'weidian.com', '43.128.0.196']
+Saving the results : Traceroute to 43.128.0.196
+1273 ['2373', 'banzaijapan.jp', '172.67.161.37']
+Saving the results : Traceroute to 172.67.161.37
+1274 ['2374', 'editorialmanager.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1275 ['2375', 'boston.com', '104.18.19.63']
+Saving the results : Traceroute to 104.18.19.63
+1276 ['2376', 'borna.news', '194.41.49.59']
+Saving the results : Traceroute to 194.41.49.59
+1277 ['2377', 'si.com', '44.241.188.24']
+Saving the results : Traceroute to 44.241.188.24
+1278 ['2378', 'gigya.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1279 ['2379', 'tec.mx', '45.60.115.212']
+Saving the results : Traceroute to 45.60.115.212
+1280 ['2380', 'kotobank.jp', '3.168.178.94']
+Saving the results : Traceroute to 3.168.178.94
+1281 ['2381', 'chetor.com', '185.49.85.131']
+Saving the results : Traceroute to 185.49.85.131
+1282 ['2382', 'rcoit.ru', '89.253.223.105']
+Saving the results : Traceroute to 89.253.223.105
+1283 ['2383', 'thesun.co.uk', '192.0.66.2']
+Saving the results : Traceroute to 192.0.66.2
+1284 ['2384', 'churchofjesuschrist.org', '216.49.176.20']
+Saving the results : Traceroute to 216.49.176.20
+1285 ['2385', 'bastillepost.com', '18.143.23.34']
+Saving the results : Traceroute to 18.143.23.34
+1286 ['2386', 'expressvpn.com', '3.168.167.11']
+Saving the results : Traceroute to 3.168.167.11
+1287 ['2387', 'qatarairways.com', '23.50.1.203']
+Saving the results : Traceroute to 23.50.1.203
+1288 ['2388', 'ratemyprofessors.com', '54.145.227.147']
+Saving the results : Traceroute to 54.145.227.147
+1289 ['2389', 'shiksha.com', '203.251.233.177']
+Saving the results : Traceroute to 203.251.233.177
+1290 ['2390', 'streeteasy.com', '3.175.34.111']
+Saving the results : Traceroute to 3.175.34.111
+1291 ['2391', 'opencorporates.com', '209.126.35.14']
+Saving the results : Traceroute to 209.126.35.14
+1292 ['2392', 'lichess.org', '37.187.205.99']
+Saving the results : Traceroute to 37.187.205.99
+1293 ['2393', 'classifiedads.com', '104.26.8.30']
+Saving the results : Traceroute to 104.26.8.30
+1294 ['2394', 'mingpao.com', '202.80.6.201']
+Saving the results : Traceroute to 202.80.6.201
+1295 ['2395', 'goodhousekeeping.com', '151.101.192.155']
+Saving the results : Traceroute to 151.101.192.155
+1296 ['2396', 'trafficmoon.com', '13.248.169.48']
+Saving the results : Traceroute to 13.248.169.48
+1297 ['2397', 'berkeley.edu', '141.193.213.21']
+Saving the results : Traceroute to 141.193.213.21
+1298 ['2398', 'cb2.com', '23.42.212.201']
+Saving the results : Traceroute to 23.42.212.201
+1299 ['2399', 'smartschool.be', '193.56.132.113']
+Saving the results : Traceroute to 193.56.132.113
+1300 ['2400', 'storyblocks.com', '3.171.185.121']
+Saving the results : Traceroute to 3.171.185.121
+1301 ['1801', 'kompas.tv', '104.26.1.163']
+Saving the results : Traceroute to 104.26.1.163
+1302 ['1802', 'dhgate.com', '23.49.226.19']
+Saving the results : Traceroute to 23.49.226.19
+1303 ['1803', 'battle.net', '137.221.106.104']
+Saving the results : Traceroute to 137.221.106.104
+1304 ['1804', 'youdao.com', '220.197.31.37']
+Saving the results : Traceroute to 220.197.31.37
+1305 ['1805', 'buyma.us', '13.250.73.185']
+Saving the results : Traceroute to 13.250.73.185
+1306 ['1806', 'valuecommerce.com', '54.65.101.210']
+Saving the results : Traceroute to 54.65.101.210
+1307 ['1807', 'xda-developers.com', '52.5.96.96']
+Saving the results : Traceroute to 52.5.96.96
+1308 ['1808', 'azertag.az', '104.26.1.198']
+Saving the results : Traceroute to 104.26.1.198
+1309 ['1809', 'ibanking-services.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1310 ['1810', 'zety.com', '23.53.3.145']
+Saving the results : Traceroute to 23.53.3.145
+1311 ['1811', 'afternic.com', '216.69.141.26']
+Saving the results : Traceroute to 216.69.141.26
+1312 ['1812', 'reliancedigital.in', '49.40.59.31']
+Saving the results : Traceroute to 49.40.59.31
+1313 ['1813', 'wanfangdata.com.cn', '122.115.55.103']
+Saving the results : Traceroute to 122.115.55.103
+1314 ['1814', 'bancoestado.cl', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1315 ['1815', 'partnerize.com', '162.159.134.42']
+Saving the results : Traceroute to 162.159.134.42
+1316 ['1816', 'bluestacks.com', '3.168.167.93']
+Saving the results : Traceroute to 3.168.167.93
+1317 ['1817', 'urbanoutfitters.com', '35.241.23.250']
+Saving the results : Traceroute to 35.241.23.250
+1318 ['1818', 'blogfa.com', '172.67.160.233']
+Saving the results : Traceroute to 172.67.160.233
+1319 ['1819', 'tuoitre.vn', '14.225.199.147']
+Saving the results : Traceroute to 14.225.199.147
+1320 ['1820', 'amadeus.com', '107.154.251.68']
+Saving the results : Traceroute to 107.154.251.68
+1321 ['1821', 'haibunda.com', '104.16.127.160']
+Saving the results : Traceroute to 104.16.127.160
+1322 ['1822', 'appen.com', '75.2.70.75']
+Saving the results : Traceroute to 75.2.70.75
+1323 ['1823', 'miit.gov.cn', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1324 ['1824', 'techweb.com.cn', '61.160.192.96']
+Saving the results : Traceroute to 61.160.192.96
+1325 ['1825', 'sitechecker.pro', '49.12.17.205']
+Saving the results : Traceroute to 49.12.17.205
+1326 ['1826', 'scamadviser.com', '172.67.8.189']
+Saving the results : Traceroute to 172.67.8.189
+1327 ['1827', 'qiyukf.com', '111.124.204.233']
+Saving the results : Traceroute to 111.124.204.233
+1328 ['1828', 'monex.co.jp', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1329 ['1829', 'studentaid.gov', '23.50.0.247']
+Saving the results : Traceroute to 23.50.0.247
+1330 ['1830', 'stripe.com', '54.92.90.44']
+Saving the results : Traceroute to 54.92.90.44
+1331 ['1831', 'wykop.pl', '146.59.79.191']
+Saving the results : Traceroute to 146.59.79.191
+1332 ['1832', 'xbox.com', '20.112.250.133']
+Saving the results : Traceroute to 20.112.250.133
+1333 ['1833', 'peopleperhour.com', '13.225.134.88']
+Saving the results : Traceroute to 13.225.134.88
+1334 ['1834', 'autotrader.co.uk', '104.16.201.94']
+Saving the results : Traceroute to 104.16.201.94
+1335 ['1835', '36kr.com', '103.143.17.146']
+Saving the results : Traceroute to 103.143.17.146
+1336 ['1836', 'pngegg.com', '104.21.48.1']
+Saving the results : Traceroute to 104.21.48.1
+1337 ['1837', 'worldtimebuddy.com', '104.21.112.1']
+Saving the results : Traceroute to 104.21.112.1
+1338 ['1838', 'leroymerlin.ru', '178.248.235.219']
+Saving the results : Traceroute to 178.248.235.219
+1339 ['1839', 'zeit.de', '35.246.185.66']
+Saving the results : Traceroute to 35.246.185.66
+1340 ['1840', 'chicagotribune.com', '192.0.66.226']
+Saving the results : Traceroute to 192.0.66.226
+1341 ['1841', 'adultfriendfinder.com', '69.165.107.69']
+Saving the results : Traceroute to 69.165.107.69
+1342 ['1842', 'dxy.cn', '212.129.163.50']
+Saving the results : Traceroute to 212.129.163.50
+1343 ['1843', 'adspy.com', '104.22.63.117']
+Saving the results : Traceroute to 104.22.63.117
+1344 ['1844', 'qr-code-generator.com', '3.168.167.63']
+Saving the results : Traceroute to 3.168.167.63
+1345 ['1845', 'ryanair.com', '18.239.199.59']
+Saving the results : Traceroute to 18.239.199.59
+1346 ['1846', 'sz.gov.cn', '218.17.86.200']
+Saving the results : Traceroute to 218.17.86.200
+1347 ['1847', 'icloud.com', '17.253.144.10']
+Saving the results : Traceroute to 17.253.144.10
+1348 ['1848', 'listindiario.com', '3.164.206.108']
+62.115.122.35	16	240	1	0	0	32	0
+Saving the results : Traceroute to 3.164.206.108
+1349 ['1849', 'dantri.com.vn', '183.81.34.143']
+Saving the results : Traceroute to 183.81.34.143
+1350 ['1850', 'tianyancha.com', '124.70.125.224']
+Saving the results : Traceroute to 124.70.125.224
+1351 ['1851', 'ennaharonline.com', '172.67.73.226']
+Saving the results : Traceroute to 172.67.73.226
+1352 ['1852', 'seismic.com', '64.239.109.193']
+Saving the results : Traceroute to 64.239.109.193
+1353 ['1853', 'pku.edu.cn', '162.105.131.160']
+Saving the results : Traceroute to 162.105.131.160
+1354 ['1854', 'mlsmatrix.com', '69.87.56.201']
+Saving the results : Traceroute to 69.87.56.201
+1355 ['1855', 'c-sharpcorner.com', '104.26.12.218']
+Saving the results : Traceroute to 104.26.12.218
+1356 ['1856', 'ted.com', '54.165.115.84']
+Saving the results : Traceroute to 54.165.115.84
+1357 ['1857', 'ficbook.net', '172.67.17.216']
+Saving the results : Traceroute to 172.67.17.216
+1358 ['1858', 'codeproject.com', '52.73.124.198']
+Saving the results : Traceroute to 52.73.124.198
+1359 ['1859', 'vmware.com', '54.68.22.26']
+Saving the results : Traceroute to 54.68.22.26
+1360 ['1860', 'newtalk.tw', '104.18.22.73']
+Saving the results : Traceroute to 104.18.22.73
+1361 ['1861', 'sainsburys.co.uk', '184.51.102.160']
+Saving the results : Traceroute to 184.51.102.160
+1362 ['1862', 'douyin.com', '122.14.229.128']
+Saving the results : Traceroute to 122.14.229.128
+1363 ['1863', 'carvana.com', '172.64.145.87']
+Saving the results : Traceroute to 172.64.145.87
+1364 ['1864', 'jio.com', '49.40.8.183']
+Saving the results : Traceroute to 49.40.8.183
+1365 ['1865', 'businessinsider.in', '23.10.8.240']
+Saving the results : Traceroute to 23.10.8.240
+1366 ['1866', 'binance.us', '3.171.185.74']
+Saving the results : Traceroute to 3.171.185.74
+1367 ['1867', 'rei.com', '23.55.208.38']
+Saving the results : Traceroute to 23.55.208.38
+1368 ['1868', 'hubpages.com', '18.213.153.37']
+Saving the results : Traceroute to 18.213.153.37
+1369 ['1869', 'spanishdict.com', '104.18.39.60']
+Saving the results : Traceroute to 104.18.39.60
+1370 ['1870', 'bluejeans.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1371 ['1871', 'study.com', '18.244.60.104']
+Saving the results : Traceroute to 18.244.60.104
+1372 ['1872', 'besoccer.com', '151.101.2.132']
+Saving the results : Traceroute to 151.101.2.132
+1373 ['1873', 'semprebom.ao', '94.46.22.100']
+Saving the results : Traceroute to 94.46.22.100
+1374 ['1874', 'versati.ao', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1375 ['1875', 'euronews.com', '52.31.193.107']
+62.115.136.141	15	50	1	0	0	32	0
+Saving the results : Traceroute to 52.31.193.107
+1376 ['1876', 'vhall.com', '82.156.219.89']
+Saving the results : Traceroute to 82.156.219.89
+1377 ['1877', 'mobile.de', '3.168.167.125']
+Saving the results : Traceroute to 3.168.167.125
+1378 ['1878', 'smbc.co.jp', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1379 ['1879', 'olaelectric.com', '13.234.89.41']
+Saving the results : Traceroute to 13.234.89.41
+1380 ['1880', 'articulate.com', '34.226.137.77']
+Saving the results : Traceroute to 34.226.137.77
+1381 ['1881', 'css-validator.org', '20.119.0.38']
+Saving the results : Traceroute to 20.119.0.38
+1382 ['1882', 'brainly.in', '104.18.223.240']
+Saving the results : Traceroute to 104.18.223.240
+1383 ['1883', 'inews.id', '104.18.13.203']
+Saving the results : Traceroute to 104.18.13.203
+1384 ['1884', 'getcourse.ru', '178.248.235.39']
+Saving the results : Traceroute to 178.248.235.39
+1385 ['1885', 'yandex.com.tr', '87.250.255.11']
+Saving the results : Traceroute to 87.250.255.11
+1386 ['1886', 'subito.it', '23.50.0.178']
+Saving the results : Traceroute to 23.50.0.178
+1387 ['1887', 'woman.ru', '195.226.222.205']
+Saving the results : Traceroute to 195.226.222.205
+1388 ['1888', 'balenciaga.com', '23.51.130.128']
+Saving the results : Traceroute to 23.51.130.128
+1389 ['1889', 'hrloo.com', '124.71.84.194']
+Saving the results : Traceroute to 124.71.84.194
+1390 ['1890', 'builderall.com', '172.67.20.48']
+Saving the results : Traceroute to 172.67.20.48
+1391 ['1891', 'junglescout.com', '104.26.15.247']
+Saving the results : Traceroute to 104.26.15.247
+1392 ['1892', 'gouv.qc.ca', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1393 ['1893', 'onlinekhabar.com', '104.21.96.1']
+Saving the results : Traceroute to 104.21.96.1
+1394 ['1894', 'sports.ru', '95.129.232.128']
+Saving the results : Traceroute to 95.129.232.128
+1395 ['1895', 'calendly.com', '172.64.146.81']
+Saving the results : Traceroute to 172.64.146.81
+1396 ['1896', 'zee5.com', '23.44.173.42']
+Saving the results : Traceroute to 23.44.173.42
+1397 ['1897', 'qafqazinfo.az', '104.22.66.188']
+Saving the results : Traceroute to 104.22.66.188
+1398 ['1898', 'wetteronline.de', '99.84.66.58']
+Saving the results : Traceroute to 99.84.66.58
+1399 ['1899', 'brassring.com', '52.4.227.129']
+Saving the results : Traceroute to 52.4.227.129
+1400 ['1900', 'successfactors.eu', '130.214.229.153']
+62.115.118.63	10	240	1	0	0	32	0
+213.248.98.125	11	239	1	0	0	32	0
+193.114.171.23	12	247	1	0	0	0	0
+213.61.2.166	13	246	1	0	0	0	0
+Saving the results : Traceroute to 130.214.229.153
+1401 ['1601', 'uniqlo.com', '35.79.53.130']
+Saving the results : Traceroute to 35.79.53.130
+1402 ['1602', 'tdbank.com', '23.53.2.169']
+Saving the results : Traceroute to 23.53.2.169
+1403 ['1603', 'gib.gov.tr', '212.133.164.183']
+Saving the results : Traceroute to 212.133.164.183
+1404 ['1604', 'oneindia.com', '172.64.144.81']
+Saving the results : Traceroute to 172.64.144.81
+1405 ['1605', 'kino-teatr.ru', '95.129.232.95']
+Saving the results : Traceroute to 95.129.232.95
+1406 ['1606', 'books.com.tw', '113.196.250.30']
+Saving the results : Traceroute to 113.196.250.30
+1407 ['1607', 'fantasypros.com', '54.211.124.108']
+Saving the results : Traceroute to 54.211.124.108
+1408 ['1608', 'chinadaily.com.cn', '111.13.49.147']
+Saving the results : Traceroute to 111.13.49.147
+1409 ['1609', 'youth.cn', '14.0.113.218']
+Saving the results : Traceroute to 14.0.113.218
+1410 ['1610', 'hibapress.com', '104.21.5.11']
+Saving the results : Traceroute to 104.21.5.11
+1411 ['1611', 'douyu.com', '43.174.12.58']
+30.34.188.37	8	248	1	16	0	16	0
+30.34.188.83	9	247	1	16	0	16	0
+Saving the results : Traceroute to 43.174.12.58
+1412 ['1612', 'westelm.com', '104.75.0.84']
+Saving the results : Traceroute to 104.75.0.84
+1413 ['1613', 'pearson.com', '34.246.144.185']
+62.115.138.169	14	50	1	0	0	32	0
+Saving the results : Traceroute to 34.246.144.185
+1414 ['1614', 'ems.com.cn', '203.107.45.167']
+Saving the results : Traceroute to 203.107.45.167
+1415 ['1615', 'dlsite.com', '210.140.64.86']
+Saving the results : Traceroute to 210.140.64.86
+1416 ['1616', 'dummies.com', '104.18.36.164']
+Saving the results : Traceroute to 104.18.36.164
+1417 ['1617', 'tver.jp', '3.168.178.109']
+Saving the results : Traceroute to 3.168.178.109
+1418 ['1618', 'folha.uol.com.br', '13.225.134.89']
+Saving the results : Traceroute to 13.225.134.89
+1419 ['1619', 'secureinternetbank.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1420 ['1620', 'auction.co.kr', '183.111.140.234']
+Saving the results : Traceroute to 183.111.140.234
+1421 ['1621', 'pantip.com', '15.235.165.183']
+Saving the results : Traceroute to 15.235.165.183
+1422 ['1622', 'yeniakit.com.tr', '172.67.4.243']
+Saving the results : Traceroute to 172.67.4.243
+1423 ['1623', 'howtogeek.com', '3.222.102.97']
+Saving the results : Traceroute to 3.222.102.97
+1424 ['1624', 'vidal.fr', '176.111.56.3']
+Saving the results : Traceroute to 176.111.56.3
+1425 ['1625', 'discuss.com.hk', '104.18.9.152']
+Saving the results : Traceroute to 104.18.9.152
+1426 ['1626', 'thebalancecareers.com', '52.20.65.10']
+Saving the results : Traceroute to 52.20.65.10
+1427 ['1627', 'digitaltrends.com', '192.0.66.16']
+Saving the results : Traceroute to 192.0.66.16
+1428 ['1628', 'freshbooks.com', '151.101.65.91']
+Saving the results : Traceroute to 151.101.65.91
+1429 ['1629', 'magicbricks.com', '23.44.173.58']
+Saving the results : Traceroute to 23.44.173.58
+1430 ['1630', 'livehindustan.com', '23.53.228.89']
+Saving the results : Traceroute to 23.53.228.89
+1431 ['1631', 'dangbei.com', '114.215.191.157']
+114.215.191.157	24	46	1	0	0	20	0
+Saving the results : Traceroute to 114.215.191.157
+1432 ['1632', 'toppr.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1433 ['1633', '99acres.com', '203.251.233.179']
+Saving the results : Traceroute to 203.251.233.179
+1434 ['1634', 'lifewire.com', '172.66.1.220']
+Saving the results : Traceroute to 172.66.1.220
+1435 ['1635', 'codecanyon.net', '172.64.153.11']
+Saving the results : Traceroute to 172.64.153.11
+1436 ['1636', 'www.nhs.uk', '95.100.228.232']
+Saving the results : Traceroute to 95.100.228.232
+1437 ['1637', 'mobile01.com', '34.36.92.153']
+Saving the results : Traceroute to 34.36.92.153
+1438 ['1638', 'yemeksepeti.com', '104.17.46.92']
+Saving the results : Traceroute to 104.17.46.92
+1439 ['1639', 'free.fr', '212.27.48.10']
+Saving the results : Traceroute to 212.27.48.10
+1440 ['1640', 'icourse163.org', '223.252.199.73']
+Saving the results : Traceroute to 223.252.199.73
+1441 ['1641', 'tmz.com', '13.248.160.137']
+Saving the results : Traceroute to 13.248.160.137
+1442 ['1642', 'ouoapenpo.top', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1443 ['1643', 'citilink.ru', '178.248.234.66']
+Saving the results : Traceroute to 178.248.234.66
+1444 ['1644', 'tomshardware.com', '199.232.194.114']
+Saving the results : Traceroute to 199.232.194.114
+1445 ['1645', 'globenewswire.com', '54.235.138.13']
+Saving the results : Traceroute to 54.235.138.13
+1446 ['1646', 'finalfantasyxiv.com', '202.67.60.79']
+Saving the results : Traceroute to 202.67.60.79
+1447 ['1647', 'theatlantic.com', '151.101.130.133']
+Saving the results : Traceroute to 151.101.130.133
+1448 ['1648', 'spectrum.net', '54.243.191.37']
+Saving the results : Traceroute to 54.243.191.37
+1449 ['1649', 'kaskus.co.id', '103.6.117.3']
+Saving the results : Traceroute to 103.6.117.3
+1450 ['1650', 'heroku.com', '192.0.66.110']
+Saving the results : Traceroute to 192.0.66.110
+1451 ['1651', 'criteo.com', '23.185.0.4']
+Saving the results : Traceroute to 23.185.0.4
+1452 ['1652', 'otto.de', '3.126.246.181']
+62.115.122.181	15	241	1	0	0	32	0
+Saving the results : Traceroute to 3.126.246.181
+1453 ['1653', 'upbit.com', '104.17.186.185']
+Saving the results : Traceroute to 104.17.186.185
+1454 ['1654', 'emirates.com', '104.75.1.125']
+Saving the results : Traceroute to 104.75.1.125
+1455 ['1655', 'copart.com', '45.60.101.242']
+Saving the results : Traceroute to 45.60.101.242
+1456 ['1656', 'tenki.jp', '3.168.167.8']
+Saving the results : Traceroute to 3.168.167.8
+1457 ['1657', 'kommersant.ru', '178.248.238.19']
+Saving the results : Traceroute to 178.248.238.19
+1458 ['1658', 'anchor.fm', '151.101.194.133']
+Saving the results : Traceroute to 151.101.194.133
+1459 ['1659', 'lagou.com', '106.75.33.142']
+Saving the results : Traceroute to 106.75.33.142
+1460 ['1660', 'mektebeqebul.edu.az', '82.194.5.97']
+62.115.124.119	17	239	1	0	0	32	0
+62.115.145.173	19	239	1	0	0	32	0
+109.235.192.138	21	237	1	0	0	32	0
+82.194.5.97	26	229	1	0	0	32	0
+Saving the results : Traceroute to 82.194.5.97
+1461 ['1661', 'diply.com', '162.159.129.73']
+Saving the results : Traceroute to 162.159.129.73
+1462 ['1662', 'fimela.com', '35.190.21.225']
+Saving the results : Traceroute to 35.190.21.225
+1463 ['1663', 'cimaclub.cc', '216.245.197.41']
+Saving the results : Traceroute to 216.245.197.41
+1464 ['1664', 'windy.com', '35.201.88.123']
+Saving the results : Traceroute to 35.201.88.123
+1465 ['1665', 'mk.ru', '85.193.70.155']
+Saving the results : Traceroute to 85.193.70.155
+1466 ['1666', 'zarinpal.com', '45.89.136.40']
+Saving the results : Traceroute to 45.89.136.40
+1467 ['1667', 'dailyhunt.in', '34.49.48.218']
+Saving the results : Traceroute to 34.49.48.218
+1468 ['1668', 'france24.com', '104.75.44.85']
+Saving the results : Traceroute to 104.75.44.85
+1469 ['1669', 'collegeboard.org', '13.248.160.137']
+Saving the results : Traceroute to 13.248.160.137
+1470 ['1670', 'fnb.co.za', '196.11.125.167']
+Saving the results : Traceroute to 196.11.125.167
+1471 ['1671', 'milenio.com', '204.246.191.98']
+Saving the results : Traceroute to 204.246.191.98
+1472 ['1672', 'weiyun.com', '59.36.124.162']
+Saving the results : Traceroute to 59.36.124.162
+1473 ['1673', 'about.google', '216.239.32.29']
+Saving the results : Traceroute to 216.239.32.29
+1474 ['1674', 'vc.ru', '185.65.149.135']
+Saving the results : Traceroute to 185.65.149.135
+1475 ['1675', 'akakce.com', '104.18.2.45']
+Saving the results : Traceroute to 104.18.2.45
+1476 ['1676', 'newsnow.co.uk', '213.146.191.132']
+Saving the results : Traceroute to 213.146.191.132
+1477 ['1677', 'activecampaign.com', '104.20.1.15']
+Saving the results : Traceroute to 104.20.1.15
+1478 ['1678', 'teacherspayteachers.com', '3.220.244.43']
+Saving the results : Traceroute to 3.220.244.43
+1479 ['1679', 'capitaloneshopping.com', '172.64.145.19']
+Saving the results : Traceroute to 172.64.145.19
+1480 ['1680', 'argentina.gob.ar', '104.26.5.183']
+Saving the results : Traceroute to 104.26.5.183
+1481 ['1681', 'cibc.com', '23.53.2.107']
+Saving the results : Traceroute to 23.53.2.107
+1482 ['1682', 'pearsonvue.com', '63.35.23.131']
+62.115.138.169	14	50	1	0	0	32	0
+Saving the results : Traceroute to 63.35.23.131
+1483 ['1683', 'soap2day.to', '103.224.182.253']
+Saving the results : Traceroute to 103.224.182.253
+1484 ['1684', 'victoriassecret.com', '104.18.43.77']
+Saving the results : Traceroute to 104.18.43.77
+1485 ['1685', 'ajio.com', '49.40.59.11']
+Saving the results : Traceroute to 49.40.59.11
+1486 ['1686', 'mxplayer.in', '13.225.134.21']
+Saving the results : Traceroute to 13.225.134.21
+1487 ['1687', 'jstor.org', '151.101.64.152']
+Saving the results : Traceroute to 151.101.64.152
+1488 ['1688', 'kajabi.com', '52.68.134.190']
+Saving the results : Traceroute to 52.68.134.190
+1489 ['1689', 'dickssportinggoods.com', '67.88.8.34']
+Saving the results : Traceroute to 67.88.8.34
+1490 ['1690', 'metbuat.az', '104.21.93.247']
+Saving the results : Traceroute to 104.21.93.247
+1491 ['1691', 'sc.com', '23.37.92.161']
+Saving the results : Traceroute to 23.37.92.161
+1492 ['1692', 'newsweek.com', '15.197.200.96']
+Saving the results : Traceroute to 15.197.200.96
+1493 ['1693', 'cna.com.tw', '34.160.71.205']
+Saving the results : Traceroute to 34.160.71.205
+1494 ['1694', 'lucid.app', '23.44.173.50']
+Saving the results : Traceroute to 23.44.173.50
+1495 ['1695', 'walmart.com.mx', '23.42.115.228']
+Saving the results : Traceroute to 23.42.115.228
+1496 ['1696', 'runescape.wiki', '104.22.60.210']
+Saving the results : Traceroute to 104.22.60.210
+1497 ['1697', 'tidio.com', '172.67.15.38']
+Saving the results : Traceroute to 172.67.15.38
+1498 ['1698', 'usembassy.gov', '3.212.84.222']
+Saving the results : Traceroute to 3.212.84.222
+1499 ['1699', 'liquipedia.net', '94.23.144.183']
+Saving the results : Traceroute to 94.23.144.183
+1500 ['1700', 'measurelavender.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1501 ['4101', 'okcs.com', '185.192.113.49']
+Saving the results : Traceroute to 185.192.113.49
+1502 ['4102', 'desjardins.com', '142.195.133.83']
+Saving the results : Traceroute to 142.195.133.83
+1503 ['4103', 'isimtescil.net', '93.89.226.20']
+Saving the results : Traceroute to 93.89.226.20
+1504 ['4104', 'pinterest-business.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1505 ['4105', 'instapage.com', '172.64.150.251']
+Saving the results : Traceroute to 172.64.150.251
+1506 ['4106', 'venmo.com', '52.84.150.38']
+Saving the results : Traceroute to 52.84.150.38
+1507 ['4107', 'fitgirl-repacks.site', '190.115.31.179']
+Saving the results : Traceroute to 190.115.31.179
+1508 ['4108', 'drivereasy.com', '51.79.193.54']
+Saving the results : Traceroute to 51.79.193.54
+1509 ['4109', 'glaz.tv', '78.108.178.68']
+Saving the results : Traceroute to 78.108.178.68
+1510 ['4110', 'cosmopolitan.com', '151.101.128.155']
+Saving the results : Traceroute to 151.101.128.155
+1511 ['4111', 'medlineplus.gov', '18.161.6.116']
+Saving the results : Traceroute to 18.161.6.116
+1512 ['4112', 'thepiratebay10.org', '172.67.198.253']
+Saving the results : Traceroute to 172.67.198.253
+1513 ['4113', 'moncler.com', '134.209.244.221']
+Saving the results : Traceroute to 134.209.244.221
+1514 ['4114', 'aloyoga.com', '23.227.38.32']
+Saving the results : Traceroute to 23.227.38.32
+1515 ['4115', 'sex-studentki.vip', '172.237.146.8']
+Saving the results : Traceroute to 172.237.146.8
+1516 ['4116', 'anyflip.com', '104.22.58.96']
+Saving the results : Traceroute to 104.22.58.96
+1517 ['4117', 'mercadopago.com.mx', '3.171.185.28']
+Saving the results : Traceroute to 3.171.185.28
+1518 ['4118', 'ucoz.ru', '195.216.243.246']
+Saving the results : Traceroute to 195.216.243.246
+1519 ['4119', 'stardewvalleywiki.com', '172.67.68.58']
+Saving the results : Traceroute to 172.67.68.58
+1520 ['4120', 'auldlikeaver.top', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1521 ['4121', 'vitals.co', '172.67.69.35']
+Saving the results : Traceroute to 172.67.69.35
+1522 ['4122', 'r10.net', '172.67.71.197']
+Saving the results : Traceroute to 172.67.71.197
+1523 ['4123', 'getapp.com', '172.64.146.187']
+Saving the results : Traceroute to 172.64.146.187
+1524 ['4124', 'freead1.net', '185.123.188.150']
+Saving the results : Traceroute to 185.123.188.150
+1525 ['4125', 'mol.gov.sa', '86.60.117.170']
+Saving the results : Traceroute to 86.60.117.170
+1526 ['4126', 'france-barnums.com', '13.37.87.71']
+62.115.112.63	15	241	1	0	0	32	0
+Saving the results : Traceroute to 13.37.87.71
+1527 ['4127', 'sex.com', '209.50.54.189']
+Saving the results : Traceroute to 209.50.54.189
+1528 ['4128', 'versus.com', '66.135.0.24']
+Saving the results : Traceroute to 66.135.0.24
+1529 ['4129', 'png.is', '172.67.133.1']
+Saving the results : Traceroute to 172.67.133.1
+1530 ['4130', 'hyundaicard.com', '61.40.236.56']
+Saving the results : Traceroute to 61.40.236.56
+1531 ['4131', 'qatarliving.com', '172.67.167.214']
+Saving the results : Traceroute to 172.67.167.214
+1532 ['4132', 'sbi.co.in', '192.12.109.196']
+Saving the results : Traceroute to 192.12.109.196
+1533 ['4133', 'securekeyconcierge.com', '45.60.86.208']
+Saving the results : Traceroute to 45.60.86.208
+1534 ['4134', 'omaze.com', '23.227.38.65']
+Saving the results : Traceroute to 23.227.38.65
+1535 ['4135', 'bitnami.com', '172.66.0.165']
+Saving the results : Traceroute to 172.66.0.165
+1536 ['4136', 'manual.canon', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1537 ['4137', 'ariba.com', '130.214.229.153']
+62.115.118.63	10	240	1	0	0	32	0
+213.248.98.125	11	239	1	0	0	32	0
+193.114.171.23	12	247	1	0	0	0	0
+213.61.2.166	13	246	1	0	0	0	0
+Saving the results : Traceroute to 130.214.229.153
+1538 ['4138', 'cakeresume.com', '104.20.4.253']
+Saving the results : Traceroute to 104.20.4.253
+1539 ['4139', 'collective-buyer.com', '103.141.97.101']
+Saving the results : Traceroute to 103.141.97.101
+1540 ['4140', '100tal.com', '59.110.244.186']
+Saving the results : Traceroute to 59.110.244.186
+1541 ['4141', 'ddooo.com', '129.227.55.16']
+Saving the results : Traceroute to 129.227.55.16
+1542 ['4142', 'time.mk', '172.67.215.148']
+Saving the results : Traceroute to 172.67.215.148
+1543 ['4143', 'sport-express.ru', '195.209.82.122']
+Saving the results : Traceroute to 195.209.82.122
+1544 ['4144', 'gumtree.co.za', '13.107.246.56']
+Saving the results : Traceroute to 13.107.246.56
+1545 ['4145', 'myorderbox.com', '162.215.231.12']
+Saving the results : Traceroute to 162.215.231.12
+1546 ['4146', 'href.li', '192.0.78.26']
+Saving the results : Traceroute to 192.0.78.26
+1547 ['4147', 'optimum.net', '167.206.237.230']
+Saving the results : Traceroute to 167.206.237.230
+1548 ['4148', 'mydigipay.com', '185.143.235.201']
+Saving the results : Traceroute to 185.143.235.201
+1549 ['4149', 'equifax.com', '147.146.240.125']
+Saving the results : Traceroute to 147.146.240.125
+1550 ['4150', 'namemc.com', '104.22.79.227']
+Saving the results : Traceroute to 104.22.79.227
+1551 ['4151', 'overleaf.com', '34.120.52.64']
+Saving the results : Traceroute to 34.120.52.64
+1552 ['4152', 'cigna.com', '170.48.29.90']
+Saving the results : Traceroute to 170.48.29.90
+1553 ['4153', 'darenjarvis.pro', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1554 ['4154', 'ubisoft.com', '108.156.22.100']
+62.115.122.35	16	240	1	0	0	32	0
+Saving the results : Traceroute to 108.156.22.100
+1555 ['4155', '126.com', '111.124.203.38']
+Saving the results : Traceroute to 111.124.203.38
+1556 ['4156', 'ciobulletin.com', '107.180.115.29']
+Saving the results : Traceroute to 107.180.115.29
+1557 ['4157', 'jarir.com', '104.16.41.5']
+Saving the results : Traceroute to 104.16.41.5
+1558 ['4158', 'ultrasurfing.com', '104.21.16.1']
+Saving the results : Traceroute to 104.21.16.1
+1559 ['4159', 'marisa.com.br', '34.197.250.165']
+Saving the results : Traceroute to 34.197.250.165
+1560 ['4160', 'lumenlearning.com', '151.101.130.159']
+Saving the results : Traceroute to 151.101.130.159
+1561 ['4161', 'xhamster3.com', '104.21.112.1']
+Saving the results : Traceroute to 104.21.112.1
+1562 ['4162', 'vodafone.it', '45.60.76.192']
+Saving the results : Traceroute to 45.60.76.192
+1563 ['4163', 'lightinthebox.com', '148.153.88.162']
+Saving the results : Traceroute to 148.153.88.162
+1564 ['4164', 'ashemaletube.com', '45.138.128.185']
+Saving the results : Traceroute to 45.138.128.185
+1565 ['4165', 'sporcle.com', '3.171.185.54']
+Saving the results : Traceroute to 3.171.185.54
+1566 ['4166', 'crov.com', '192.235.96.149']
+62.115.139.131	13	244	1	0	0	32	0
+62.115.43.245	14	244	1	0	0	32	0
+198.35.56.93	15	243	1	0	0	32	0
+Saving the results : Traceroute to 192.235.96.149
+1567 ['4167', 'r-agent.com', '202.221.212.98']
+Saving the results : Traceroute to 202.221.212.98
+1568 ['4168', 'djangoproject.com', '151.101.129.55']
+Saving the results : Traceroute to 151.101.129.55
+1569 ['4169', 'macx.cn', '104.21.40.226']
+Saving the results : Traceroute to 104.21.40.226
+1570 ['4170', 'blogcms.jp', '147.92.241.171']
+Saving the results : Traceroute to 147.92.241.171
+1571 ['4171', 'mokahr.com', '163.181.22.238']
+Saving the results : Traceroute to 163.181.22.238
+1572 ['4172', 'ahoraeg.com', '104.26.9.57']
+Saving the results : Traceroute to 104.26.9.57
+1573 ['4173', 'thechive.com', '192.0.66.128']
+Saving the results : Traceroute to 192.0.66.128
+1574 ['4174', 'nj.com', '99.83.138.34']
+Saving the results : Traceroute to 99.83.138.34
+1575 ['4175', '9news.com.au', '75.2.43.150']
+Saving the results : Traceroute to 75.2.43.150
+1576 ['4176', 'truecar.com', '204.246.191.61']
+Saving the results : Traceroute to 204.246.191.61
+1577 ['4177', 'ekstrabladet.dk', '151.101.129.91']
+Saving the results : Traceroute to 151.101.129.91
+1578 ['4178', 'shahrekhabar.com', '94.182.88.6']
+Saving the results : Traceroute to 94.182.88.6
+1579 ['4179', 'intesasanpaolo.com', '193.41.198.216']
+Saving the results : Traceroute to 193.41.198.216
+1580 ['4180', 'govoyages.com', '35.246.196.126']
+Saving the results : Traceroute to 35.246.196.126
+1581 ['4181', 'salon.com', '18.244.60.24']
+Saving the results : Traceroute to 18.244.60.24
+1582 ['4182', 'upmedia.mg', '192.124.249.163']
+Saving the results : Traceroute to 192.124.249.163
+1583 ['4183', 'brandcrowd.com', '3.168.178.88']
+Saving the results : Traceroute to 3.168.178.88
+1584 ['4184', 'bitso.com', '162.159.133.10']
+Saving the results : Traceroute to 162.159.133.10
+1585 ['4185', 'ebayimg.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1586 ['4186', 'sunbiz.org', '104.18.13.142']
+Saving the results : Traceroute to 104.18.13.142
+1587 ['4187', 'tirexo.work', '72.52.179.174']
+Saving the results : Traceroute to 72.52.179.174
+1588 ['4188', 'igp.com', '52.71.11.31']
+Saving the results : Traceroute to 52.71.11.31
+1589 ['4189', 'forumactif.com', '172.67.149.189']
+Saving the results : Traceroute to 172.67.149.189
+1590 ['4190', 'uh.edu', '129.7.97.54']
+Saving the results : Traceroute to 129.7.97.54
+1591 ['4191', 'comenity.net', '205.144.60.57']
+Saving the results : Traceroute to 205.144.60.57
+1592 ['4192', 'ninja-sign.com', '3.114.123.137']
+Saving the results : Traceroute to 3.114.123.137
+1593 ['4193', 'stamped.io', '52.89.77.251']
+Saving the results : Traceroute to 52.89.77.251
+1594 ['4194', 'adobe.sharepoint.com', '13.107.136.10']
+Saving the results : Traceroute to 13.107.136.10
+1595 ['4195', 'wazirx.com', '172.66.131.140']
+Saving the results : Traceroute to 172.66.131.140
+1596 ['4196', 'bol.com', '34.36.121.47']
+Saving the results : Traceroute to 34.36.121.47
+1597 ['4197', 'rstyle.me', '3.223.146.179']
+Saving the results : Traceroute to 3.223.146.179
+1598 ['4198', 'kuwo.cn', '101.42.133.54']
+Saving the results : Traceroute to 101.42.133.54
+1599 ['4199', 'shoppingblog2k.com', '108.179.232.26']
+Saving the results : Traceroute to 108.179.232.26
+1600 ['4200', 'streamlabs.com', '104.16.144.22']
+Saving the results : Traceroute to 104.16.144.22
+1601 ['3901', 'pogo.com', '184.28.227.123']
+Saving the results : Traceroute to 184.28.227.123
+1602 ['3902', 'rasekhoon.net', '185.147.161.213']
+Saving the results : Traceroute to 185.147.161.213
+1603 ['3903', 'postbank.de', '160.83.8.182']
+Saving the results : Traceroute to 160.83.8.182
+1604 ['3904', 'footmercato.net', '15.235.203.194']
+Saving the results : Traceroute to 15.235.203.194
+1605 ['3905', 'zonaprop.com.ar', '104.16.49.116']
+Saving the results : Traceroute to 104.16.49.116
+1606 ['3906', 'hackernoon.com', '104.18.22.237']
+Saving the results : Traceroute to 104.18.22.237
+1607 ['3907', 'unicommerce.com', '3.1.109.15']
+Saving the results : Traceroute to 3.1.109.15
+1608 ['3908', 'biligame.com', '212.64.117.140']
+Saving the results : Traceroute to 212.64.117.140
+1609 ['3909', 'ovh.net', '54.39.46.56']
+Saving the results : Traceroute to 54.39.46.56
+1610 ['3910', 'thumbtack.com', '54.156.70.183']
+Saving the results : Traceroute to 54.156.70.183
+1611 ['3911', 'puma.com', '151.101.130.132']
+Saving the results : Traceroute to 151.101.130.132
+1612 ['3912', 'penzu.com', '98.83.94.66']
+Saving the results : Traceroute to 98.83.94.66
+1613 ['3913', 'vz.ru', '89.248.192.171']
+62.115.115.247	16	240	1	0	0	32	0
+92.53.93.184	17	240	1	0	0	32	0
+92.53.93.60	18	240	1	0	0	32	0
+89.248.192.171	19	48	1	0	0	32	0
+89.248.192.171	20	48	1	0	0	32	0
+89.248.192.171	21	48	1	0	0	32	0
+89.248.192.171	22	48	1	0	0	32	0
+89.248.192.171	23	48	1	0	0	32	0
+89.248.192.171	24	48	1	0	0	32	0
+89.248.192.171	26	48	1	0	0	32	0
+89.248.192.171	28	48	1	0	0	32	0
+Saving the results : Traceroute to 89.248.192.171
+1614 ['3914', 'csc.gov.in', '164.100.115.10']
+Saving the results : Traceroute to 164.100.115.10
+1615 ['3915', 'w3resource.com', '104.26.15.93']
+Saving the results : Traceroute to 104.26.15.93
+1616 ['3916', 'nationwide.co.uk', '13.107.246.46']
+Saving the results : Traceroute to 13.107.246.46
+1617 ['3917', 'ceneo.pl', '185.31.26.194']
+Saving the results : Traceroute to 185.31.26.194
+1618 ['3918', 'entireweb.com', '104.26.12.55']
+Saving the results : Traceroute to 104.26.12.55
+1619 ['3919', 'beenverified.com', '104.16.44.7']
+Saving the results : Traceroute to 104.16.44.7
+1620 ['3920', 'mailgun.com', '147.75.40.150']
+Saving the results : Traceroute to 147.75.40.150
+1621 ['3921', 'lucidchart.com', '23.53.2.201']
+Saving the results : Traceroute to 23.53.2.201
+1622 ['3922', 'whereby.com', '75.2.8.149']
+Saving the results : Traceroute to 75.2.8.149
+1623 ['3923', 'marieclaire.com.tw', '35.241.47.28']
+Saving the results : Traceroute to 35.241.47.28
+1624 ['3924', 'tutorialrepublic.com', '172.67.141.19']
+Saving the results : Traceroute to 172.67.141.19
+1625 ['3925', 'gosi.gov.sa', '194.104.226.24']
+Saving the results : Traceroute to 194.104.226.24
+1626 ['3926', 'simplebits.io', '172.67.192.213']
+Saving the results : Traceroute to 172.67.192.213
+1627 ['3927', 'akismet.com', '192.0.78.25']
+Saving the results : Traceroute to 192.0.78.25
+1628 ['3928', 'forms.gle', '199.36.158.100']
+Saving the results : Traceroute to 199.36.158.100
+1629 ['3929', 'dominos.com', '23.50.1.83']
+Saving the results : Traceroute to 23.50.1.83
+1630 ['3930', 'kia.com', '209.198.180.28']
+Saving the results : Traceroute to 209.198.180.28
+1631 ['3931', 'complex.com', '18.64.8.80']
+Saving the results : Traceroute to 18.64.8.80
+1632 ['3932', 'avada.io', '104.26.14.53']
+Saving the results : Traceroute to 104.26.14.53
+1633 ['3933', 'coincheck.com', '3.168.179.87']
+Saving the results : Traceroute to 3.168.179.87
+1634 ['3934', 'shareae.com', '104.21.48.1']
+Saving the results : Traceroute to 104.21.48.1
+1635 ['3935', 'washington.edu', '34.168.51.100']
+Saving the results : Traceroute to 34.168.51.100
+1636 ['3936', 'lewebpedagogique.com', '51.159.160.1']
+Saving the results : Traceroute to 51.159.160.1
+1637 ['3937', 'animepahe.com', '104.21.75.223']
+Saving the results : Traceroute to 104.21.75.223
+1638 ['3938', 'jal.co.jp', '18.178.219.162']
+Saving the results : Traceroute to 18.178.219.162
+1639 ['3939', 'ulifestyle.com.hk', '18.162.181.172']
+Saving the results : Traceroute to 18.162.181.172
+1640 ['3940', 'nitori-net.jp', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1641 ['3941', 'yes24.com', '61.111.13.51']
+Saving the results : Traceroute to 61.111.13.51
+1642 ['3942', 'windowscentral.com', '199.232.198.114']
+Saving the results : Traceroute to 199.232.198.114
+1643 ['3943', 'tracxn.com', '18.244.60.99']
+Saving the results : Traceroute to 18.244.60.99
+1644 ['3944', 'wantedly.com', '57.181.87.177']
+Saving the results : Traceroute to 57.181.87.177
+1645 ['3945', 'olx.ro', '3.163.24.45']
+Saving the results : Traceroute to 3.163.24.45
+1646 ['3946', 'woot.com', '3.216.243.210']
+Saving the results : Traceroute to 3.216.243.210
+1647 ['3947', 'nenkin.go.jp', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1648 ['3948', 'bestanimegame.com', '104.21.16.1']
+Saving the results : Traceroute to 104.21.16.1
+1649 ['3949', 'tvguide.com', '199.232.212.194']
+Saving the results : Traceroute to 199.232.212.194
+1650 ['3950', 'inss.gov.br', '200.152.35.45']
+Saving the results : Traceroute to 200.152.35.45
+1651 ['3951', 'enterprise.com', '148.78.93.26']
+Saving the results : Traceroute to 148.78.93.26
+1652 ['3952', 'iau.ac.ir', '185.143.233.120']
+Saving the results : Traceroute to 185.143.233.120
+1653 ['3953', 'tunebat.com', '172.67.72.16']
+Saving the results : Traceroute to 172.67.72.16
+1654 ['3954', 'getfvid.com', '104.21.94.228']
+Saving the results : Traceroute to 104.21.94.228
+1655 ['3955', 'ihg.com', '23.53.2.139']
+Saving the results : Traceroute to 23.53.2.139
+1656 ['3956', 'jpo.go.jp', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1657 ['3957', 'coindcx.com', '104.18.12.22']
+Saving the results : Traceroute to 104.18.12.22
+1658 ['3958', 'sling.com', '159.60.130.57']
+Saving the results : Traceroute to 159.60.130.57
+1659 ['3959', 'sobot.com', '203.107.41.32']
+Saving the results : Traceroute to 203.107.41.32
+1660 ['3960', 'xitongzhijia.net', '123.129.198.180']
+Saving the results : Traceroute to 123.129.198.180
+1661 ['3961', 'syri.net', '172.67.177.51']
+Saving the results : Traceroute to 172.67.177.51
+1662 ['3962', 'buymeacoffee.com', '172.67.75.15']
+Saving the results : Traceroute to 172.67.75.15
+1663 ['3963', 'filmix.ac', '31.222.238.22']
+Saving the results : Traceroute to 31.222.238.22
+1664 ['3964', 'najva.com', '79.127.127.96']
+Saving the results : Traceroute to 79.127.127.96
+1665 ['3965', 'sitesell.com', '172.67.75.143']
+Saving the results : Traceroute to 172.67.75.143
+1666 ['3966', 'travelandleisure.com', '162.159.141.224']
+Saving the results : Traceroute to 162.159.141.224
+1667 ['3967', 'youtubetomp3music.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1668 ['3968', 'visualstudio.com', '150.171.74.16']
+Saving the results : Traceroute to 150.171.74.16
+1669 ['3969', 'lefigaro.fr', '23.53.2.91']
+Saving the results : Traceroute to 23.53.2.91
+1670 ['3970', 'royalmail.com', '77.95.81.226']
+62.115.127.7	14	242	1	0	0	32	0
+62.115.161.87	15	240	1	0	0	32	0
+171.74.142.225	21	244	1	0	0	32	0
+171.74.143.24	22	242	1	0	0	32	0
+Saving the results : Traceroute to 77.95.81.226
+1671 ['3971', 'newsauto.gr', '104.21.50.163']
+Saving the results : Traceroute to 104.21.50.163
+1672 ['3972', 'uptvs.com', '178.21.161.73']
+Saving the results : Traceroute to 178.21.161.73
+1673 ['3973', 'mass.gov', '76.223.33.104']
+Saving the results : Traceroute to 76.223.33.104
+1674 ['3974', 'hentaiheroes.wikidot.com', '107.20.139.176']
+Saving the results : Traceroute to 107.20.139.176
+1675 ['3975', 'jegeremacartenavigo.fr', '194.5.115.247']
+Saving the results : Traceroute to 194.5.115.247
+1676 ['3976', 'pgmall.my', '52.163.231.212']
+Saving the results : Traceroute to 52.163.231.212
+1677 ['3977', 'foxbusiness.com', '184.26.241.135']
+Saving the results : Traceroute to 184.26.241.135
+1678 ['3978', 'moviesjoy.to', '104.21.32.92']
+Saving the results : Traceroute to 104.21.32.92
+1679 ['3979', 'rabota.ua', '104.21.91.250']
+Saving the results : Traceroute to 104.21.91.250
+1680 ['3980', 'wallpaperaccess.com', '104.22.33.65']
+Saving the results : Traceroute to 104.22.33.65
+1681 ['3981', 'simplepractice.com', '76.76.21.21']
+Saving the results : Traceroute to 76.76.21.21
+1682 ['3982', 'rollercoin.com', '104.26.9.232']
+Saving the results : Traceroute to 104.26.9.232
+1683 ['3983', 'linkintime.co.in', '65.1.185.196']
+Saving the results : Traceroute to 65.1.185.196
+1684 ['3984', 'gruppocarige.it', '195.246.209.124']
+62.115.118.59	10	241	1	0	0	32	0
+213.248.98.125	11	239	1	0	0	32	0
+212.74.70.47	12	247	1	0	0	0	0
+80.169.115.218	13	246	1	0	0	0	0
+195.246.208.39	14	245	1	0	0	0	0
+Saving the results : Traceroute to 195.246.209.124
+1685 ['3985', 'agenciatributaria.gob.es', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1686 ['3986', 'al-maraabimedias.net', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1687 ['3987', 'cretgate.com', '93.93.51.223']
+Saving the results : Traceroute to 93.93.51.223
+1688 ['3988', 'fao.org', '104.18.23.5']
+Saving the results : Traceroute to 104.18.23.5
+1689 ['3989', 'alidropship.com', '207.244.127.159']
+Saving the results : Traceroute to 207.244.127.159
+1690 ['3990', 'athenahealth.com', '18.205.50.128']
+Saving the results : Traceroute to 18.205.50.128
+1691 ['3991', 'buyersdrive.com', '120.136.10.40']
+Saving the results : Traceroute to 120.136.10.40
+1692 ['3992', 'mihanwebhost.com', '89.42.210.189']
+Saving the results : Traceroute to 89.42.210.189
+1693 ['3993', 'autovit.ro', '75.2.8.141']
+Saving the results : Traceroute to 75.2.8.141
+1694 ['3994', 'yunzhijia.com', '104.21.38.5']
+Saving the results : Traceroute to 104.21.38.5
+1695 ['3995', 'grancursosonline.com.br', '104.18.100.225']
+Saving the results : Traceroute to 104.18.100.225
+1696 ['3996', 'ip.tv', '66.165.248.210']
+Saving the results : Traceroute to 66.165.248.210
+1697 ['3997', 'juicyads.com', '144.217.254.67']
+Saving the results : Traceroute to 144.217.254.67
+1698 ['3998', 'banglanews24.com', '104.16.51.58']
+Saving the results : Traceroute to 104.16.51.58
+1699 ['3999', 'niazerooz.com', '62.60.144.85']
+Saving the results : Traceroute to 62.60.144.85
+1700 ['4000', 'osym.gov.tr', '85.153.134.20']
+Saving the results : Traceroute to 85.153.134.20
+1701 ['3401', 'hsbc.co.uk', '75.2.113.238']
+Saving the results : Traceroute to 75.2.113.238
+1702 ['3402', 'china360.cn', '59.110.9.232']
+Saving the results : Traceroute to 59.110.9.232
+1703 ['3403', 'jdzj.com', '101.71.251.236']
+Saving the results : Traceroute to 101.71.251.236
+1704 ['3404', 'leiphone.com', '106.55.120.211']
+Saving the results : Traceroute to 106.55.120.211
+1705 ['3405', 'tophere.cn', '115.239.209.159']
+Saving the results : Traceroute to 115.239.209.159
+1706 ['3406', 'u17.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1707 ['3407', 'avature.net', '34.233.198.44']
+Saving the results : Traceroute to 34.233.198.44
+1708 ['3408', 'babyshop.com', '216.150.1.193']
+Saving the results : Traceroute to 216.150.1.193
+1709 ['3409', 'indianvisaonline.gov.in', '164.100.129.11']
+Saving the results : Traceroute to 164.100.129.11
+1710 ['3410', 'fmovies.app', '103.224.182.253']
+Saving the results : Traceroute to 103.224.182.253
+1711 ['3411', 'dmkt-sp.jp', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1712 ['3412', 'alaskaair.com', '159.49.47.135']
+Saving the results : Traceroute to 159.49.47.135
+1713 ['3413', 'google.com.bd', '142.250.206.195']
+Saving the results : Traceroute to 142.250.206.195
+1714 ['3414', 'pluska.sk', '104.22.54.87']
+Saving the results : Traceroute to 104.22.54.87
+1715 ['3415', 'adlandpro.com', '184.68.74.251']
+Saving the results : Traceroute to 184.68.74.251
+1716 ['3416', 'gamingbible.co.uk', '104.21.3.100']
+Saving the results : Traceroute to 104.21.3.100
+1717 ['3417', 'bitdefender.com', '104.18.169.222']
+Saving the results : Traceroute to 104.18.169.222
+1718 ['3418', 'divyabhaskar.co.in', '65.2.113.24']
+Saving the results : Traceroute to 65.2.113.24
+1719 ['3419', 'up.nic.in', '164.100.52.64']
+Saving the results : Traceroute to 164.100.52.64
+1720 ['3420', 'sf-express.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1721 ['3421', 'billboard.com', '192.0.66.69']
+Saving the results : Traceroute to 192.0.66.69
+1722 ['3422', 'ip138.com', '140.150.21.35']
+Saving the results : Traceroute to 140.150.21.35
+1723 ['3423', 'ismedia.jp', '210.148.177.150']
+Saving the results : Traceroute to 210.148.177.150
+1724 ['3424', 'quickconnect.to', '54.186.53.179']
+Saving the results : Traceroute to 54.186.53.179
+1725 ['3425', 'mako.co.il', '66.22.84.55']
+62.115.169.179	17	238	1	0	0	32	0
+Saving the results : Traceroute to 66.22.84.55
+1726 ['3426', 'linux.com', '23.185.0.3']
+Saving the results : Traceroute to 23.185.0.3
+1727 ['3427', 'apkfab.com', '172.67.71.117']
+Saving the results : Traceroute to 172.67.71.117
+1728 ['3428', 'mixcloud.com', '104.20.5.36']
+Saving the results : Traceroute to 104.20.5.36
+1729 ['3429', 'sharefile.com', '3.168.178.110']
+Saving the results : Traceroute to 3.168.178.110
+1730 ['3430', 'zoopla.co.uk', '52.211.121.148']
+Saving the results : Traceroute to 52.211.121.148
+1731 ['3431', 'dingtalk.com', '106.11.40.32']
+Saving the results : Traceroute to 106.11.40.32
+1732 ['3432', 'toplearn.com', '45.144.18.129']
+62.115.140.229	11	245	1	0	0	32	0
+195.12.254.213	12	247	1	8	0	32	0
+193.251.150.198	15	233	1	8	0	0	0
+85.132.90.170	16	231	1	8	0	0	0
+Saving the results : Traceroute to 45.144.18.129
+1733 ['3433', 'testservices.nic.in', '164.100.118.219']
+Saving the results : Traceroute to 164.100.118.219
+1734 ['3434', 'samcart.com', '52.3.153.19']
+Saving the results : Traceroute to 52.3.153.19
+1735 ['3435', 'serch20.biz', '103.224.212.213']
+Saving the results : Traceroute to 103.224.212.213
+1736 ['3436', 'duga.jp', '153.126.247.101']
+Saving the results : Traceroute to 153.126.247.101
+1737 ['3437', 'telegra.ph', '149.154.164.13']
+Saving the results : Traceroute to 149.154.164.13
+1738 ['3438', 'clideo.com', '88.99.28.182']
+Saving the results : Traceroute to 88.99.28.182
+1739 ['3439', 'onepeloton.com', '66.33.60.194']
+Saving the results : Traceroute to 66.33.60.194
+1740 ['3440', 'awsapps.com', '3.168.167.75']
+Saving the results : Traceroute to 3.168.167.75
+1741 ['3441', 'jigsawplanet.com', '69.46.22.74']
+Saving the results : Traceroute to 69.46.22.74
+1742 ['3442', 'epost.go.kr', '27.101.203.224']
+Saving the results : Traceroute to 27.101.203.224
+1743 ['3443', 'biccamera.com', '219.109.1.4']
+Saving the results : Traceroute to 219.109.1.4
+1744 ['3444', 'brainly.com', '104.16.123.107']
+Saving the results : Traceroute to 104.16.123.107
+1745 ['3445', 'irecommend.ru', '188.246.231.121']
+62.115.115.247	17	240	1	0	0	32	0
+92.53.93.184	18	240	1	0	0	32	0
+92.53.93.73	19	240	1	0	0	32	0
+Saving the results : Traceroute to 188.246.231.121
+1746 ['3446', 'anses.gob.ar', '45.60.31.128']
+Saving the results : Traceroute to 45.60.31.128
+1747 ['3447', 'japannetbank.co.jp', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1748 ['3448', 'bovada.lv', '138.113.140.62']
+Saving the results : Traceroute to 138.113.140.62
+1749 ['3449', 'topky.sk', '213.81.185.100']
+Saving the results : Traceroute to 213.81.185.100
+1750 ['3450', 'mrso.jp', '52.196.69.41']
+Saving the results : Traceroute to 52.196.69.41
+1751 ['3451', 'managewp.com', '18.218.68.223']
+Saving the results : Traceroute to 18.218.68.223
+1752 ['3452', 'yaplakal.com', '104.26.1.218']
+Saving the results : Traceroute to 104.26.1.218
+1753 ['3453', 'ourworldindata.org', '172.67.43.105']
+Saving the results : Traceroute to 172.67.43.105
+1754 ['3454', 'cartoonporncomics.info', '104.21.9.196']
+Saving the results : Traceroute to 104.21.9.196
+1755 ['3455', 'ionos.com', '74.208.4.76']
+Saving the results : Traceroute to 74.208.4.76
+1756 ['3456', 'anyporn.com', '88.208.55.1']
+Saving the results : Traceroute to 88.208.55.1
+1757 ['3457', 'zara.net', '52.223.13.124']
+Saving the results : Traceroute to 52.223.13.124
+1758 ['3458', 'alintibaha.net', '139.99.190.176']
+Saving the results : Traceroute to 139.99.190.176
+1759 ['3459', 'sanet.st', '104.21.87.105']
+Saving the results : Traceroute to 104.21.87.105
+1760 ['3460', 'cimalight.io', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1761 ['3461', 'biggerpockets.com', '172.67.3.178']
+Saving the results : Traceroute to 172.67.3.178
+1762 ['3462', 'wixstatic.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1763 ['3463', 'rte.ie', '104.18.125.28']
+Saving the results : Traceroute to 104.18.125.28
+1764 ['3464', 'usda.gov', '199.134.75.32']
+Saving the results : Traceroute to 199.134.75.32
+1765 ['3465', 'prettylittlething.com', '23.50.1.107']
+Saving the results : Traceroute to 23.50.1.107
+1766 ['3466', 'ibps.in', '202.191.149.218']
+Saving the results : Traceroute to 202.191.149.218
+1767 ['3467', 'tv2.dk', '199.232.41.91']
+Saving the results : Traceroute to 199.232.41.91
+1768 ['3468', 'milanuncios.com', '99.84.66.124']
+Saving the results : Traceroute to 99.84.66.124
+1769 ['3469', 'deref-web.de', '217.72.196.59']
+212.227.117.207	19	238	1	0	0	0	0
+212.227.112.212	21	236	1	0	0	0	0
+Saving the results : Traceroute to 217.72.196.59
+1770 ['3470', 'aies.cn', '198.16.53.244']
+Saving the results : Traceroute to 198.16.53.244
+1771 ['3471', 'libsyn.com', '104.19.154.92']
+Saving the results : Traceroute to 104.19.154.92
+1772 ['3472', 'piccoma.com', '121.53.90.11']
+Saving the results : Traceroute to 121.53.90.11
+1773 ['3473', 'balkanweb.com', '104.26.11.137']
+Saving the results : Traceroute to 104.26.11.137
+1774 ['3474', '24smi.info', '104.26.9.75']
+Saving the results : Traceroute to 104.26.9.75
+1775 ['3475', 'rentracks.jp', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1776 ['3476', 'pancakeswap.finance', '104.26.3.169']
+Saving the results : Traceroute to 104.26.3.169
+1777 ['3477', 'calculadora.name', '172.67.214.134']
+Saving the results : Traceroute to 172.67.214.134
+1778 ['3478', 'alahlynet.com.eg', '41.33.193.23']
+Saving the results : Traceroute to 41.33.193.23
+1779 ['3479', 'avast.com', '23.212.13.94']
+Saving the results : Traceroute to 23.212.13.94
+1780 ['3480', 'litnet.com', '154.81.141.15']
+Saving the results : Traceroute to 154.81.141.15
+1781 ['3481', 'indiatvnews.com', '13.225.117.106']
+Saving the results : Traceroute to 13.225.117.106
+1782 ['3482', 'costco.ca', '104.75.32.248']
+Saving the results : Traceroute to 104.75.32.248
+1783 ['3483', 'aircanada.com', '104.75.1.253']
+Saving the results : Traceroute to 104.75.1.253
+1784 ['3484', 'jinshuju.net', '52.83.185.165']
+Saving the results : Traceroute to 52.83.185.165
+1785 ['3485', 'nta.go.jp', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1786 ['3486', 'khaleejtimes.com', '54.158.195.16']
+Saving the results : Traceroute to 54.158.195.16
+1787 ['3487', 'goodgamestudios.com', '3.175.34.99']
+Saving the results : Traceroute to 3.175.34.99
+1788 ['3488', 'mockplus.cn', '47.98.174.170']
+Saving the results : Traceroute to 47.98.174.170
+1789 ['3489', 'jalan.net', '160.17.5.13']
+Saving the results : Traceroute to 160.17.5.13
+1790 ['3490', 'cyberciti.biz', '172.67.14.13']
+Saving the results : Traceroute to 172.67.14.13
+1791 ['3491', 'a-ads.com', '104.26.15.247']
+Saving the results : Traceroute to 104.26.15.247
+1792 ['3492', 'licindia.in', '64.185.181.238']
+Saving the results : Traceroute to 64.185.181.238
+1793 ['3493', 'dexerto.com', '172.67.11.227']
+Saving the results : Traceroute to 172.67.11.227
+1794 ['3494', 'science.az', '31.170.236.166']
+Saving the results : Traceroute to 31.170.236.166
+1795 ['3495', 'vogue.co.jp', '151.101.2.133']
+Saving the results : Traceroute to 151.101.2.133
+1796 ['3496', 'bancointer.com.br', '18.244.60.36']
+Saving the results : Traceroute to 18.244.60.36
+1797 ['3497', 'pons.com', '34.91.145.21']
+Saving the results : Traceroute to 34.91.145.21
+1798 ['3498', 'bayt.com', '152.70.175.173']
+Saving the results : Traceroute to 152.70.175.173
+1799 ['3499', 'cpta.com.cn', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1800 ['3500', 'jining.com', '142.250.206.228']
+Saving the results : Traceroute to 142.250.206.228
+1801 ['1001', '52pk.com', '58.218.215.106']
+Saving the results : Traceroute to 58.218.215.106
+1802 ['1002', 'douban.com', '140.143.177.206']
+Saving the results : Traceroute to 140.143.177.206
+1803 ['1003', 'negatejusticehaw.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1804 ['1004', 'kp.ru', '95.181.181.82']
+Saving the results : Traceroute to 95.181.181.82
+1805 ['1005', 'google.ch', '172.217.25.163']
+Saving the results : Traceroute to 172.217.25.163
+1806 ['1006', 'ytimg.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1807 ['1007', 'poshukach.com', '69.162.95.4']
+Saving the results : Traceroute to 69.162.95.4
+1808 ['1008', 'businesswire.com', '184.30.186.7']
+Saving the results : Traceroute to 184.30.186.7
+1809 ['1009', 'clarin.com', '104.18.6.141']
+Saving the results : Traceroute to 104.18.6.141
+1810 ['1010', 'goldcarpet.cn', '39.106.143.123']
+Saving the results : Traceroute to 39.106.143.123
+1811 ['1011', 'messenger.com', '57.144.188.141']
+Saving the results : Traceroute to 57.144.188.141
+1812 ['1012', 'strava.com', '3.171.185.75']
+Saving the results : Traceroute to 3.171.185.75
+1813 ['1013', 'cic.gc.ca', '167.44.7.21']
+Saving the results : Traceroute to 167.44.7.21
+1814 ['1014', 'autotrader.com', '23.55.196.215']
+Saving the results : Traceroute to 23.55.196.215
+1815 ['1015', 'photopea.com', '176.227.168.129']
+Saving the results : Traceroute to 176.227.168.129
+1816 ['1016', 'ea.com', '23.50.1.191']
+Saving the results : Traceroute to 23.50.1.191
+1817 ['1017', 'rediffmailpro.com', '114.31.230.16']
+Saving the results : Traceroute to 114.31.230.16
+1818 ['1018', 'sina.cn', '36.51.254.90']
+Saving the results : Traceroute to 36.51.254.90
+1819 ['1019', 'who.int', '192.133.11.1']
+Saving the results : Traceroute to 192.133.11.1
+1820 ['1020', 'urdupoint.com', '104.26.6.27']
+Saving the results : Traceroute to 104.26.6.27
+1821 ['1021', 'entrepreneur.com', '151.101.66.217']
+Saving the results : Traceroute to 151.101.66.217
+1822 ['1022', 'beytoote.com', '104.21.26.6']
+Saving the results : Traceroute to 104.21.26.6
+1823 ['1023', 'soft98.ir', '79.127.127.35']
+Saving the results : Traceroute to 79.127.127.35
+1824 ['1024', 'wangdaidongfang.com', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1825 ['1025', 'google.com.pk', '142.250.76.131']
+Saving the results : Traceroute to 142.250.76.131
+1826 ['1026', 'shopbop.com', '54.239.25.244']
+Saving the results : Traceroute to 54.239.25.244
+1827 ['1027', 'masrawy.com', '172.67.33.174']
+Saving the results : Traceroute to 172.67.33.174
+1828 ['1028', '365jia.cn', '180.163.146.118']
+Saving the results : Traceroute to 180.163.146.118
+1829 ['1029', 'kohls.com', '23.65.188.65']
+Saving the results : Traceroute to 23.65.188.65
+1830 ['1030', 'zingnews.vn', '42.112.59.9']
+Saving the results : Traceroute to 42.112.59.9
+1831 ['1031', 'mirconnect.ru', 'N/A']
+유효하지 않은 IP 주소 건너뛰기: N/A
+1832 ['1032', 'khanacademy.org', '18.244.60.97']
+Saving the results : Traceroute to 18.244.60.97
+1833 ['1033', 'ptt.cc', '140.112.172.5']
+Saving the results : Traceroute to 140.112.172.5
+1834 ['1034', 'google.sk', '142.250.207.99']
+Saving the results : Traceroute to 142.250.207.99
+1835 ['1035', 'ouo.io', '104.22.22.162']
+Saving the results : Traceroute to 104.22.22.162
+1836 ['1036', 'mabanque.bnpparibas', '104.75.45.153']
+Saving the results : Traceroute to 104.75.45.153
+1837 ['1037', 'theoutnet.com', '23.50.0.229']
+Saving the results : Traceroute to 23.50.0.229
+1838 ['1038', 'workable.com', '104.16.148.37']
+Saving the results : Traceroute to 104.16.148.37
+1839 ['1039', 'edh.tw', '18.64.8.74']
+Saving the results : Traceroute to 18.64.8.74
+1840 ['1040', 'nobitex.ir', '185.143.232.201']
+Saving the results : Traceroute to 185.143.232.201
+1841 ['1041', 'sakura.ne.jp', '163.43.179.80']
+Saving the results : Traceroute to 163.43.179.80
+1842 ['1042', 'rakuten-card.co.jp', '23.41.87.127']
+Saving the results : Traceroute to 23.41.87.127
+1843 ['1043', 'championat.com', '81.19.86.0']
+Saving the results : Traceroute to 81.19.86.0
+1844 ['1044', 'allhotfeed.com', '107.178.134.62']
+Saving the results : Traceroute to 107.178.134.62Traceback (most recent call last):
+  File "/Users/hyoyounglim/Project/ecn_measurement_tool/traceroute_only_improved.py", line 24, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'

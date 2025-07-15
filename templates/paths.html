@@ -1,0 +1,90 @@
+{% extends "layout.html" %}
+
+{% block title %}경로 분석 - 트레이스루트 분석{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">공통 경로 분석</h1>
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h5>공통 경로 목록</h5>
+            </div>
+            <div class="card-body">
+                <div id="paths-container">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+async function loadPathsData() {
+    try {
+        const paths = await fetch('/api/paths?limit=50').then(r => r.json());
+        updatePathsDisplay(paths);
+    } catch (error) {
+        console.error('경로 데이터 로드 실패:', error);
+    }
+}
+
+function updatePathsDisplay(paths) {
+    const container = document.getElementById('paths-container');
+    container.innerHTML = '';
+    
+    paths.forEach((path, index) => {
+        const pathCard = document.createElement('div');
+        pathCard.className = 'card mb-3';
+        pathCard.innerHTML = `
+            <div class="card-header">
+                <h6>경로 ${index + 1} (발생 빈도: ${path.frequency}회)</h6>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h6>라우터 경로:</h6>
+                        <div class="d-flex flex-wrap">
+                            ${path.routers.map((router, i) => `
+                                <span class="badge bg-primary me-1 mb-1">
+                                    ${i + 1}. ${router}
+                                </span>
+                            `).join('')}
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h6>Bleaching 포인트:</h6>
+                        ${path.bleaching_points.length > 0 ? 
+                            path.bleaching_points.map(ip => `
+                                <span class="badge bg-danger me-1 mb-1">${ip}</span>
+                            `).join('') : 
+                            '<span class="text-muted">없음</span>'
+                        }
+                        <br><br>
+                        <h6>대표 도메인:</h6>
+                        ${path.representative_domains.map(domain => `
+                            <span class="badge bg-secondary me-1 mb-1">${domain}</span>
+                        `).join('')}
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <small class="text-muted">평균 홉 수: ${path.avg_hops.toFixed(1)}</small>
+                    </div>
+                    <div class="col-md-6">
+                        <small class="text-muted">평균 Bleaching 수: ${path.avg_bleaching_count.toFixed(1)}</small>
+                    </div>
+                </div>
+            </div>
+        `;
+        container.appendChild(pathCard);
+    });
+}
+
+document.addEventListener('DOMContentLoaded', loadPathsData);
+</script>
+{% endblock %}

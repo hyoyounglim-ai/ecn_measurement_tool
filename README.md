@@ -49,6 +49,7 @@ sudo sysctl -w net.ipv4.tcp_retrans_collapse=0
 # Check the ecn enable on the client side 
 $ sysctl net.ipv4.tcp_ecn
 
+$ sudo sysctl -w net.ipv4.tcp_ecn=1
 #if the output is 1, it means ecn is enabled.
 
 ## Create files for web site list in websitelist dir
@@ -58,6 +59,12 @@ web_2000.txt    web_4000.txt    web_6000.txt    web_8000.txt    web_10000.txt
 web_12000.txt   web_14000.txt   web_16000.txt   web_18000.txt   web_20000.txt
 ......
 web_5.txt
+
+venv
+# 가상환경 권장 방식
+sudo apt install python3-venv -y
+python3 -m venv venv
+source venv/bin/activate
 
 # test file generation
 $ ./run_traceroute.sh filelist_traceroute_2.txt
@@ -167,3 +174,15 @@ $ sysctl net.ipv4.tcp_ecn
 
 
 
+
+
+sudo ./venv/bin/python3 traceroute_only.py test.csv
+nohup ./venv/bin/python3 traceroute_only.py ip_extracted_traceroute_ip_list_20250707.csv 
+
+scp -i "aws-1.pem" ~/Project/ecn_measurement_tool/asn/asn_prefixes_sampled.csv ubuntu@ec2-3-106-225-6.ap-southeast-2.compute.amazonaws.com:~/ecn_measurement_tool/asn/
+
+scp ~/Project/ecn_measurement_tool/asn/asn_prefixes_sampled.csv root@49.50.129.152:~/ecn_measurement_tool/asn/
+
+pw: G5-U362ePnbrt
+
+nohup python traceroute_from_prefix.py asn/asn_prefixes_sampled.csv 

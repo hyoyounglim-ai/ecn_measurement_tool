@@ -1,0 +1,1604 @@
+{
+  "summary": {
+    "total_as": 158,
+    "analysis_timestamp": "2025-07-11T03:07:12.253933"
+  },
+  "as_statistics": [
+    {
+      "as_number": "AS4766",
+      "as_name": "AS4766 Korea Telecom",
+      "country": "KR",
+      "router_count": 232,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "Unknown",
+      "as_name": "Unknown",
+      "country": "Unknown",
+      "router_count": 36833,
+      "bleaching_count": 11858,
+      "bleaching_rate": 0.3219395650639372
+    },
+    {
+      "as_number": "AS6939",
+      "as_name": "AS6939 Hurricane Electric LLC",
+      "country": "US",
+      "router_count": 7,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS29182",
+      "as_name": "AS29182 JSC IOT",
+      "country": "RU",
+      "router_count": 1,
+      "bleaching_count": 1,
+      "bleaching_rate": 1.0
+    },
+    {
+      "as_number": "AS1299",
+      "as_name": "AS1299 Arelion Sweden AB",
+      "country": "US",
+      "router_count": 36,
+      "bleaching_count": 980,
+      "bleaching_rate": 27.22222222222222
+    },
+    {
+      "as_number": "AS25512",
+      "as_name": "AS25512 CD-Telematika a.s.",
+      "country": "CZ",
+      "router_count": 1,
+      "bleaching_count": 3,
+      "bleaching_rate": 3.0
+    },
+    {
+      "as_number": "AS16276",
+      "as_name": "AS16276 OVH SAS",
+      "country": "CA",
+      "router_count": 14,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS3356",
+      "as_name": "AS3356 Level 3 Parent, LLC",
+      "country": "US",
+      "router_count": 28,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS9002",
+      "as_name": "AS9002 RETN Limited",
+      "country": "NL",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS60144",
+      "as_name": "AS60144 3W Infra B.V.",
+      "country": "NL",
+      "router_count": 2,
+      "bleaching_count": 4,
+      "bleaching_rate": 2.0
+    },
+    {
+      "as_number": "AS16509",
+      "as_name": "AS16509 Amazon.com, Inc.",
+      "country": "KR",
+      "router_count": 43,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS3257",
+      "as_name": "AS3257 GTT Communications Inc.",
+      "country": "US",
+      "router_count": 37,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS27589",
+      "as_name": "AS27589 MOJOHOST",
+      "country": "US",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS8560",
+      "as_name": "AS8560 IONOS SE",
+      "country": "DE",
+      "router_count": 11,
+      "bleaching_count": 228,
+      "bleaching_rate": 20.727272727272727
+    },
+    {
+      "as_number": "AS13335",
+      "as_name": "AS13335 Cloudflare, Inc.",
+      "country": "KR",
+      "router_count": 12,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS22611",
+      "as_name": "AS22611 InMotion Hosting, Inc.",
+      "country": "US",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS8075",
+      "as_name": "AS8075 Microsoft Corporation",
+      "country": "KR",
+      "router_count": 28,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS31898",
+      "as_name": "AS31898 Oracle Corporation",
+      "country": "US",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS4134",
+      "as_name": "AS4134 CHINANET-BACKBONE",
+      "country": "CN",
+      "router_count": 9,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS38283",
+      "as_name": "AS38283 CHINANET SiChuan Telecom Internet Data Center",
+      "country": "CN",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS174",
+      "as_name": "AS174 Cogent Communications",
+      "country": "US",
+      "router_count": 53,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS34762",
+      "as_name": "AS34762 Combell NV",
+      "country": "BE",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS20940",
+      "as_name": "AS20940 Akamai International B.V.",
+      "country": "US",
+      "router_count": 16,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS63949",
+      "as_name": "AS63949 Akamai Connected Cloud",
+      "country": "US",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS6762",
+      "as_name": "AS6762 TELECOM ITALIA SPARKLE S.p.A.",
+      "country": "US",
+      "router_count": 19,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS29802",
+      "as_name": "AS29802 HIVELOCITY, Inc.",
+      "country": "US",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS42708",
+      "as_name": "AS42708 GleSYS AB",
+      "country": "NL",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS39287",
+      "as_name": "AS39287 ab stract ltd",
+      "country": "SE",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS3786",
+      "as_name": "AS3786 LG DACOM Corporation",
+      "country": "KR",
+      "router_count": 12,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS31133",
+      "as_name": "AS31133 PJSC MegaFon",
+      "country": "PL",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS31261",
+      "as_name": "AS31261 PJSC MegaFon",
+      "country": "RU",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS9498",
+      "as_name": "AS9498 BHARTI Airtel Ltd.",
+      "country": "IN",
+      "router_count": 7,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS133296",
+      "as_name": "AS133296 Web Werks India Pvt. Ltd.",
+      "country": "IN",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS134930",
+      "as_name": "AS134930 HOSTING SERVER SOLUTIONS",
+      "country": "IN",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS11260",
+      "as_name": "AS11260 EastLink",
+      "country": "CA",
+      "router_count": 4,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS2914",
+      "as_name": "AS2914 NTT America, Inc.",
+      "country": "HK",
+      "router_count": 27,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS210079",
+      "as_name": "AS210079 EuroByte LLC",
+      "country": "RU",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS38158",
+      "as_name": "AS38158 PT. Cyberindo Aditama",
+      "country": "ID",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS132652",
+      "as_name": "AS132652 PT. Cahaya Buana Raksa",
+      "country": "ID",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS12025",
+      "as_name": "AS12025 Iron Mountain Data Center",
+      "country": "US",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS47583",
+      "as_name": "AS47583 Hostinger International Limited",
+      "country": "US",
+      "router_count": 9,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS40824",
+      "as_name": "AS40824 Webzilla Inc.",
+      "country": "US",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS6461",
+      "as_name": "AS6461 Zayo Bandwidth",
+      "country": "US",
+      "router_count": 6,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS24940",
+      "as_name": "AS24940 Hetzner Online GmbH",
+      "country": "DE",
+      "router_count": 16,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS60494",
+      "as_name": "AS60494 AIRE NETWORKS DEL MEDITERRANEO SL UNIPERSONAL",
+      "country": "ES",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS15169",
+      "as_name": "AS15169 Google LLC",
+      "country": "GB",
+      "router_count": 8,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS396982",
+      "as_name": "AS396982 Google LLC",
+      "country": "US",
+      "router_count": 4,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS38264",
+      "as_name": "AS38264 National WiMAX/IMS environment",
+      "country": "PK",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS12389",
+      "as_name": "AS12389 PJSC Rostelecom",
+      "country": "RU",
+      "router_count": 13,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS201011",
+      "as_name": "AS201011 Core-Backbone GmbH",
+      "country": "DE",
+      "router_count": 4,
+      "bleaching_count": 1,
+      "bleaching_rate": 0.25
+    },
+    {
+      "as_number": "AS59939",
+      "as_name": "AS59939 WIBO Baltic UAB",
+      "country": "NL",
+      "router_count": 1,
+      "bleaching_count": 2,
+      "bleaching_rate": 2.0
+    },
+    {
+      "as_number": "AS3491",
+      "as_name": "AS3491 PCCW Global, Inc.",
+      "country": "JP",
+      "router_count": 16,
+      "bleaching_count": 4,
+      "bleaching_rate": 0.25
+    },
+    {
+      "as_number": "AS45668",
+      "as_name": "AS45668 AIMS Data Centre Sdn Bhd",
+      "country": "MY",
+      "router_count": 4,
+      "bleaching_count": 4,
+      "bleaching_rate": 1.0
+    },
+    {
+      "as_number": "AS14061",
+      "as_name": "AS14061 DigitalOcean, LLC",
+      "country": "US",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS7922",
+      "as_name": "AS7922 Comcast Cable Communications, LLC",
+      "country": "US",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS46844",
+      "as_name": "AS46844 Sharktech",
+      "country": "US",
+      "router_count": 4,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS5511",
+      "as_name": "AS5511 Orange S.A.",
+      "country": "FR",
+      "router_count": 1,
+      "bleaching_count": 98,
+      "bleaching_rate": 98.0
+    },
+    {
+      "as_number": "AS48551",
+      "as_name": "AS48551 Sindad Network Technology PJSC",
+      "country": "IR",
+      "router_count": 1,
+      "bleaching_count": 9,
+      "bleaching_rate": 9.0
+    },
+    {
+      "as_number": "AS46606",
+      "as_name": "AS46606 Unified Layer",
+      "country": "US",
+      "router_count": 5,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS58453",
+      "as_name": "AS58453 China Mobile International Limited",
+      "country": "HK",
+      "router_count": 5,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS10197",
+      "as_name": "AS10197 Chonnam National University",
+      "country": "KR",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS1273",
+      "as_name": "AS1273 Vodafone Group PLC",
+      "country": "SG",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS55410",
+      "as_name": "AS55410 Vodafone Idea Ltd",
+      "country": "IN",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS29208",
+      "as_name": "AS29208 Quantcom, a.s.",
+      "country": "CZ",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS44477",
+      "as_name": "AS44477 PQ HOSTING PLUS S.R.L.",
+      "country": "CZ",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS701",
+      "as_name": "AS701 Verizon Business",
+      "country": "US",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS3223",
+      "as_name": "AS3223 Voxility LLP",
+      "country": "US",
+      "router_count": 6,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS48254",
+      "as_name": "AS48254 20i Limited",
+      "country": "GB",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS12956",
+      "as_name": "AS12956 TELXIUS Cable",
+      "country": "ES",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS3352",
+      "as_name": "AS3352 TELEFONICA DE ESPANA S.A.U.",
+      "country": "ES",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS9370",
+      "as_name": "AS9370 SAKURA Internet Inc.",
+      "country": "JP",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS32244",
+      "as_name": "AS32244 Liquid Web, L.L.C",
+      "country": "US",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS8359",
+      "as_name": "AS8359 MTS PJSC",
+      "country": "RU",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS39134",
+      "as_name": "AS39134 EDINAYA SET LIMITED LIABILITY COMPANY",
+      "country": "RU",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS197695",
+      "as_name": "AS197695 \"Domain names registrar REG.RU\", Ltd",
+      "country": "RU",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS50482",
+      "as_name": "AS50482 JSC Kazakhtelecom",
+      "country": "KZ",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS9198",
+      "as_name": "AS9198 JSC Kazakhtelecom",
+      "country": "KZ",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS7506",
+      "as_name": "AS7506 GMO Internet Group, Inc.",
+      "country": "JP",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS37907",
+      "as_name": "AS37907 DigiRock, Inc.",
+      "country": "JP",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS5650",
+      "as_name": "AS5650 Frontier Communications of America, Inc.",
+      "country": "US",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS46690",
+      "as_name": "AS46690 Southern New England Telephone Company and SNET America, Inc.",
+      "country": "US",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS53824",
+      "as_name": "AS53824 Liquid Web, L.L.C",
+      "country": "US",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS24768",
+      "as_name": "AS24768 ALMOUROLTEC SERVICOS DE INFORMATICA E INTERNET LDA",
+      "country": "PT",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS12826",
+      "as_name": "AS12826 CYLLENE ITS SAS",
+      "country": "FR",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS34993",
+      "as_name": "AS34993 CYLLENE ITS SAS",
+      "country": "FR",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS9318",
+      "as_name": "AS9318 SK Broadband Co Ltd",
+      "country": "KR",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS3320",
+      "as_name": "AS3320 Deutsche Telekom AG",
+      "country": "DE",
+      "router_count": 5,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS13036",
+      "as_name": "AS13036 T-Mobile Czech Republic a.s.",
+      "country": "CZ",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS13649",
+      "as_name": "AS13649 Flexential Colorado Corp.",
+      "country": "US",
+      "router_count": 9,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS4637",
+      "as_name": "AS4637 Telstra Global",
+      "country": "KR",
+      "router_count": 5,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS20473",
+      "as_name": "AS20473 The Constant Company, LLC",
+      "country": "KR",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS50340",
+      "as_name": "AS50340 JSC Selectel",
+      "country": "RU",
+      "router_count": 4,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS12824",
+      "as_name": "AS12824 home.pl S.A.",
+      "country": "PL",
+      "router_count": 1,
+      "bleaching_count": 6,
+      "bleaching_rate": 6.0
+    },
+    {
+      "as_number": "AS43350",
+      "as_name": "AS43350 NForce Entertainment B.V.",
+      "country": "NL",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS9808",
+      "as_name": "AS9808 China Mobile Communications Group Co., Ltd.",
+      "country": "CN",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS56048",
+      "as_name": "AS56048 China Mobile Communicaitons Corporation",
+      "country": "CN",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS36884",
+      "as_name": "AS36884 Wana Corporate",
+      "country": "MA",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS35819",
+      "as_name": "AS35819 Etihad Etisalat, a joint stock company",
+      "country": "SA",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS2497",
+      "as_name": "AS2497 Internet Initiative Japan Inc.",
+      "country": "JP",
+      "router_count": 6,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS29049",
+      "as_name": "AS29049 Delta Telecom Ltd",
+      "country": "AZ",
+      "router_count": 1,
+      "bleaching_count": 4,
+      "bleaching_rate": 4.0
+    },
+    {
+      "as_number": "AS12876",
+      "as_name": "AS12876 SCALEWAY S.A.S.",
+      "country": "FR",
+      "router_count": 5,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS9848",
+      "as_name": "AS9848 SEJONG NETWORKS",
+      "country": "KR",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS131866",
+      "as_name": "AS131866 Digital Edge Korea",
+      "country": "KR",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS7018",
+      "as_name": "AS7018 AT&T Enterprises, LLC",
+      "country": "US",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS6830",
+      "as_name": "AS6830 Liberty Global B.V.",
+      "country": "NL",
+      "router_count": 4,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS60068",
+      "as_name": "AS60068 Datacamp Limited",
+      "country": "DE",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS3549",
+      "as_name": "AS3549 Level 3 Parent, LLC",
+      "country": "BR",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS6429",
+      "as_name": "AS6429 Telmex Chile Internet S.A.",
+      "country": "CL",
+      "router_count": 3,
+      "bleaching_count": 1,
+      "bleaching_rate": 0.3333333333333333
+    },
+    {
+      "as_number": "AS49453",
+      "as_name": "AS49453 Global Layer B.V.",
+      "country": "NL",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS3479",
+      "as_name": "AS3479 Board of Regents of the University System of Georgia",
+      "country": "US",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS48596",
+      "as_name": "AS48596 InterNetworX Management GmbH",
+      "country": "DE",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS29278",
+      "as_name": "AS29278 Rackhost Zrt.",
+      "country": "HU",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS32613",
+      "as_name": "AS32613 Leaseweb Canada Inc.",
+      "country": "CA",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS26615",
+      "as_name": "AS26615 TIM S/A",
+      "country": "BR",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS7195",
+      "as_name": "AS7195 EDGEUNO S.A.S",
+      "country": "BR",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS55293",
+      "as_name": "AS55293 A2 Hosting, Inc.",
+      "country": "US",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS4812",
+      "as_name": "AS4812 China Telecom (Group)",
+      "country": "CN",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS19994",
+      "as_name": "AS19994 Rackspace Hosting",
+      "country": "US",
+      "router_count": 4,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS8529",
+      "as_name": "AS8529 Zain Omantel International FZ-LLC",
+      "country": "OM",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS28885",
+      "as_name": "AS28885 OmanTel NAP",
+      "country": "OM",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS30633",
+      "as_name": "AS30633 Leaseweb USA, Inc.",
+      "country": "US",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS7713",
+      "as_name": "AS7713 PT Telekomunikasi Indonesia",
+      "country": "US",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS8220",
+      "as_name": "AS8220 COLT Technology Services Group Limited",
+      "country": "ES",
+      "router_count": 1,
+      "bleaching_count": 9,
+      "bleaching_rate": 9.0
+    },
+    {
+      "as_number": "AS394695",
+      "as_name": "AS394695 PDR",
+      "country": "IN",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS2516",
+      "as_name": "AS2516 KDDI CORPORATION",
+      "country": "JP",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS23824",
+      "as_name": "AS23824 Future Spirits Co.,Ltd.",
+      "country": "JP",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS59504",
+      "as_name": "AS59504 LLC Vpsville",
+      "country": "RU",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS600",
+      "as_name": "AS600 OARnet",
+      "country": "US",
+      "router_count": 4,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS20126",
+      "as_name": "AS20126 University of Cincinnati",
+      "country": "US",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS216139",
+      "as_name": "AS216139 Iron Hosting Centre LTD",
+      "country": "NL",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS24961",
+      "as_name": "AS24961 WIIT AG",
+      "country": "DE",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS7303",
+      "as_name": "AS7303 Telecom Argentina S.A.",
+      "country": "AR",
+      "router_count": 3,
+      "bleaching_count": 132,
+      "bleaching_rate": 44.0
+    },
+    {
+      "as_number": "AS27823",
+      "as_name": "AS27823 Dattatec.com",
+      "country": "AR",
+      "router_count": 1,
+      "bleaching_count": 3,
+      "bleaching_rate": 3.0
+    },
+    {
+      "as_number": "AS199524",
+      "as_name": "AS199524 G-Core Labs S.A.",
+      "country": "NL",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS201200",
+      "as_name": "AS201200 SuperHosting.BG Ltd.",
+      "country": "BG",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS33070",
+      "as_name": "AS33070 Rackspace Hosting",
+      "country": "US",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS32475",
+      "as_name": "AS32475 Internap Holding LLC",
+      "country": "NL",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS3685",
+      "as_name": "AS3685 State University of New York at Buffalo",
+      "country": "US",
+      "router_count": 4,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS4651",
+      "as_name": "AS4651 The Communications Authority of Thailand(CAT)",
+      "country": "TH",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS9335",
+      "as_name": "AS9335 CAT Telecom Public Company Limited",
+      "country": "TH",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS2514",
+      "as_name": "AS2514 NTT PC Communications, Inc.",
+      "country": "JP",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS1659",
+      "as_name": "AS1659 Taiwan Academic Network (TANet) Information Center",
+      "country": "TW",
+      "router_count": 7,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS4847",
+      "as_name": "AS4847 China Networks Inter-Exchange",
+      "country": "CN",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS49505",
+      "as_name": "AS49505 JSC Selectel",
+      "country": "RU",
+      "router_count": 3,
+      "bleaching_count": 8,
+      "bleaching_rate": 2.6666666666666665
+    },
+    {
+      "as_number": "AS28917",
+      "as_name": "AS28917 Fiord Networks, UAB",
+      "country": "PL",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS15440",
+      "as_name": "AS15440 UAB \"Baltnetos komunikacijos\"",
+      "country": "LT",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS51107",
+      "as_name": "AS51107 UAB Bartus pro",
+      "country": "LT",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS4780",
+      "as_name": "AS4780 Digital United Inc.",
+      "country": "TW",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS1916",
+      "as_name": "AS1916 Rede Nacional de Ensino e Pesquisa",
+      "country": "US",
+      "router_count": 4,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS6730",
+      "as_name": "AS6730 Sunrise GmbH",
+      "country": "CH",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS29691",
+      "as_name": "AS29691 Nine Internet Solutions AG",
+      "country": "CH",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS23724",
+      "as_name": "AS23724 IDC, China Telecommunications Corporation",
+      "country": "CN",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS8342",
+      "as_name": "AS8342 JSC RTComm.RU",
+      "country": "RU",
+      "router_count": 2,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS4538",
+      "as_name": "AS4538 China Education and Research Network Center",
+      "country": "CN",
+      "router_count": 6,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS9505",
+      "as_name": "AS9505 Taiwan Internet Gateway",
+      "country": "TW",
+      "router_count": 3,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS18182",
+      "as_name": "AS18182 Sony Network Taiwan Limited",
+      "country": "TW",
+      "router_count": 4,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS37963",
+      "as_name": "AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",
+      "country": "CN",
+      "router_count": 1,
+      "bleaching_count": 1,
+      "bleaching_rate": 1.0
+    },
+    {
+      "as_number": "AS9123",
+      "as_name": "AS9123 JSC \"TIMEWEB\"",
+      "country": "RU",
+      "router_count": 1,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    }
+  ],
+  "top_as_by_router_count": [
+    {
+      "as_number": "Unknown",
+      "as_name": "Unknown",
+      "country": "Unknown",
+      "router_count": 36833,
+      "bleaching_count": 11858,
+      "bleaching_rate": 0.3219395650639372
+    },
+    {
+      "as_number": "AS4766",
+      "as_name": "AS4766 Korea Telecom",
+      "country": "KR",
+      "router_count": 232,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS174",
+      "as_name": "AS174 Cogent Communications",
+      "country": "US",
+      "router_count": 53,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS16509",
+      "as_name": "AS16509 Amazon.com, Inc.",
+      "country": "KR",
+      "router_count": 43,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS3257",
+      "as_name": "AS3257 GTT Communications Inc.",
+      "country": "US",
+      "router_count": 37,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS1299",
+      "as_name": "AS1299 Arelion Sweden AB",
+      "country": "US",
+      "router_count": 36,
+      "bleaching_count": 980,
+      "bleaching_rate": 27.22222222222222
+    },
+    {
+      "as_number": "AS3356",
+      "as_name": "AS3356 Level 3 Parent, LLC",
+      "country": "US",
+      "router_count": 28,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS8075",
+      "as_name": "AS8075 Microsoft Corporation",
+      "country": "KR",
+      "router_count": 28,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS2914",
+      "as_name": "AS2914 NTT America, Inc.",
+      "country": "HK",
+      "router_count": 27,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS6762",
+      "as_name": "AS6762 TELECOM ITALIA SPARKLE S.p.A.",
+      "country": "US",
+      "router_count": 19,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS20940",
+      "as_name": "AS20940 Akamai International B.V.",
+      "country": "US",
+      "router_count": 16,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS24940",
+      "as_name": "AS24940 Hetzner Online GmbH",
+      "country": "DE",
+      "router_count": 16,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS3491",
+      "as_name": "AS3491 PCCW Global, Inc.",
+      "country": "JP",
+      "router_count": 16,
+      "bleaching_count": 4,
+      "bleaching_rate": 0.25
+    },
+    {
+      "as_number": "AS16276",
+      "as_name": "AS16276 OVH SAS",
+      "country": "CA",
+      "router_count": 14,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS12389",
+      "as_name": "AS12389 PJSC Rostelecom",
+      "country": "RU",
+      "router_count": 13,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS13335",
+      "as_name": "AS13335 Cloudflare, Inc.",
+      "country": "KR",
+      "router_count": 12,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS3786",
+      "as_name": "AS3786 LG DACOM Corporation",
+      "country": "KR",
+      "router_count": 12,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS8560",
+      "as_name": "AS8560 IONOS SE",
+      "country": "DE",
+      "router_count": 11,
+      "bleaching_count": 228,
+      "bleaching_rate": 20.727272727272727
+    },
+    {
+      "as_number": "AS4134",
+      "as_name": "AS4134 CHINANET-BACKBONE",
+      "country": "CN",
+      "router_count": 9,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    },
+    {
+      "as_number": "AS47583",
+      "as_name": "AS47583 Hostinger International Limited",
+      "country": "US",
+      "router_count": 9,
+      "bleaching_count": 0,
+      "bleaching_rate": 0.0
+    }
+  ],
+  "top_as_by_bleaching_rate": [
+    {
+      "as_number": "AS5511",
+      "as_name": "AS5511 Orange S.A.",
+      "country": "FR",
+      "router_count": 1,
+      "bleaching_count": 98,
+      "bleaching_rate": 98.0
+    },
+    {
+      "as_number": "AS7303",
+      "as_name": "AS7303 Telecom Argentina S.A.",
+      "country": "AR",
+      "router_count": 3,
+      "bleaching_count": 132,
+      "bleaching_rate": 44.0
+    },
+    {
+      "as_number": "AS1299",
+      "as_name": "AS1299 Arelion Sweden AB",
+      "country": "US",
+      "router_count": 36,
+      "bleaching_count": 980,
+      "bleaching_rate": 27.22222222222222
+    },
+    {
+      "as_number": "AS8560",
+      "as_name": "AS8560 IONOS SE",
+      "country": "DE",
+      "router_count": 11,
+      "bleaching_count": 228,
+      "bleaching_rate": 20.727272727272727
+    },
+    {
+      "as_number": "AS48551",
+      "as_name": "AS48551 Sindad Network Technology PJSC",
+      "country": "IR",
+      "router_count": 1,
+      "bleaching_count": 9,
+      "bleaching_rate": 9.0
+    },
+    {
+      "as_number": "AS8220",
+      "as_name": "AS8220 COLT Technology Services Group Limited",
+      "country": "ES",
+      "router_count": 1,
+      "bleaching_count": 9,
+      "bleaching_rate": 9.0
+    },
+    {
+      "as_number": "AS12824",
+      "as_name": "AS12824 home.pl S.A.",
+      "country": "PL",
+      "router_count": 1,
+      "bleaching_count": 6,
+      "bleaching_rate": 6.0
+    },
+    {
+      "as_number": "AS29049",
+      "as_name": "AS29049 Delta Telecom Ltd",
+      "country": "AZ",
+      "router_count": 1,
+      "bleaching_count": 4,
+      "bleaching_rate": 4.0
+    },
+    {
+      "as_number": "AS25512",
+      "as_name": "AS25512 CD-Telematika a.s.",
+      "country": "CZ",
+      "router_count": 1,
+      "bleaching_count": 3,
+      "bleaching_rate": 3.0
+    },
+    {
+      "as_number": "AS27823",
+      "as_name": "AS27823 Dattatec.com",
+      "country": "AR",
+      "router_count": 1,
+      "bleaching_count": 3,
+      "bleaching_rate": 3.0
+    },
+    {
+      "as_number": "AS49505",
+      "as_name": "AS49505 JSC Selectel",
+      "country": "RU",
+      "router_count": 3,
+      "bleaching_count": 8,
+      "bleaching_rate": 2.6666666666666665
+    },
+    {
+      "as_number": "AS60144",
+      "as_name": "AS60144 3W Infra B.V.",
+      "country": "NL",
+      "router_count": 2,
+      "bleaching_count": 4,
+      "bleaching_rate": 2.0
+    },
+    {
+      "as_number": "AS59939",
+      "as_name": "AS59939 WIBO Baltic UAB",
+      "country": "NL",
+      "router_count": 1,
+      "bleaching_count": 2,
+      "bleaching_rate": 2.0
+    },
+    {
+      "as_number": "AS29182",
+      "as_name": "AS29182 JSC IOT",
+      "country": "RU",
+      "router_count": 1,
+      "bleaching_count": 1,
+      "bleaching_rate": 1.0
+    },
+    {
+      "as_number": "AS45668",
+      "as_name": "AS45668 AIMS Data Centre Sdn Bhd",
+      "country": "MY",
+      "router_count": 4,
+      "bleaching_count": 4,
+      "bleaching_rate": 1.0
+    },
+    {
+      "as_number": "AS37963",
+      "as_name": "AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",
+      "country": "CN",
+      "router_count": 1,
+      "bleaching_count": 1,
+      "bleaching_rate": 1.0
+    },
+    {
+      "as_number": "AS6429",
+      "as_name": "AS6429 Telmex Chile Internet S.A.",
+      "country": "CL",
+      "router_count": 3,
+      "bleaching_count": 1,
+      "bleaching_rate": 0.3333333333333333
+    },
+    {
+      "as_number": "Unknown",
+      "as_name": "Unknown",
+      "country": "Unknown",
+      "router_count": 36833,
+      "bleaching_count": 11858,
+      "bleaching_rate": 0.3219395650639372
+    },
+    {
+      "as_number": "AS201011",
+      "as_name": "AS201011 Core-Backbone GmbH",
+      "country": "DE",
+      "router_count": 4,
+      "bleaching_count": 1,
+      "bleaching_rate": 0.25
+    },
+    {
+      "as_number": "AS3491",
+      "as_name": "AS3491 PCCW Global, Inc.",
+      "country": "JP",
+      "router_count": 16,
+      "bleaching_count": 4,
+      "bleaching_rate": 0.25
+    }
+  ],
+  "network_representativeness": {
+    "total_as": 158,
+    "total_routers": 37790,
+    "total_bleaching": 13356,
+    "overall_bleaching_rate": 0.35342683249536916,
+    "top_10_as_router_share": 0.9879862397459646,
+    "estimated_global_representativeness": 0.158
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "analysis_date": "2025-07-07 15:16:28",
+  "total_files": 1,
+  "files": [
+    {
+      "file_name": "ip_extracted_traceroute_ip_list_20250707.csv",
+      "total_domains": 633800,
+      "valid_ips": 551510,
+      "blocked_domains": 82290,
+      "success_rate": 87.0164089618176,
+      "blocked_rate": 12.983591038182393,
+      "blocked_methods": {
+        "exact_na": 0,
+        "na_lower": 0,
+        "na_strip": 0,
+        "na_contains": 0,
+        "is_blocked_func": 82290
+      }
+    }
+  ],
+  "summary_stats": {
+    "avg_success_rate": 87.0164089618176,
+    "min_success_rate": 87.0164089618176,
+    "max_success_rate": 87.0164089618176,
+    "avg_blocked_rate": 12.983591038182393,
+    "total_domains": 633800,
+    "total_valid_ips": 551510,
+    "total_blocked_domains": 82290
+  }
+}

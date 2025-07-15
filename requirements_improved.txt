@@ -1,0 +1,7 @@
+scapy>=2.4.5
+requests>=2.25.1
+tqdm>=4.62.0
+ipwhois>=1.2.0
+numpy>=1.21.0
+pyyaml>=5.4.1
+bios>=1.0.0 

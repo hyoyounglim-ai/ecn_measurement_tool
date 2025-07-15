@@ -6,8 +6,8 @@ for filename in $fx
 do
 fx2=`echo $filename | cut -f2 -d ','`
 echo "starting the file: $fx2"
-python3 traceroute_only.py $fx2
-pkill -9 python3
+sudo ./venv/bin/python traceroute_only.py $fx2
+pkill -9 python
 echo "finished"
 done
 

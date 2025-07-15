@@ -2,6 +2,10 @@ Download.sh
 web_*.txt
 traceroute/*
 traceroute/
+traceroute_test*
+traceroute_test_1/
+traceroute_using_original_code
+traceroute_using_original_code/*
 ecnserver/*
 ecnserver/
 websitelist/*
@@ -18,4 +22,8 @@ __pycache__/tcppacket.cpython-310.pyc
 web_300000.ndjson
 ecn_env/
 *.pcap
+
+asm/asn_prefixes.csv
+traceroute_prefix/*
+traceroute_prefix/
 

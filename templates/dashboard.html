@@ -1,0 +1,193 @@
+{% extends "layout.html" %}
+
+{% block title %}대시보드 - 트레이스루트 분석{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">ECN Bleaching 분석 대시보드</h1>
+</div>
+
+<!-- 통계 카드들 -->
+<div class="row mb-4">
+    <div class="col-md-3">
+        <div class="card stat-card">
+            <div class="card-body text-center">
+                <h5 class="card-title">총 도메인</h5>
+                <h2 id="total-domains">-</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card stat-card">
+            <div class="card-body text-center">
+                <h5 class="card-title">총 라우터</h5>
+                <h2 id="total-routers">-</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card stat-card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Bleaching 발생</h5>
+                <h2 id="total-bleaching">-</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card stat-card">
+            <div class="card-body text-center">
+                <h5 class="card-title">공통 경로</h5>
+                <h2 id="total-paths">-</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 차트들 -->
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5>ECN Bleaching 발생률</h5>
+            </div>
+            <div class="card-body">
+                <div class="chart-container">
+                    <canvas id="bleachingChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5>라우터별 Bleaching 발생</h5>
+            </div>
+            <div class="card-body">
+                <div class="chart-container">
+                    <canvas id="routerChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h5>상위 Bleaching 라우터</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>IP 주소</th>
+                                <th>총 발생 횟수</th>
+                                <th>Bleaching 횟수</th>
+                                <th>Bleaching 비율</th>
+                                <th>평균 홉 위치</th>
+                            </tr>
+                        </thead>
+                        <tbody id="top-bleaching-table">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// 대시보드 데이터 로드
+async function loadDashboardData() {
+    try {
+        const [summary, topBleaching] = await Promise.all([
+            fetch('/api/summary').then(r => r.json()),
+            fetch('/api/top-bleaching').then(r => r.json())
+        ]);
+        
+        // 통계 카드 업데이트
+        document.getElementById('total-domains').textContent = summary.total_domains || 0;
+        document.getElementById('total-routers').textContent = summary.total_routers || 0;
+        document.getElementById('total-bleaching').textContent = summary.total_bleaching_incidents || 0;
+        document.getElementById('total-paths').textContent = summary.total_common_paths || 0;
+        
+        // 상위 bleaching 라우터 테이블 업데이트
+        const tableBody = document.getElementById('top-bleaching-table');
+        tableBody.innerHTML = '';
+        
+        topBleaching.slice(0, 10).forEach(router => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${router.ip}</td>
+                <td>${router.total_occurrences}</td>
+                <td>${router.bleaching_count}</td>
+                <td>${(router.bleaching_rate * 100).toFixed(2)}%</td>
+                <td>${router.avg_hop_position.toFixed(1)}</td>
+            `;
+            tableBody.appendChild(row);
+        });
+        
+        // 차트 생성
+        createBleachingChart(summary);
+        createRouterChart(topBleaching);
+        
+    } catch (error) {
+        console.error('데이터 로드 실패:', error);
+    }
+}
+
+function createBleachingChart(summary) {
+    const ctx = document.getElementById('bleachingChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: ['Bleaching 발생', '정상'],
+            datasets: [{
+                data: [
+                    summary.total_bleaching_incidents || 0,
+                    (summary.total_domains || 0) - (summary.total_bleaching_incidents || 0)
+                ],
+                backgroundColor: ['#ff6b6b', '#4ecdc4']
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false
+        }
+    });
+}
+
+function createRouterChart(routers) {
+    const ctx = document.getElementById('routerChart').getContext('2d');
+    const top10 = routers.slice(0, 10);
+    
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: top10.map(r => r.ip.substring(0, 15) + '...'),
+            datasets: [{
+                label: 'Bleaching 횟수',
+                data: top10.map(r => r.bleaching_count),
+                backgroundColor: '#667eea'
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+}
+
+// 페이지 로드 시 데이터 로드
+document.addEventListener('DOMContentLoaded', loadDashboardData);
+</script>
+{% endblock %}

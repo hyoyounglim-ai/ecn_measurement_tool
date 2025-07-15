@@ -1,0 +1,270 @@
+{% extends "layout.html" %}
+
+{% block title %}네트워크 토폴로지 - 트레이스루트 분석{% endblock %}
+
+{% block extra_head %}
+<style>
+    #topology-container {
+        width: 100%;
+        height: 100vh;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .node {
+        stroke: #fff;
+        stroke-width: 2px;
+        cursor: pointer;
+    }
+    .node:hover {
+        stroke-width: 3px;
+    }
+    .node.source {
+        fill: #28a745;
+        stroke: #fff;
+        stroke-width: 4px;
+        filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+    }
+    .node.source-1 {
+        fill: #28a745;
+    }
+    .node.source-2 {
+        fill: #17a2b8;
+    }
+    .node.source-3 {
+        fill: #6f42c1;
+    }
+    .node.source-4 {
+        fill: #fd7e14;
+    }
+    .node.source-5 {
+        fill: #e83e8c;
+    }
+    .link {
+        stroke: #999;
+        stroke-opacity: 0.6;
+    }
+    .link.bleaching {
+        stroke: #ff6b6b;
+        stroke-width: 3px;
+    }
+    .link.source-1 {
+        stroke: #28a745;
+        stroke-width: 2px;
+        stroke-dasharray: 5,5;
+    }
+    .link.source-2 {
+        stroke: #17a2b8;
+        stroke-width: 2px;
+        stroke-dasharray: 5,5;
+    }
+    .link.source-3 {
+        stroke: #6f42c1;
+        stroke-width: 2px;
+        stroke-dasharray: 5,5;
+    }
+    .link.source-4 {
+        stroke: #fd7e14;
+        stroke-width: 2px;
+        stroke-dasharray: 5,5;
+    }
+    .link.source-5 {
+        stroke: #e83e8c;
+        stroke-width: 2px;
+        stroke-dasharray: 5,5;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">네트워크 토폴로지 시각화</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h5>라우터 연결 관계</h5>
+                <small class="text-muted">노드 크기는 bleaching 발생률에 비례, 빨간색 링크는 bleaching 발생 지점, Y축은 홉 레벨을 나타냄, 초록색 큰 원은 시작지점</small>
+                <div id="source-info" class="mt-2"></div>
+            </div>
+            <div class="card-body">
+                <div id="topology-container"></div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+let simulation;
+
+async function loadTopologyData() {
+    try {
+        const data = await fetch('/api/topology').then(r => r.json());
+        createTopologyVisualization(data);
+    } catch (error) {
+        console.error('토폴로지 데이터 로드 실패:', error);
+    }
+}
+
+function createTopologyVisualization(data) {
+    // 시작지점 정보 표시
+    const sourceInfo = document.getElementById('source-info');
+    if (data.source_ips && data.source_ips.length > 0) {
+        const colors = ['#28a745', '#17a2b8', '#6f42c1', '#fd7e14', '#e83e8c'];
+        let sourceHtml = '<strong>시작지점:</strong> ';
+        data.source_ips.forEach((ip, index) => {
+            const color = colors[index % colors.length];
+            sourceHtml += `<span class="badge" style="background-color: ${color}; margin-right: 5px;">${ip}</span>`;
+        });
+        sourceInfo.innerHTML = sourceHtml;
+    }
+    
+    const container = document.getElementById('topology-container');
+    const width = container.clientWidth;
+    const height = container.clientHeight;
+    
+    // SVG 생성
+    const svg = d3.select(container)
+        .append('svg')
+        .attr('width', width)
+        .attr('height', height);
+    
+    // 홉 수별로 노드들을 수직으로 배치
+    const maxHopLevel = Math.max(...data.nodes.map(d => d.hop_level));
+    const hopLevels = {};
+    
+    // 각 홉 레벨별로 노드들을 그룹화
+    data.nodes.forEach(node => {
+        const level = node.hop_level;
+        if (!hopLevels[level]) {
+            hopLevels[level] = [];
+        }
+        hopLevels[level].push(node);
+    });
+    
+    // 각 홉 레벨별 Y 위치 계산
+    const levelPositions = {};
+    Object.keys(hopLevels).sort((a, b) => parseInt(a) - parseInt(b)).forEach((level, index) => {
+        if (parseInt(level) === 0) {
+            levelPositions[level] = 80; // 시작지점은 더 아래쪽에 배치
+        } else {
+            levelPositions[level] = 120 + (height - 200) * (parseInt(level) / maxHopLevel);
+        }
+    });
+    
+    // 시뮬레이션 설정 - 홉 수에 따른 수직 배치
+    simulation = d3.forceSimulation(data.nodes)
+        .force('link', d3.forceLink(data.edges).id(d => d.id).distance(80))
+        .force('charge', d3.forceManyBody().strength(-300))
+        .force('collision', d3.forceCollide().radius(25))
+        .force('x', d3.forceX(width / 2).strength(0.3))
+        .force('y', d3.forceY(d => levelPositions[d.hop_level]).strength(d => d.group === 'source' ? 1.0 : 0.8));
+    
+    // 링크 그리기
+    const link = svg.append('g')
+        .selectAll('line')
+        .data(data.edges)
+        .enter().append('line')
+        .attr('class', d => {
+            if (d.type === 'source_connection') {
+                const sourceId = d.source.id || d.source;
+                const sourceIndex = data.source_ips.indexOf(sourceId) + 1;
+                return `link source-${Math.min(sourceIndex, 5)}`;
+            }
+            const bleachingPoints = d.bleaching_points || [];
+            return bleachingPoints.includes(d.source.id || d.source) || 
+                   bleachingPoints.includes(d.target.id || d.target) ? 'link bleaching' : 'link';
+        })
+        .attr('stroke-width', d => Math.sqrt(d.value) * 1.2);
+    
+    // 노드 그리기
+    const node = svg.append('g')
+        .selectAll('circle')
+        .data(data.nodes)
+        .enter().append('circle')
+        .attr('class', d => {
+            if (d.group === 'source') {
+                const sourceIndex = data.source_ips.indexOf(d.id) + 1;
+                return `node source source-${Math.min(sourceIndex, 5)}`;
+            }
+            return 'node';
+        })
+        .attr('r', d => d.group === 'source' ? 18 : Math.max(6, d.bleaching_rate * 45))
+        .attr('fill', d => {
+            if (d.group === 'source') {
+                const sourceIndex = data.source_ips.indexOf(d.id);
+                const colors = ['#28a745', '#17a2b8', '#6f42c1', '#fd7e14', '#e83e8c'];
+                return colors[sourceIndex % colors.length];
+            }
+            return d.bleaching_rate > 0 ? '#ff6b6b' : '#4ecdc4';
+        })
+        .call(d3.drag()
+            .on('start', dragstarted)
+            .on('drag', dragged)
+            .on('end', dragended));
+    
+    // 툴팁 추가
+    node.append('title')
+        .text(d => {
+            if (d.group === 'source') {
+                const sourceIndex = data.source_ips.indexOf(d.id) + 1;
+                return `시작지점 ${sourceIndex}: ${d.id}`;
+            }
+            return `IP: ${d.id}\n홉 레벨: ${d.hop_level}\nBleaching Rate: ${(d.bleaching_rate * 100).toFixed(2)}%\nOccurrences: ${d.occurrences}`;
+        });
+    
+    // 시뮬레이션 업데이트
+    simulation.on('tick', () => {
+        link
+            .attr('x1', d => d.source.x)
+            .attr('y1', d => d.source.y)
+            .attr('x2', d => d.target.x)
+            .attr('y2', d => d.target.y);
+        
+        node
+            .attr('cx', d => d.x)
+            .attr('cy', d => d.y);
+    });
+    
+    // 홉 레벨 표시 추가 (시작지점 제외)
+    const hopLabels = svg.append('g')
+        .selectAll('text')
+        .data(Object.keys(levelPositions).filter(d => parseInt(d) > 0).sort((a, b) => parseInt(a) - parseInt(b)))
+        .enter().append('text')
+        .attr('x', 10)
+        .attr('y', d => levelPositions[d])
+        .attr('dy', '0.35em')
+        .attr('class', 'hop-label')
+        .style('font-size', '12px')
+        .style('fill', '#666')
+        .text(d => `홉 ${d}`);
+    
+    // 시뮬레이션 재시작
+    simulation.alpha(1).restart();
+}
+
+function dragstarted(event, d) {
+    if (!event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+}
+
+function dragged(event, d) {
+    d.fx = event.x;
+    d.fy = event.y;
+}
+
+function dragended(event, d) {
+    if (!event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+}
+
+// 페이지 로드 시 토폴로지 로드
+document.addEventListener('DOMContentLoaded', loadTopologyData);
+</script>
+{% endblock %}

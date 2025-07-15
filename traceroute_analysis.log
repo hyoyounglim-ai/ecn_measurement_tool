@@ -1,0 +1,631 @@
+2025-07-09 21:37:21,933 - INFO - 데이터 디렉토리에서 파일들을 로드 중: traceroute_test_1
+2025-07-09 21:37:21,934 - INFO - 개별 결과 파일 101개 발견
+2025-07-09 21:37:21,948 - INFO - 요약 파일 로드됨: traceroute_summary_20250709_114836.json
+2025-07-09 21:37:21,948 - INFO - 총 101개의 결과 파일 로드 완료
+2025-07-09 21:37:21,949 - INFO - ============================================================
+2025-07-09 21:37:21,949 - INFO - 기본 통계
+2025-07-09 21:37:21,949 - INFO - ============================================================
+2025-07-09 21:37:21,949 - INFO - total_domains: 101
+2025-07-09 21:37:21,949 - INFO - successful_traceroutes: 101
+2025-07-09 21:37:21,949 - INFO - success_rate: 1.000
+2025-07-09 21:37:21,949 - INFO - total_bleaching_incidents: 6
+2025-07-09 21:37:21,949 - INFO - average_execution_time: 7.412
+2025-07-09 21:37:21,949 - INFO - total_unique_routers: 295
+2025-07-09 21:37:21,949 - INFO - routers_with_bleaching: 6
+2025-07-09 21:37:21,949 - INFO - bleaching_router_rate: 0.020
+2025-07-09 21:37:21,949 - INFO - 트레이스루트 결과 분석 시작
+2025-07-09 21:37:21,949 - INFO - 라우터 분석 시작
+2025-07-09 21:37:21,951 - INFO - 총 295개의 라우터 분석 완료
+2025-07-09 21:37:21,951 - INFO - 도메인 분석 시작
+2025-07-09 21:37:21,952 - INFO - 총 101개의 도메인 분석 완료
+2025-07-09 21:37:21,952 - INFO - 공통 경로 분석 시작
+2025-07-09 21:37:21,953 - INFO - 총 3개의 공통 경로 발견
+2025-07-09 21:38:02,353 - INFO - 데이터 디렉토리에서 파일들을 로드 중: traceroute_test_1
+2025-07-09 21:38:02,354 - INFO - 개별 결과 파일 101개 발견
+2025-07-09 21:38:02,367 - INFO - 요약 파일 로드됨: traceroute_summary_20250709_114836.json
+2025-07-09 21:38:02,367 - INFO - 총 101개의 결과 파일 로드 완료
+2025-07-09 21:38:02,368 - INFO - ============================================================
+2025-07-09 21:38:02,368 - INFO - 기본 통계
+2025-07-09 21:38:02,368 - INFO - ============================================================
+2025-07-09 21:38:02,368 - INFO - total_domains: 101
+2025-07-09 21:38:02,368 - INFO - successful_traceroutes: 101
+2025-07-09 21:38:02,368 - INFO - success_rate: 1.000
+2025-07-09 21:38:02,368 - INFO - total_bleaching_incidents: 6
+2025-07-09 21:38:02,368 - INFO - average_execution_time: 7.412
+2025-07-09 21:38:02,368 - INFO - total_unique_routers: 295
+2025-07-09 21:38:02,368 - INFO - routers_with_bleaching: 6
+2025-07-09 21:38:02,368 - INFO - bleaching_router_rate: 0.020
+2025-07-09 21:38:02,368 - INFO - 트레이스루트 결과 분석 시작
+2025-07-09 21:38:02,368 - INFO - 라우터 분석 시작
+2025-07-09 21:38:02,370 - INFO - 총 295개의 라우터 분석 완료
+2025-07-09 21:38:02,370 - INFO - 도메인 분석 시작
+2025-07-09 21:38:02,371 - INFO - 총 101개의 도메인 분석 완료
+2025-07-09 21:38:02,371 - INFO - 공통 경로 분석 시작
+2025-07-09 21:38:02,372 - INFO - 총 3개의 공통 경로 발견
+2025-07-09 21:38:02,378 - INFO - 분석 결과 저장: analysis_results_v2.json
+2025-07-09 21:38:02,378 - INFO - 1단계 분석 완료!
+2025-07-09 21:45:47,262 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 21:45:47,262 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 21:45:47,262 - INFO - 사용 가능한 페이지:
+2025-07-09 21:45:47,262 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 21:45:47,262 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 21:45:47,262 - INFO -   - /routers : 라우터 분석
+2025-07-09 21:45:47,262 - INFO -   - /domains : 도메인 분석
+2025-07-09 21:45:47,262 - INFO -   - /paths : 경로 분석
+2025-07-09 21:45:47,270 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 21:45:47,270 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 21:45:52,590 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hyoyounglim/Project/ecn_measurement_tool/traceroute_web_visualizer_v2.py", line 146, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/jinja2/environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/jinja2/environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/jinja2/environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/flask/templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/flask/templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2025-07-09 21:45:52,598 - INFO - 127.0.0.1 - - [09/Jul/2025 21:45:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-09 21:45:52,752 - INFO - 127.0.0.1 - - [09/Jul/2025 21:45:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-09 21:47:50,092 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 21:47:50,092 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 21:47:50,092 - INFO - 사용 가능한 페이지:
+2025-07-09 21:47:50,092 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 21:47:50,092 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 21:47:50,092 - INFO -   - /routers : 라우터 분석
+2025-07-09 21:47:50,092 - INFO -   - /domains : 도메인 분석
+2025-07-09 21:47:50,092 - INFO -   - /paths : 경로 분석
+2025-07-09 21:47:50,099 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 21:47:50,099 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 21:48:03,889 - INFO - 127.0.0.1 - - [09/Jul/2025 21:48:03] "GET / HTTP/1.1" 200 -
+2025-07-09 21:48:04,391 - INFO - 127.0.0.1 - - [09/Jul/2025 21:48:04] "GET /api/summary HTTP/1.1" 200 -
+2025-07-09 21:48:04,392 - INFO - 127.0.0.1 - - [09/Jul/2025 21:48:04] "GET /api/top-bleaching HTTP/1.1" 200 -
+2025-07-09 21:48:14,356 - INFO - 127.0.0.1 - - [09/Jul/2025 21:48:14] "GET /topology HTTP/1.1" 200 -
+2025-07-09 21:48:14,387 - INFO - 127.0.0.1 - - [09/Jul/2025 21:48:14] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 21:48:25,001 - INFO - 127.0.0.1 - - [09/Jul/2025 21:48:25] "GET /topology HTTP/1.1" 200 -
+2025-07-09 21:48:25,036 - INFO - 127.0.0.1 - - [09/Jul/2025 21:48:25] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 21:48:29,187 - INFO - 127.0.0.1 - - [09/Jul/2025 21:48:29] "GET /routers HTTP/1.1" 200 -
+2025-07-09 21:48:29,204 - INFO - 127.0.0.1 - - [09/Jul/2025 21:48:29] "GET /api/routers?limit=100 HTTP/1.1" 200 -
+2025-07-09 21:48:31,157 - INFO - 127.0.0.1 - - [09/Jul/2025 21:48:31] "GET /domains HTTP/1.1" 200 -
+2025-07-09 21:48:31,178 - INFO - 127.0.0.1 - - [09/Jul/2025 21:48:31] "GET /api/domains?limit=100 HTTP/1.1" 200 -
+2025-07-09 21:48:47,394 - INFO - 127.0.0.1 - - [09/Jul/2025 21:48:47] "GET /domains HTTP/1.1" 200 -
+2025-07-09 21:48:47,436 - INFO - 127.0.0.1 - - [09/Jul/2025 21:48:47] "GET /api/domains?limit=100 HTTP/1.1" 200 -
+2025-07-09 21:48:52,272 - INFO - 127.0.0.1 - - [09/Jul/2025 21:48:52] "GET /paths HTTP/1.1" 200 -
+2025-07-09 21:48:52,293 - INFO - 127.0.0.1 - - [09/Jul/2025 21:48:52] "GET /api/paths?limit=50 HTTP/1.1" 200 -
+2025-07-09 21:49:03,925 - INFO - 127.0.0.1 - - [09/Jul/2025 21:49:03] "GET /topology HTTP/1.1" 200 -
+2025-07-09 21:49:03,972 - INFO - 127.0.0.1 - - [09/Jul/2025 21:49:03] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 21:49:09,575 - INFO - 127.0.0.1 - - [09/Jul/2025 21:49:09] "GET /dashboard HTTP/1.1" 200 -
+2025-07-09 21:49:09,594 - INFO - 127.0.0.1 - - [09/Jul/2025 21:49:09] "GET /api/summary HTTP/1.1" 200 -
+2025-07-09 21:49:09,596 - INFO - 127.0.0.1 - - [09/Jul/2025 21:49:09] "GET /api/top-bleaching HTTP/1.1" 200 -
+2025-07-09 21:55:11,268 - INFO - 127.0.0.1 - - [09/Jul/2025 21:55:11] "GET /topology HTTP/1.1" 200 -
+2025-07-09 21:55:11,302 - INFO - 127.0.0.1 - - [09/Jul/2025 21:55:11] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 21:55:19,182 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 21:55:19,182 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 21:55:19,183 - INFO - 사용 가능한 페이지:
+2025-07-09 21:55:19,183 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 21:55:19,183 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 21:55:19,183 - INFO -   - /routers : 라우터 분석
+2025-07-09 21:55:19,183 - INFO -   - /domains : 도메인 분석
+2025-07-09 21:55:19,183 - INFO -   - /paths : 경로 분석
+2025-07-09 21:55:19,190 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 21:55:19,190 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 21:55:36,871 - INFO - 127.0.0.1 - - [09/Jul/2025 21:55:36] "GET / HTTP/1.1" 200 -
+2025-07-09 21:55:37,036 - INFO - 127.0.0.1 - - [09/Jul/2025 21:55:37] "GET /api/summary HTTP/1.1" 200 -
+2025-07-09 21:55:37,037 - INFO - 127.0.0.1 - - [09/Jul/2025 21:55:37] "GET /api/top-bleaching HTTP/1.1" 200 -
+2025-07-09 21:55:37,094 - INFO - 127.0.0.1 - - [09/Jul/2025 21:55:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-09 21:55:38,538 - INFO - 127.0.0.1 - - [09/Jul/2025 21:55:38] "GET /topology HTTP/1.1" 200 -
+2025-07-09 21:55:38,560 - INFO - 127.0.0.1 - - [09/Jul/2025 21:55:38] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 21:56:17,230 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 21:56:17,230 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 21:56:17,230 - INFO - 사용 가능한 페이지:
+2025-07-09 21:56:17,230 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 21:56:17,230 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 21:56:17,230 - INFO -   - /routers : 라우터 분석
+2025-07-09 21:56:17,230 - INFO -   - /domains : 도메인 분석
+2025-07-09 21:56:17,230 - INFO -   - /paths : 경로 분석
+2025-07-09 21:56:17,237 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 21:56:17,237 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 21:56:28,403 - INFO - 127.0.0.1 - - [09/Jul/2025 21:56:28] "GET / HTTP/1.1" 200 -
+2025-07-09 21:56:28,488 - INFO - 127.0.0.1 - - [09/Jul/2025 21:56:28] "GET /api/summary HTTP/1.1" 200 -
+2025-07-09 21:56:28,495 - INFO - 127.0.0.1 - - [09/Jul/2025 21:56:28] "GET /api/top-bleaching HTTP/1.1" 200 -
+2025-07-09 21:56:30,010 - INFO - 127.0.0.1 - - [09/Jul/2025 21:56:30] "GET /topology HTTP/1.1" 200 -
+2025-07-09 21:56:30,023 - INFO - 127.0.0.1 - - [09/Jul/2025 21:56:30] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 21:56:49,275 - INFO - 127.0.0.1 - - [09/Jul/2025 21:56:49] "GET / HTTP/1.1" 200 -
+2025-07-09 21:56:50,341 - INFO - 127.0.0.1 - - [09/Jul/2025 21:56:50] "GET /api/summary HTTP/1.1" 200 -
+2025-07-09 21:56:50,342 - INFO - 127.0.0.1 - - [09/Jul/2025 21:56:50] "GET /api/top-bleaching HTTP/1.1" 200 -
+2025-07-09 21:56:50,408 - INFO - 127.0.0.1 - - [09/Jul/2025 21:56:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-09 21:56:51,596 - INFO - 127.0.0.1 - - [09/Jul/2025 21:56:51] "GET /topology HTTP/1.1" 200 -
+2025-07-09 21:56:51,625 - INFO - 127.0.0.1 - - [09/Jul/2025 21:56:51] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 21:57:04,594 - INFO - 127.0.0.1 - - [09/Jul/2025 21:57:04] "GET /routers HTTP/1.1" 200 -
+2025-07-09 21:57:04,614 - INFO - 127.0.0.1 - - [09/Jul/2025 21:57:04] "GET /api/routers?limit=100 HTTP/1.1" 200 -
+2025-07-09 21:57:05,203 - INFO - 127.0.0.1 - - [09/Jul/2025 21:57:05] "GET /topology HTTP/1.1" 200 -
+2025-07-09 21:57:05,224 - INFO - 127.0.0.1 - - [09/Jul/2025 21:57:05] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 21:57:06,407 - INFO - 127.0.0.1 - - [09/Jul/2025 21:57:06] "GET /routers HTTP/1.1" 200 -
+2025-07-09 21:57:06,428 - INFO - 127.0.0.1 - - [09/Jul/2025 21:57:06] "GET /api/routers?limit=100 HTTP/1.1" 200 -
+2025-07-09 21:57:07,178 - INFO - 127.0.0.1 - - [09/Jul/2025 21:57:07] "GET /topology HTTP/1.1" 200 -
+2025-07-09 21:57:07,197 - INFO - 127.0.0.1 - - [09/Jul/2025 21:57:07] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 21:58:39,003 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 21:58:39,003 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 21:58:39,003 - INFO - 사용 가능한 페이지:
+2025-07-09 21:58:39,003 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 21:58:39,003 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 21:58:39,003 - INFO -   - /routers : 라우터 분석
+2025-07-09 21:58:39,003 - INFO -   - /domains : 도메인 분석
+2025-07-09 21:58:39,003 - INFO -   - /paths : 경로 분석
+2025-07-09 21:58:39,010 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 21:58:39,010 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 21:58:43,596 - INFO - 127.0.0.1 - - [09/Jul/2025 21:58:43] "GET /topology HTTP/1.1" 200 -
+2025-07-09 21:58:43,631 - INFO - 127.0.0.1 - - [09/Jul/2025 21:58:43] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 21:58:51,634 - INFO - 127.0.0.1 - - [09/Jul/2025 21:58:51] "GET / HTTP/1.1" 200 -
+2025-07-09 21:58:51,934 - INFO - 127.0.0.1 - - [09/Jul/2025 21:58:51] "GET /api/summary HTTP/1.1" 200 -
+2025-07-09 21:58:51,945 - INFO - 127.0.0.1 - - [09/Jul/2025 21:58:51] "GET /api/top-bleaching HTTP/1.1" 200 -
+2025-07-09 21:58:51,994 - INFO - 127.0.0.1 - - [09/Jul/2025 21:58:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-09 21:58:53,731 - INFO - 127.0.0.1 - - [09/Jul/2025 21:58:53] "GET /topology HTTP/1.1" 200 -
+2025-07-09 21:58:53,753 - INFO - 127.0.0.1 - - [09/Jul/2025 21:58:53] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 21:59:32,476 - INFO - 127.0.0.1 - - [09/Jul/2025 21:59:32] "GET / HTTP/1.1" 200 -
+2025-07-09 21:59:32,627 - INFO - 127.0.0.1 - - [09/Jul/2025 21:59:32] "GET /api/top-bleaching HTTP/1.1" 200 -
+2025-07-09 21:59:32,627 - INFO - 127.0.0.1 - - [09/Jul/2025 21:59:32] "GET /api/summary HTTP/1.1" 200 -
+2025-07-09 21:59:32,702 - INFO - 127.0.0.1 - - [09/Jul/2025 21:59:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-09 21:59:35,278 - INFO - 127.0.0.1 - - [09/Jul/2025 21:59:35] "GET /topology HTTP/1.1" 200 -
+2025-07-09 21:59:35,306 - INFO - 127.0.0.1 - - [09/Jul/2025 21:59:35] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:05:01,373 - INFO - 127.0.0.1 - - [09/Jul/2025 22:05:01] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:05:01,409 - INFO - 127.0.0.1 - - [09/Jul/2025 22:05:01] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:05:02,190 - INFO - 127.0.0.1 - - [09/Jul/2025 22:05:02] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:05:02,207 - INFO - 127.0.0.1 - - [09/Jul/2025 22:05:02] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:05:02,809 - INFO - 127.0.0.1 - - [09/Jul/2025 22:05:02] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:05:02,828 - INFO - 127.0.0.1 - - [09/Jul/2025 22:05:02] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:05:03,590 - INFO - 127.0.0.1 - - [09/Jul/2025 22:05:03] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:05:03,607 - INFO - 127.0.0.1 - - [09/Jul/2025 22:05:03] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:06:41,721 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:06:41,721 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:06:41,721 - INFO - 사용 가능한 페이지:
+2025-07-09 22:06:41,721 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:06:41,721 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:06:41,721 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:06:41,721 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:06:41,721 - INFO -   - /paths : 경로 분석
+2025-07-09 22:06:41,728 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:06:41,728 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:06:44,575 - INFO - 127.0.0.1 - - [09/Jul/2025 22:06:44] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:06:44,612 - INFO - 127.0.0.1 - - [09/Jul/2025 22:06:44] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:06:47,313 - INFO - 127.0.0.1 - - [09/Jul/2025 22:06:47] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:06:47,329 - INFO - 127.0.0.1 - - [09/Jul/2025 22:06:47] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:07:53,626 - INFO - 127.0.0.1 - - [09/Jul/2025 22:07:53] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:07:53,651 - INFO - 127.0.0.1 - - [09/Jul/2025 22:07:53] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:08:17,683 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:17] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:08:17,698 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:17] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:08:24,674 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:08:24,674 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:08:24,674 - INFO - 사용 가능한 페이지:
+2025-07-09 22:08:24,674 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:08:24,674 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:08:24,674 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:08:24,674 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:08:24,674 - INFO -   - /paths : 경로 분석
+2025-07-09 22:08:24,682 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:08:24,682 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:08:26,318 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:26] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:08:26,350 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:26] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:08:27,434 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:27] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:08:27,454 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:27] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:08:28,046 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:28] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:08:28,063 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:28] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:08:28,969 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:28] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:08:28,988 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:28] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:08:29,679 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:29] "GET /routers HTTP/1.1" 200 -
+2025-07-09 22:08:29,695 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:29] "GET /api/routers?limit=100 HTTP/1.1" 200 -
+2025-07-09 22:08:30,761 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:30] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:08:30,784 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:30] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:08:37,598 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:37] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:08:37,622 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:37] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:08:38,066 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:38] "GET /routers HTTP/1.1" 200 -
+2025-07-09 22:08:38,089 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:38] "GET /api/routers?limit=100 HTTP/1.1" 200 -
+2025-07-09 22:08:38,661 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:38] "GET /dashboard HTTP/1.1" 200 -
+2025-07-09 22:08:38,681 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:38] "GET /api/top-bleaching HTTP/1.1" 200 -
+2025-07-09 22:08:38,681 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:38] "GET /api/summary HTTP/1.1" 200 -
+2025-07-09 22:08:39,828 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:39] "GET /routers HTTP/1.1" 200 -
+2025-07-09 22:08:39,848 - INFO - 127.0.0.1 - - [09/Jul/2025 22:08:39] "GET /api/routers?limit=100 HTTP/1.1" 200 -
+2025-07-09 22:09:45,639 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:09:45,639 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:09:45,639 - INFO - 사용 가능한 페이지:
+2025-07-09 22:09:45,640 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:09:45,640 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:09:45,640 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:09:45,640 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:09:45,640 - INFO -   - /paths : 경로 분석
+2025-07-09 22:09:45,647 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:09:45,647 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:09:48,767 - INFO - 127.0.0.1 - - [09/Jul/2025 22:09:48] "GET / HTTP/1.1" 200 -
+2025-07-09 22:09:48,871 - INFO - 127.0.0.1 - - [09/Jul/2025 22:09:48] "GET /api/summary HTTP/1.1" 200 -
+2025-07-09 22:09:48,873 - INFO - 127.0.0.1 - - [09/Jul/2025 22:09:48] "GET /api/top-bleaching HTTP/1.1" 200 -
+2025-07-09 22:09:48,975 - INFO - 127.0.0.1 - - [09/Jul/2025 22:09:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-09 22:09:54,952 - INFO - 127.0.0.1 - - [09/Jul/2025 22:09:54] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:09:54,977 - INFO - 127.0.0.1 - - [09/Jul/2025 22:09:54] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:10:11,291 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:10:11,291 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:10:11,291 - INFO - 사용 가능한 페이지:
+2025-07-09 22:10:11,291 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:10:11,291 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:10:11,291 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:10:11,291 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:10:11,291 - INFO -   - /paths : 경로 분석
+2025-07-09 22:10:11,296 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:10:11,296 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:10:15,806 - INFO - 127.0.0.1 - - [09/Jul/2025 22:10:15] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:10:15,837 - INFO - 127.0.0.1 - - [09/Jul/2025 22:10:15] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:10:17,783 - INFO - 127.0.0.1 - - [09/Jul/2025 22:10:17] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:10:17,804 - INFO - 127.0.0.1 - - [09/Jul/2025 22:10:17] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:10:19,586 - INFO - 127.0.0.1 - - [09/Jul/2025 22:10:19] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:10:19,605 - INFO - 127.0.0.1 - - [09/Jul/2025 22:10:19] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:10:20,606 - INFO - 127.0.0.1 - - [09/Jul/2025 22:10:20] "GET /dashboard HTTP/1.1" 200 -
+2025-07-09 22:10:20,626 - INFO - 127.0.0.1 - - [09/Jul/2025 22:10:20] "GET /api/summary HTTP/1.1" 200 -
+2025-07-09 22:10:20,627 - INFO - 127.0.0.1 - - [09/Jul/2025 22:10:20] "GET /api/top-bleaching HTTP/1.1" 200 -
+2025-07-09 22:10:22,216 - INFO - 127.0.0.1 - - [09/Jul/2025 22:10:22] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:10:22,238 - INFO - 127.0.0.1 - - [09/Jul/2025 22:10:22] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:12:38,071 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:12:38,071 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:12:38,071 - INFO - 사용 가능한 페이지:
+2025-07-09 22:12:38,071 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:12:38,071 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:12:38,071 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:12:38,071 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:12:38,071 - INFO -   - /paths : 경로 분석
+2025-07-09 22:12:38,078 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:12:38,078 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:12:39,819 - INFO - 127.0.0.1 - - [09/Jul/2025 22:12:39] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:12:39,846 - INFO - 127.0.0.1 - - [09/Jul/2025 22:12:39] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:12:40,846 - INFO - 127.0.0.1 - - [09/Jul/2025 22:12:40] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:12:40,863 - INFO - 127.0.0.1 - - [09/Jul/2025 22:12:40] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:12:41,915 - INFO - 127.0.0.1 - - [09/Jul/2025 22:12:41] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:12:41,933 - INFO - 127.0.0.1 - - [09/Jul/2025 22:12:41] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:13:58,223 - INFO - 127.0.0.1 - - [09/Jul/2025 22:13:58] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:13:58,257 - INFO - 127.0.0.1 - - [09/Jul/2025 22:13:58] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:13:59,376 - INFO - 127.0.0.1 - - [09/Jul/2025 22:13:59] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:13:59,396 - INFO - 127.0.0.1 - - [09/Jul/2025 22:13:59] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:14:00,600 - INFO - 127.0.0.1 - - [09/Jul/2025 22:14:00] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:14:00,617 - INFO - 127.0.0.1 - - [09/Jul/2025 22:14:00] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:14:09,887 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:14:09,887 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:14:09,887 - INFO - 사용 가능한 페이지:
+2025-07-09 22:14:09,887 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:14:09,887 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:14:09,887 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:14:09,887 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:14:09,887 - INFO -   - /paths : 경로 분석
+2025-07-09 22:14:09,894 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:14:09,894 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:14:12,275 - INFO - 127.0.0.1 - - [09/Jul/2025 22:14:12] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:14:12,295 - INFO - 127.0.0.1 - - [09/Jul/2025 22:14:12] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:14:29,839 - INFO - 127.0.0.1 - - [09/Jul/2025 22:14:29] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:14:29,870 - INFO - 127.0.0.1 - - [09/Jul/2025 22:14:29] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:14:37,254 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:14:37,254 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:14:37,254 - INFO - 사용 가능한 페이지:
+2025-07-09 22:14:37,254 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:14:37,254 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:14:37,254 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:14:37,254 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:14:37,254 - INFO -   - /paths : 경로 분석
+2025-07-09 22:14:37,262 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:14:37,262 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:14:39,101 - INFO - 127.0.0.1 - - [09/Jul/2025 22:14:39] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:14:39,119 - INFO - 127.0.0.1 - - [09/Jul/2025 22:14:39] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:14:40,039 - INFO - 127.0.0.1 - - [09/Jul/2025 22:14:40] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:14:40,057 - INFO - 127.0.0.1 - - [09/Jul/2025 22:14:40] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:16:35,061 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:16:35,061 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:16:35,061 - INFO - 사용 가능한 페이지:
+2025-07-09 22:16:35,061 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:16:35,061 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:16:35,061 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:16:35,061 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:16:35,061 - INFO -   - /paths : 경로 분석
+2025-07-09 22:16:35,068 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:16:35,068 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:16:37,884 - INFO - 127.0.0.1 - - [09/Jul/2025 22:16:37] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:16:37,914 - INFO - 127.0.0.1 - - [09/Jul/2025 22:16:37] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:16:38,843 - INFO - 127.0.0.1 - - [09/Jul/2025 22:16:38] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:16:38,860 - INFO - 127.0.0.1 - - [09/Jul/2025 22:16:38] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:16:39,878 - INFO - 127.0.0.1 - - [09/Jul/2025 22:16:39] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:16:39,895 - INFO - 127.0.0.1 - - [09/Jul/2025 22:16:39] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:16:40,356 - INFO - 127.0.0.1 - - [09/Jul/2025 22:16:40] "GET /routers HTTP/1.1" 200 -
+2025-07-09 22:16:40,374 - INFO - 127.0.0.1 - - [09/Jul/2025 22:16:40] "GET /api/routers?limit=100 HTTP/1.1" 200 -
+2025-07-09 22:16:40,870 - INFO - 127.0.0.1 - - [09/Jul/2025 22:16:40] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:16:40,889 - INFO - 127.0.0.1 - - [09/Jul/2025 22:16:40] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:16:49,260 - INFO - 127.0.0.1 - - [09/Jul/2025 22:16:49] "GET / HTTP/1.1" 200 -
+2025-07-09 22:16:49,364 - INFO - 127.0.0.1 - - [09/Jul/2025 22:16:49] "GET /api/summary HTTP/1.1" 200 -
+2025-07-09 22:16:49,365 - INFO - 127.0.0.1 - - [09/Jul/2025 22:16:49] "GET /api/top-bleaching HTTP/1.1" 200 -
+2025-07-09 22:16:49,411 - INFO - 127.0.0.1 - - [09/Jul/2025 22:16:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-09 22:16:51,135 - INFO - 127.0.0.1 - - [09/Jul/2025 22:16:51] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:16:51,156 - INFO - 127.0.0.1 - - [09/Jul/2025 22:16:51] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:17:30,039 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:17:30,039 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:17:30,039 - INFO - 사용 가능한 페이지:
+2025-07-09 22:17:30,039 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:17:30,039 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:17:30,039 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:17:30,039 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:17:30,039 - INFO -   - /paths : 경로 분석
+2025-07-09 22:17:30,044 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:17:30,044 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:18:34,429 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:18:34,429 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:18:34,429 - INFO - 사용 가능한 페이지:
+2025-07-09 22:18:34,429 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:18:34,429 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:18:34,429 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:18:34,429 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:18:34,429 - INFO -   - /paths : 경로 분석
+2025-07-09 22:18:34,436 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:18:34,437 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:18:36,816 - INFO - 127.0.0.1 - - [09/Jul/2025 22:18:36] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:18:36,858 - INFO - 127.0.0.1 - - [09/Jul/2025 22:18:36] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:18:37,227 - INFO - 127.0.0.1 - - [09/Jul/2025 22:18:37] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:18:37,244 - INFO - 127.0.0.1 - - [09/Jul/2025 22:18:37] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:18:38,043 - INFO - 127.0.0.1 - - [09/Jul/2025 22:18:38] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:18:38,057 - INFO - 127.0.0.1 - - [09/Jul/2025 22:18:38] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:19:15,891 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:19:15,891 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:19:15,891 - INFO - 사용 가능한 페이지:
+2025-07-09 22:19:15,891 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:19:15,891 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:19:15,891 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:19:15,891 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:19:15,891 - INFO -   - /paths : 경로 분석
+2025-07-09 22:19:15,899 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:19:15,899 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:20:37,849 - INFO - 기존 템플릿 파일들을 사용합니다.
+2025-07-09 22:20:37,850 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:20:37,850 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:20:37,850 - INFO - 사용 가능한 페이지:
+2025-07-09 22:20:37,850 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:20:37,850 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:20:37,850 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:20:37,850 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:20:37,850 - INFO -   - /paths : 경로 분석
+2025-07-09 22:20:37,857 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:20:37,857 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:20:41,477 - INFO - 127.0.0.1 - - [09/Jul/2025 22:20:41] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:20:41,506 - INFO - 127.0.0.1 - - [09/Jul/2025 22:20:41] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:24:37,866 - INFO - 기존 템플릿 파일들을 사용합니다.
+2025-07-09 22:24:37,867 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:24:37,867 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:24:37,867 - INFO - 사용 가능한 페이지:
+2025-07-09 22:24:37,867 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:24:37,867 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:24:37,867 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:24:37,867 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:24:37,867 - INFO -   - /paths : 경로 분석
+2025-07-09 22:24:37,874 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:24:37,875 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:24:40,458 - INFO - 127.0.0.1 - - [09/Jul/2025 22:24:40] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:24:40,492 - INFO - 127.0.0.1 - - [09/Jul/2025 22:24:40] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:27:35,586 - INFO - 기존 템플릿 파일들을 사용합니다.
+2025-07-09 22:27:35,587 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:27:35,587 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:27:35,587 - INFO - 사용 가능한 페이지:
+2025-07-09 22:27:35,587 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:27:35,587 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:27:35,587 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:27:35,587 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:27:35,587 - INFO -   - /paths : 경로 분석
+2025-07-09 22:27:35,594 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:27:35,594 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:27:38,101 - INFO - 127.0.0.1 - - [09/Jul/2025 22:27:38] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:27:38,128 - INFO - 127.0.0.1 - - [09/Jul/2025 22:27:38] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:27:54,208 - INFO - 기존 템플릿 파일들을 사용합니다.
+2025-07-09 22:27:54,210 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:27:54,210 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:27:54,210 - INFO - 사용 가능한 페이지:
+2025-07-09 22:27:54,210 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:27:54,210 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:27:54,210 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:27:54,210 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:27:54,210 - INFO -   - /paths : 경로 분석
+2025-07-09 22:27:54,216 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:27:54,216 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:27:56,438 - INFO - 127.0.0.1 - - [09/Jul/2025 22:27:56] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:27:56,471 - INFO - 127.0.0.1 - - [09/Jul/2025 22:27:56] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:29:36,604 - INFO - 기존 템플릿 파일들을 사용합니다.
+2025-07-09 22:29:36,606 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:29:36,606 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:29:36,606 - INFO - 사용 가능한 페이지:
+2025-07-09 22:29:36,606 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:29:36,606 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:29:36,606 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:29:36,606 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:29:36,606 - INFO -   - /paths : 경로 분석
+2025-07-09 22:29:36,613 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:29:36,613 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:29:39,127 - INFO - 127.0.0.1 - - [09/Jul/2025 22:29:39] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:29:39,154 - INFO - 127.0.0.1 - - [09/Jul/2025 22:29:39] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:29:55,002 - INFO - 127.0.0.1 - - [09/Jul/2025 22:29:55] "GET /dashboard HTTP/1.1" 200 -
+2025-07-09 22:29:55,024 - INFO - 127.0.0.1 - - [09/Jul/2025 22:29:55] "GET /api/summary HTTP/1.1" 200 -
+2025-07-09 22:29:55,025 - INFO - 127.0.0.1 - - [09/Jul/2025 22:29:55] "GET /api/top-bleaching HTTP/1.1" 200 -
+2025-07-09 22:29:55,553 - INFO - 127.0.0.1 - - [09/Jul/2025 22:29:55] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:29:55,570 - INFO - 127.0.0.1 - - [09/Jul/2025 22:29:55] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:30:20,998 - INFO - 127.0.0.1 - - [09/Jul/2025 22:30:20] "GET /routers HTTP/1.1" 200 -
+2025-07-09 22:30:21,021 - INFO - 127.0.0.1 - - [09/Jul/2025 22:30:21] "GET /api/routers?limit=100 HTTP/1.1" 200 -
+2025-07-09 22:30:21,519 - INFO - 127.0.0.1 - - [09/Jul/2025 22:30:21] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:30:21,544 - INFO - 127.0.0.1 - - [09/Jul/2025 22:30:21] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:30:27,456 - INFO - 기존 템플릿 파일들을 사용합니다.
+2025-07-09 22:30:27,457 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:30:27,457 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:30:27,457 - INFO - 사용 가능한 페이지:
+2025-07-09 22:30:27,457 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:30:27,457 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:30:27,457 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:30:27,457 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:30:27,457 - INFO -   - /paths : 경로 분석
+2025-07-09 22:30:27,464 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:30:27,464 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:30:29,600 - INFO - 127.0.0.1 - - [09/Jul/2025 22:30:29] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:30:29,635 - INFO - 127.0.0.1 - - [09/Jul/2025 22:30:29] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:30:38,953 - INFO - 기존 템플릿 파일들을 사용합니다.
+2025-07-09 22:30:38,955 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:30:38,955 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:30:38,955 - INFO - 사용 가능한 페이지:
+2025-07-09 22:30:38,955 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:30:38,955 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:30:38,955 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:30:38,955 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:30:38,955 - INFO -   - /paths : 경로 분석
+2025-07-09 22:30:38,960 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:30:38,960 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:30:41,645 - INFO - 127.0.0.1 - - [09/Jul/2025 22:30:41] "GET /routers HTTP/1.1" 200 -
+2025-07-09 22:30:41,670 - INFO - 127.0.0.1 - - [09/Jul/2025 22:30:41] "GET /api/routers?limit=100 HTTP/1.1" 200 -
+2025-07-09 22:30:42,217 - INFO - 127.0.0.1 - - [09/Jul/2025 22:30:42] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:30:42,236 - INFO - 127.0.0.1 - - [09/Jul/2025 22:30:42] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:30:54,727 - INFO - 기존 템플릿 파일들을 사용합니다.
+2025-07-09 22:30:54,728 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:30:54,728 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:30:54,728 - INFO - 사용 가능한 페이지:
+2025-07-09 22:30:54,728 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:30:54,728 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:30:54,728 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:30:54,729 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:30:54,729 - INFO -   - /paths : 경로 분석
+2025-07-09 22:30:54,736 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:30:54,736 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:30:56,432 - INFO - 127.0.0.1 - - [09/Jul/2025 22:30:56] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:30:56,462 - INFO - 127.0.0.1 - - [09/Jul/2025 22:30:56] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:32:05,995 - INFO - 기존 템플릿 파일들을 사용합니다.
+2025-07-09 22:32:05,997 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:32:05,997 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:32:05,997 - INFO - 사용 가능한 페이지:
+2025-07-09 22:32:05,997 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:32:05,997 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:32:05,997 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:32:05,997 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:32:05,997 - INFO -   - /paths : 경로 분석
+2025-07-09 22:32:06,004 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:32:06,004 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:32:08,905 - INFO - 127.0.0.1 - - [09/Jul/2025 22:32:08] "GET /routers HTTP/1.1" 200 -
+2025-07-09 22:32:08,927 - INFO - 127.0.0.1 - - [09/Jul/2025 22:32:08] "GET /api/routers?limit=100 HTTP/1.1" 200 -
+2025-07-09 22:32:09,370 - INFO - 127.0.0.1 - - [09/Jul/2025 22:32:09] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:32:09,387 - INFO - 127.0.0.1 - - [09/Jul/2025 22:32:09] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:32:14,354 - INFO - 127.0.0.1 - - [09/Jul/2025 22:32:14] "GET /dashboard HTTP/1.1" 200 -
+2025-07-09 22:32:14,371 - INFO - 127.0.0.1 - - [09/Jul/2025 22:32:14] "GET /api/summary HTTP/1.1" 200 -
+2025-07-09 22:32:14,375 - INFO - 127.0.0.1 - - [09/Jul/2025 22:32:14] "GET /api/top-bleaching HTTP/1.1" 200 -
+2025-07-09 22:32:16,715 - INFO - 127.0.0.1 - - [09/Jul/2025 22:32:16] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:32:16,736 - INFO - 127.0.0.1 - - [09/Jul/2025 22:32:16] "GET /api/topology HTTP/1.1" 200 -
+2025-07-09 22:32:28,933 - INFO - 기존 템플릿 파일들을 사용합니다.
+2025-07-09 22:32:28,934 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-09 22:32:28,934 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-09 22:32:28,934 - INFO - 사용 가능한 페이지:
+2025-07-09 22:32:28,934 - INFO -   - /dashboard : 메인 대시보드
+2025-07-09 22:32:28,934 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-09 22:32:28,934 - INFO -   - /routers : 라우터 분석
+2025-07-09 22:32:28,934 - INFO -   - /domains : 도메인 분석
+2025-07-09 22:32:28,934 - INFO -   - /paths : 경로 분석
+2025-07-09 22:32:28,939 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-09 22:32:28,939 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:32:31,370 - INFO - 127.0.0.1 - - [09/Jul/2025 22:32:31] "GET /routers HTTP/1.1" 200 -
+2025-07-09 22:32:31,388 - INFO - 127.0.0.1 - - [09/Jul/2025 22:32:31] "GET /api/routers?limit=100 HTTP/1.1" 200 -
+2025-07-09 22:32:31,936 - INFO - 127.0.0.1 - - [09/Jul/2025 22:32:31] "GET /topology HTTP/1.1" 200 -
+2025-07-09 22:32:31,953 - INFO - 127.0.0.1 - - [09/Jul/2025 22:32:31] "GET /api/topology HTTP/1.1" 200 -
+2025-07-10 19:21:18,335 - INFO - 데이터 디렉토리에서 파일들을 로드 중: traceroute
+2025-07-10 19:21:18,506 - INFO - 개별 결과 파일 91802개 발견
+2025-07-10 19:21:36,000 - INFO - 요약 파일 로드됨: traceroute_summary_20250709_232808.json
+2025-07-10 19:21:36,000 - INFO - 총 91802개의 결과 파일 로드 완료
+2025-07-10 19:21:36,536 - INFO - ============================================================
+2025-07-10 19:21:36,536 - INFO - 기본 통계
+2025-07-10 19:21:36,536 - INFO - ============================================================
+2025-07-10 19:21:36,536 - INFO - total_domains: 91802
+2025-07-10 19:21:36,536 - INFO - successful_traceroutes: 91743
+2025-07-10 19:21:36,536 - INFO - success_rate: 0.999
+2025-07-10 19:21:36,536 - INFO - total_bleaching_incidents: 13356
+2025-07-10 19:21:36,536 - INFO - average_execution_time: 7.500
+2025-07-10 19:21:36,536 - INFO - total_unique_routers: 37790
+2025-07-10 19:21:36,536 - INFO - routers_with_bleaching: 3882
+2025-07-10 19:21:36,536 - INFO - bleaching_router_rate: 0.103
+2025-07-10 19:21:36,536 - INFO - 트레이스루트 결과 분석 시작
+2025-07-10 19:21:36,536 - INFO - 라우터 분석 시작
+2025-07-10 19:21:37,598 - INFO - 총 37790개의 라우터 분석 완료
+2025-07-10 19:21:37,612 - INFO - 도메인 분석 시작
+2025-07-10 19:21:38,736 - INFO - 총 91802개의 도메인 분석 완료
+2025-07-10 19:21:38,736 - INFO - 공통 경로 분석 시작
+2025-07-10 19:22:05,841 - INFO - 127.0.0.1 - - [10/Jul/2025 19:22:05] "GET /topology HTTP/1.1" 200 -
+2025-07-10 19:22:06,050 - INFO - 127.0.0.1 - - [10/Jul/2025 19:22:06] "GET /api/topology HTTP/1.1" 200 -
+2025-07-10 19:29:47,858 - INFO - 총 6790개의 공통 경로 발견
+2025-07-10 19:29:50,305 - INFO - 분석 결과 저장: analysis_results_v2.json
+2025-07-10 19:29:50,328 - INFO - 1단계 분석 완료!
+2025-07-10 22:24:14,691 - INFO - 기존 템플릿 파일들을 사용합니다.
+2025-07-10 22:24:14,989 - INFO - 분석 데이터 로드 완료: analysis_results_v2.json
+2025-07-10 22:24:14,989 - INFO - 웹 시각화 서버 시작: http://127.0.0.1:5001
+2025-07-10 22:24:14,989 - INFO - 사용 가능한 페이지:
+2025-07-10 22:24:14,990 - INFO -   - /dashboard : 메인 대시보드
+2025-07-10 22:24:14,990 - INFO -   - /topology : 네트워크 토폴로지
+2025-07-10 22:24:14,990 - INFO -   - /routers : 라우터 분석
+2025-07-10 22:24:14,990 - INFO -   - /domains : 도메인 분석
+2025-07-10 22:24:14,990 - INFO -   - /paths : 경로 분석
+2025-07-10 22:24:14,999 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-10 22:24:14,999 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-10 22:24:22,118 - INFO - 127.0.0.1 - - [10/Jul/2025 22:24:22] "GET /topology HTTP/1.1" 200 -
+2025-07-10 22:24:22,359 - INFO - 127.0.0.1 - - [10/Jul/2025 22:24:22] "GET /api/topology HTTP/1.1" 200 -
+2025-07-10 22:24:24,002 - INFO - 127.0.0.1 - - [10/Jul/2025 22:24:24] "GET /topology HTTP/1.1" 200 -
+2025-07-10 22:24:24,653 - INFO - 127.0.0.1 - - [10/Jul/2025 22:24:24] "GET /api/topology HTTP/1.1" 200 -
+2025-07-10 22:24:36,835 - INFO - 127.0.0.1 - - [10/Jul/2025 22:24:36] "GET /dashboard HTTP/1.1" 200 -
+2025-07-10 22:24:37,237 - INFO - 127.0.0.1 - - [10/Jul/2025 22:24:37] "GET /dashboard HTTP/1.1" 200 -
+2025-07-10 22:24:37,637 - INFO - 127.0.0.1 - - [10/Jul/2025 22:24:37] "GET /api/top-bleaching HTTP/1.1" 200 -
+2025-07-10 22:24:37,637 - INFO - 127.0.0.1 - - [10/Jul/2025 22:24:37] "GET /api/summary HTTP/1.1" 200 -
+2025-07-10 22:24:53,520 - INFO - 127.0.0.1 - - [10/Jul/2025 22:24:53] "GET /routers HTTP/1.1" 200 -
+2025-07-10 22:24:53,574 - INFO - 127.0.0.1 - - [10/Jul/2025 22:24:53] "GET /api/routers?limit=100 HTTP/1.1" 200 -
+2025-07-10 22:24:59,147 - INFO - 127.0.0.1 - - [10/Jul/2025 22:24:59] "GET /domains HTTP/1.1" 200 -
+2025-07-10 22:24:59,198 - INFO - 127.0.0.1 - - [10/Jul/2025 22:24:59] "GET /api/domains?limit=100 HTTP/1.1" 200 -
+2025-07-10 22:25:05,285 - INFO - 127.0.0.1 - - [10/Jul/2025 22:25:05] "GET /paths HTTP/1.1" 200 -
+2025-07-10 22:25:05,310 - INFO - 127.0.0.1 - - [10/Jul/2025 22:25:05] "GET /api/paths?limit=50 HTTP/1.1" 200 -

@@ -1,0 +1,80 @@
+{% extends "layout.html" %}
+
+{% block title %}도메인 분석 - 트레이스루트 분석{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">도메인별 ECN Bleaching 분석</h1>
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h5>도메인 통계</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped" id="domains-table">
+                        <thead>
+                            <tr>
+                                <th>도메인</th>
+                                <th>IP 주소</th>
+                                <th>성공한 홉</th>
+                                <th>총 홉</th>
+                                <th>Bleaching 횟수</th>
+                                <th>Bleaching 비율</th>
+                                <th>실행 시간</th>
+                                <th>평균 응답시간</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+async function loadDomainData() {
+    try {
+        const domains = await fetch('/api/domains?limit=100').then(r => r.json());
+        updateDomainTable(domains);
+    } catch (error) {
+        console.error('도메인 데이터 로드 실패:', error);
+    }
+}
+
+function updateDomainTable(domains) {
+    const tableBody = document.querySelector('#domains-table tbody');
+    tableBody.innerHTML = '';
+    
+    domains.forEach(domain => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td>${domain.domain}</td>
+            <td>${domain.ip}</td>
+            <td>${domain.successful_hops}</td>
+            <td>${domain.total_hops}</td>
+            <td>${domain.bleaching_count}</td>
+            <td>
+                <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-warning" style="width: ${domain.bleaching_rate * 100}%">
+                        ${(domain.bleaching_rate * 100).toFixed(1)}%
+                    </div>
+                </div>
+            </td>
+            <td>${domain.execution_time.toFixed(2)}s</td>
+            <td>${domain.avg_response_time.toFixed(3)}s</td>
+        `;
+        tableBody.appendChild(row);
+    });
+}
+
+document.addEventListener('DOMContentLoaded', loadDomainData);
+</script>
+{% endblock %}
